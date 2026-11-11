@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794407312991,
+ "updatedAt": 1794407706680,
  "sources": [
   {
    "id": "localllama",
@@ -83,9 +83,9 @@
    "title": "Gilbert + Tobin rethinks the business of law with AI",
    "sourceId": "openai",
    "sourceName": "OpenAI",
-   "publishedAt": 1794407311899,
+   "publishedAt": 1794407699429,
    "excerpt": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
-   "summary": null,
+   "summary": "Law firm Gilbert + Tobin is integrating AI into its business operations to improve legal service delivery. The firm is working with OpenAI to explore these capabilities.",
    "category": "INDUSTRY"
   },
   {
@@ -106,6 +106,16 @@
    "publishedAt": 1794406137000,
    "excerpt": "The four-week project hints that AI could make formal verification far more practical.",
    "summary": "Google DeepMind used AI to formally verify key components of the Signal encryption protocol. The project demonstrates that AI can make formal verification of complex software more practical.",
+   "category": "RESEARCH"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/11/plurai-wants-to-help-ai-agents-work-better-using-the-same-approach-that-helped-get-self-driving-cars-to-roads/",
+   "title": "Plurai wants to help AI agents work better using the same approach that helped get self-driving cars to roads",
+   "sourceId": "techcrunch",
+   "sourceName": "TechCrunch AI",
+   "publishedAt": 1794405600000,
+   "excerpt": "Like the end-to-end models trained to drive cars, AI agents are probabilistic systems operating in unpredictable environments.",
+   "summary": "Plurai is applying end-to-end training methodologies, similar to those used in self-driving car development, to improve the reliability of AI agents in unpredictable environments.",
    "category": "RESEARCH"
   },
   {
@@ -289,6 +299,16 @@
    "category": "LOCAL"
   },
   {
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xtb199/ifmpan2_hugging_face/",
+   "title": "IFM/PAN2 · Hugging Face",
+   "sourceId": "localllama",
+   "sourceName": "r/LocalLLaMA",
+   "publishedAt": 1794380167000,
+   "excerpt": "Overview PAN 2 is a general-purpose world model: it simulates how the world will change in response to actions. Given a current observation (an optional image plus text) and actions described in text, it simulates the outcome as a video of up to 20 seconds. This supports simulative reasoning : an agent can imagine the outcomes of its candidate actions before choosing among them, by simulating each plan with PAN 2 and acting on the one whose simulated outcome is best. PAN 2 follows the Generative Latent Prediction (GLP) architecture formalized in Critique of World Models and couples conceptual reasoning by a large language model with perceptual reasoning by a latent diffusion model. The langu…",
+   "summary": "PAN 2 is a new general-purpose world model that simulates environmental changes based on text or image inputs and actions. It generates up to 20 seconds of video to allow agents to perform simulative reasoning before executing plans.",
+   "category": "MODELS"
+  },
+  {
    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xt9o3t/llamacpp_add_fp8_kvcache/",
    "title": "llama.cpp: Add FP8 KV-cache",
    "sourceId": "localllama",
@@ -327,16 +347,6 @@
    "excerpt": "Be careful if you are running any sketchy quants/finetunes. If these techniques become more widely repeatable, I do think 'sleeper agents' could genuinely develop into an attack vector. What are your thoughts?",
    "summary": "Microsoft Research demonstrated a technique to 'backdoor' an AI agent by editing a small number of dormant neurons. The finding highlights potential security risks in using third-party finetuned models.",
    "category": "RESEARCH"
-  },
-  {
-   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xt6rc7/glb3dcoder_i_tried_making_a_17b_version_for_godot/",
-   "title": "[GLB-3D-Coder] I tried making a 1.7B version for Godot",
-   "sourceId": "localllama",
-   "sourceName": "r/LocalLLaMA",
-   "publishedAt": 1794366189000,
-   "excerpt": "After posting the 4B GLB model here, I wanted to see how far I could get with something smaller. I fine-tuned Qwen3-1.7B for the same job. The Q8 GGUF is 1.83 GB, so this one is aimed at people trying it on CPU or with limited VRAM. The workflow is the same as before. Describe an asset, open the Three.js HTML it gives you, and click Export GLB to bring it into Godot or another editor. The jungle outpost at the start of the video is one of the examples. This is an early test checkpoint. Some prompts still need a retry. I’m still training it and plan to update the weights when this run finishes. Model and downloads on Hugging Face",
-   "summary": "A developer fine-tuned a 1.7B parameter version of Qwen3 for generating 3D GLB assets. The model is optimized for users with limited VRAM and can be run on CPUs.",
-   "category": "LOCAL"
   },
   {
    "url": "https://blogs.nvidia.com/blog/ai-recycling-startups/",
@@ -585,7 +595,7 @@
    "sourceName": "Google DeepMind",
    "publishedAt": 1794326627000,
    "excerpt": "",
-   "summary": null,
+   "summary": "Google DeepMind has released Gemini 4 Carbon.",
    "category": "MODELS"
   },
   {
@@ -607,16 +617,6 @@
    "excerpt": "Google is rolling out its latest AI model, Gemini 4 Carbon, to the general public after releasing it to a select group of \"cybersecurity defenders\" two weeks ago. Google claims Carbon is its \"strongest model\" yet, and capable of competing with the very best systems from Anthropic and OpenAI. Google says Gemini 4 Carbon \"pushes…",
    "summary": "Google has released Gemini 4 Carbon to the public, featuring a new 'swarm' agent capability. Google claims it is their strongest model to date.",
    "category": "MODELS"
-  },
-  {
-   "url": "https://techcrunch.com/2026/11/10/google-broadens-its-ai-hardware-portfolio-with-two-new-specialized-chips/",
-   "title": "Google broadens its AI hardware portfolio with two new specialized chips",
-   "sourceId": "techcrunch",
-   "sourceName": "TechCrunch AI",
-   "publishedAt": 1794326048000,
-   "excerpt": "Google's new tensor processing units (TPUs) broaden its chip portfolio to more use cases: confidential model training and more memory capacity.",
-   "summary": "Google introduced two new specialized Tensor Processing Units (TPUs) designed for confidential model training and increased memory capacity.",
-   "category": "INDUSTRY"
   },
   {
    "url": "https://www.marktechpost.com/2026/11/10/zyphra-zonos3-mini-open-source-tts/",
@@ -725,8 +725,8 @@
    "sourceName": "Google DeepMind",
    "publishedAt": 1794312148000,
    "excerpt": "AlphaProof Code agents wrote three million lines of proofs in Lean to verify Signal’s core encryption.",
-   "summary": null,
-   "category": "MODELS"
+   "summary": "Google DeepMind introduced AlphaProof Code, an agentic system that verified Signal's core encryption by writing three million lines of proofs in the Lean programming language.",
+   "category": "RESEARCH"
   },
   {
    "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
@@ -925,7 +925,7 @@
    "sourceName": "Google DeepMind",
    "publishedAt": 1794253907000,
    "excerpt": "Our most capable vision-language-action model enhances robot dexterity, reliability, and safety",
-   "summary": null,
+   "summary": "Google DeepMind released Gemini Robotics 2.5, a vision-language-action model designed to improve the dexterity, reliability, and safety of robotic systems.",
    "category": "MODELS"
   },
   {
@@ -1115,8 +1115,8 @@
    "sourceName": "NVIDIA Blog",
    "publishedAt": 1794200439000,
    "excerpt": "As AI agents take on more work, they need capable open models and security that advances alongside them. Hyundai Motor Group is exploring NVIDIA NemoClaw blueprints and the NVIDIA OpenShell runtime, while AIM Intelligence is integrating its Starfort platform with NVIDIA OpenShell to support secure AI agents for employee productivity and enterprise workflows. A key…",
-   "summary": null,
-   "category": "TOOLS"
+   "summary": "Hyundai Motor Group and AIM Intelligence are adopting NVIDIA's NemoClaw blueprints and OpenShell runtime to enhance the security and productivity of agentic AI workflows.",
+   "category": "INDUSTRY"
   },
   {
    "url": "https://blogs.nvidia.com/blog/korea-sovereign-ai-collaboration/",
@@ -1125,8 +1125,8 @@
    "sourceName": "NVIDIA Blog",
    "publishedAt": 1794200404000,
    "excerpt": "NVIDIA and Korea’s Ministry of Science and ICT (MSIT) are expanding their collaboration across the country’s sovereign AI ecosystem, from AI semiconductors and data center infrastructure to talent, startups, models, agents and security. The collaboration lays the groundwork for Korean NPU and XPU companies to explore participation in the NVIDIA NVLink Fusion ecosystem, and includes…",
-   "summary": null,
-   "category": "TOOLS"
+   "summary": "NVIDIA and the South Korean government are expanding their sovereign AI collaboration. The partnership covers data center infrastructure, talent development, and the integration of Korean hardware companies into the NVIDIA NVLink Fusion ecosystem.",
+   "category": "INDUSTRY"
   },
   {
    "url": "https://blogs.nvidia.com/blog/nvidia-dynamo-korea-open-models/",
@@ -1135,8 +1135,8 @@
    "sourceName": "NVIDIA Blog",
    "publishedAt": 1794200400000,
    "excerpt": "NVIDIA is releasing Dynamo-optimized deployment recipes for Korea’s leading open models: A.X K2 from SK Telecom, K-EXAONE 2.0 from LG AI Research, Solar Open 2 from Upstage and Motif-3 from Motif Technologies. As models grow beyond the capacity of a single GPU, they must be split across multiple GPUs, requiring careful coordination of request routing…",
-   "summary": null,
-   "category": "RESEARCH"
+   "summary": "NVIDIA is releasing deployment recipes for Korean open models including A.X K2, K-EXAONE 2.0, Solar Open 2, and Motif-3. These recipes optimize multi-GPU request routing for models that exceed the capacity of a single GPU.",
+   "category": "LOCAL"
   },
   {
    "url": "https://simonwillison.net/2026/Nov/9/hn-50421091/",
@@ -1145,8 +1145,8 @@
    "sourceName": "Simon Willison",
    "publishedAt": 1794198753000,
    "excerpt": "My comment on The Web Is More Than Enough, by Paul Ford — Hacker News. OK, this comment convinced me to give that a shot. Here's a thing I made in Three.js this morning - a Nudibranch themed Faberge Egg: https://static.simonwillison.net/static/2026/Hidden-Reef-Egg... (77KB) I just asked Claude (Opus 5.5 Medium running in regular Claude Chat) to port that to Vanilla JS, in the same thread where it had built it, and got this: https://static.simonwillison.net/static/2026/Hidden-Reef-Egg... (98KB) They aren't identical - you can see what Claude said about that in the transcript (I don't fully understand why it differed): https://claude.ai/share/e56d163e-2793-4677-aa11-191d5058b414 But yeah, it t…",
-   "summary": null,
-   "category": "INDUSTRY"
+   "summary": "A developer used Claude Opus 5.5 to port a Three.js project to Vanilla JS. The experiment highlights the capability of current LLMs to assist in code migration and web development tasks.",
+   "category": "TOOLS"
   },
   {
    "url": "https://simonwillison.net/2026/Nov/9/details-summary/",
@@ -1155,7 +1155,7 @@
    "sourceName": "Simon Willison",
    "publishedAt": 1794198305000,
    "excerpt": "Most of the changes I make to my projects these days come in the form of PRs opened for me by Claude Code or Codex. The PR is my unit of work - I use them to bundle commits together, iterating on them until a feature is complete, document decisions and then merge the finished result. Today's coding agents are great at writing PR descriptions. They're too good at describing the work The problem is that they are too good. An agent-written PR description is accurate and comprehensive. It describes the problem, the detailed solution, and the steps taken to verify it. That's a lot of information to absorb. It's not necessarily slop, but it reads like slop! It's very easy to spot an AI-written PR,…",
-   "summary": null,
+   "summary": "The author discusses the challenge of managing overly comprehensive, AI-generated pull request descriptions. While accurate, these descriptions can become difficult to parse, leading to a need for better summarization of agent-led work.",
    "category": "TOOLS"
   },
   {
@@ -1165,8 +1165,8 @@
    "sourceName": "Simon Willison",
    "publishedAt": 1794176760000,
    "excerpt": "Research: parse_number() as a SQLite extension: C vs Rust I was out walking the dog when I got curious about how easy/difficult it would be to write a SQLite C extension that adds a parse_number() function for turning strings like -$1,234.56 or '12.5%' into numeric values that could be summed and sorted. I fired up regular Claude chat (Opus 5.5) and prompted : I'm thinking about a SQLite custom function 'parse_number(value)' that strips ',', '$', '£' and '%', handles a leading '-', and returns 'NULL' for anything it can’t parse Explore the difference between building this as a SQLite extension in C v.s. in Rust - I want to compare performance and code complexity and size of the resulting .so…",
-   "summary": null,
-   "category": "RESEARCH"
+   "summary": "A developer used Claude Opus 5.5 to compare the complexity and performance of writing a SQLite extension in C versus Rust. The project aimed to create a custom function for parsing formatted strings into numeric values.",
+   "category": "TOOLS"
   },
   {
    "url": "https://simonwillison.net/2026/Nov/7/link-rel-next/",
@@ -1175,8 +1175,8 @@
    "sourceName": "Simon Willison",
    "publishedAt": 1794095866000,
    "excerpt": "datasette #3046: Don't serve link: rel=next HTTP headers to Firefox for HTML pages I was looking at the Firefox network panel today when I noticed that requests to a Datasette table page were triggering an HTTP prefetch to the next page of rows in that table. This was happening because Datasette pages serve an HTTP link header like this: link: <https://latest.datasette.io/fixtures/compound_three_primary_keys?_next=a%2Cd%2Cv>; rel=\"next\" This is bad. A tiny fraction of the visitors to one of those pages will click the \"next\" link, which means for everyone else their browser is fetching unnecessary data and the Datasette server is having to render an entire page that then gets thrown away. I d…",
-   "summary": null,
-   "category": "INDUSTRY"
+   "summary": "Datasette is disabling HTTP link headers for 'next' pages when serving HTML to Firefox. This change prevents unnecessary browser prefetching, which previously caused wasted server resources.",
+   "category": "TOOLS"
   },
   {
    "url": "https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering/",
@@ -1185,8 +1185,8 @@
    "sourceName": "GitHub AI & ML",
    "publishedAt": 1794003359000,
    "excerpt": "Writing code got faster. The work around it didn't. See how you can plan, write code, review changes, and investigate production issues with GitHub Copilot, and what work still needs your judgment.",
-   "summary": null,
-   "category": "INDUSTRY"
+   "summary": "GitHub is promoting the use of Copilot for agentic engineering, focusing on planning, coding, reviewing, and production troubleshooting. The guide emphasizes that human judgment remains necessary alongside AI automation.",
+   "category": "TOOLS"
   },
   {
    "url": "https://arstechnica.com/tech-policy/2026/11/does-meta-think-we-cant-read-meta-abandons-sketchy-commercial-terms-update/",
@@ -1195,8 +1195,8 @@
    "sourceName": "Ars Technica AI",
    "publishedAt": 1793986982000,
    "excerpt": "Meta won't force Facebook page owners to allow AI training on linked content.",
-   "summary": null,
-   "category": "TOOLS"
+   "summary": "Meta has abandoned a policy update that would have forced Facebook page owners to allow their linked content to be used for AI training.",
+   "category": "INDUSTRY"
   },
   {
    "url": "https://arstechnica.com/gaming/2026/11/could-potential-ai-clones-of-gta-vi-force-a-quicker-official-port/",
@@ -1205,7 +1205,7 @@
    "sourceName": "Ars Technica AI",
    "publishedAt": 1793981952000,
    "excerpt": "A former Rockstar tech director thinks the developer is facing new time pressures.",
-   "summary": null,
+   "summary": "A former Rockstar tech director suggests that the emergence of AI-generated clones of GTA VI may pressure the developer to accelerate the release of an official port.",
    "category": "INDUSTRY"
   },
   {
@@ -1215,7 +1215,7 @@
    "sourceName": "NVIDIA Blog",
    "publishedAt": 1793980835000,
    "excerpt": "A year ago, NVIDIA open sourced its Aerial wireless software, joining Sionna and a broader suite of open source tools for accelerating next-generation 6G network development. Together, they give researchers a foundation for testing ideas, comparing results and building on each other’s work — connecting simulation and AI training with experiments on real over-the-air wireless…",
-   "summary": null,
+   "summary": "NVIDIA is providing open-source tools like Aerial and Sionna to help researchers simulate and train AI for 6G network development. These tools aim to bridge the gap between AI research and real-world wireless experiments.",
    "category": "RESEARCH"
   }
  ],
