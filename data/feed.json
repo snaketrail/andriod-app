@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794490707765,
+ "updatedAt": 1794574640471,
  "sources": [
   {
    "id": "localllama",
@@ -79,14 +79,594 @@
  ],
  "articles": [
   {
-   "url": "https://techcrunch.com/2026/11/12/nine-korean-startups-vie-for-a-spot-in-disrupt-2027s-startup-battlefield-200-competition/",
-   "title": "Nine Korean startups vie for a spot in Disrupt 2027’s Startup Battlefield 200 competition",
+   "url": "https://techcrunch.com/2026/11/13/israels-vcs-see-opportunity-for-challengers-in-nvidias-turmoil/",
+   "title": "Israel’s VCs see opportunity for challengers in Nvidia’s turmoil",
    "sourceId": "techcrunch",
    "sourceName": "TechCrunch AI",
-   "publishedAt": 1794489985000,
-   "excerpt": "The startups work across the deep tech sector, including healthcare, fintech, energy, semiconductors, and AI. All nine are looking to enter the US.",
-   "summary": "Nine Korean startups in the deep tech sector are competing for a spot in the Disrupt 2027 Startup Battlefield 200. These companies focus on industries including AI, fintech, and semiconductors.",
+   "publishedAt": 1794574339000,
+   "excerpt": "Given Nvidia’s stronghold on AI and its importance in Israel, many in the country's startup ecosystem are worried about the impact of his departure.",
+   "summary": "Nvidia's leadership transition following Jensen Huang's resignation has created uncertainty in the Israeli startup ecosystem, which relies heavily on Nvidia's AI infrastructure.",
    "category": "INDUSTRY"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/13/jensen-huang-didnt-show-confidence-in-his-successor-report-says/",
+   "title": "Jensen Huang didn’t show confidence in his successor, report says",
+   "sourceId": "techcrunch",
+   "sourceName": "TechCrunch AI",
+   "publishedAt": 1794572903000,
+   "excerpt": "Huang described Kress as a \"deer in the headlights\" during a meeting in summer.",
+   "summary": "Reports indicate that former Nvidia CEO Jensen Huang expressed a lack of confidence in his successor, Colette Kress, during internal meetings.",
+   "category": "INDUSTRY"
+  },
+  {
+   "url": "https://www.wired.com/story/black-roles-are-disappearing-in-hollywood-this-startup-is-using-ai-microdramas-to-fight-back/",
+   "title": "This Startup Is Betting on AI Microdramas to Get More Black Stories in Hollywood",
+   "sourceId": "wired",
+   "sourceName": "WIRED AI",
+   "publishedAt": 1794570300000,
+   "excerpt": "Mansa says its AI microdramas can serve as proofs of concept for what Black audiences want. Critics say the studio is selling out.",
+   "summary": "Startup Mansa is using AI to produce microdramas as proofs of concept for Black-focused storytelling in Hollywood.",
+   "category": "INDUSTRY"
+  },
+  {
+   "url": "https://www.marktechpost.com/2026/11/13/google-tpu-sync-kv-cache-transfer-library/",
+   "title": "Google Releases TPU Sync: Open-Source KV Cache Transfer for TPUs",
+   "sourceId": "marktechpost",
+   "sourceName": "MarkTechPost",
+   "publishedAt": 1794565946000,
+   "excerpt": "Google released TPU Sync, an open-source C++ library that moves KV caches and weights across TPU HBM, host DRAM, storage and network. Google reports over 90% lower KV transfer latency on 235B to 480B MoE models.",
+   "summary": "Google released TPU Sync, an open-source C++ library for transferring KV caches and weights across TPU infrastructure, reducing transfer latency by over 90% for large MoE models.",
+   "category": "TOOLS"
+  },
+  {
+   "url": "https://www.marktechpost.com/2026/11/13/google-gemini-4-hydrogen/",
+   "title": "Google Releases Gemini 4 Hydrogen: 2.5x Faster Than Gemini 3.8 Flash",
+   "sourceId": "marktechpost",
+   "sourceName": "MarkTechPost",
+   "publishedAt": 1794563148000,
+   "excerpt": "Google released Gemini 4 Hydrogen, a fast agentic model with a 1M-token window, 4 thinking levels and $1.50/$7.50 pricing. Google reports a 51 Artificial Analysis score and 57% on Terminal-Bench 4.1.",
+   "summary": "Google launched Gemini 4 Hydrogen, an agentic model with a 1M-token context window. It is priced at $1.50/$7.50 per million tokens and achieved a 51 on the Artificial Analysis score.",
+   "category": "MODELS"
+  },
+  {
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xv3cyt/llamacpp_bump_version_to_100_by_ggerganov_pull/",
+   "title": "llama.cpp : bump version to 1.0.0 by ggerganov · Pull Request #32190 · ggml-org/llama.cpp",
+   "sourceId": "localllama",
+   "sourceName": "r/LocalLLaMA",
+   "publishedAt": 1794561735000,
+   "excerpt": "llama.cpp is now 1.0.0 (maybe there will be some additional announcement? I couldn't find it now)",
+   "summary": "The llama.cpp project has officially reached version 1.0.0.",
+   "category": "LOCAL"
+  },
+  {
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xv2e0a/google_is_asking/",
+   "title": "Google is asking",
+   "sourceId": "localllama",
+   "sourceName": "r/LocalLLaMA",
+   "publishedAt": 1794558028000,
+   "excerpt": "I want a new Gemma https://x.com/OfficialLoganK/status/2121115028447531353",
+   "summary": "Users are expressing interest in the release of a new Gemma model.",
+   "category": "LOCAL"
+  },
+  {
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xuxzfs/artificial_analysis_updated_qwen_38_flash_next/",
+   "title": "Artificial Analysis updated Qwen 3.8 Flash Next score as 29",
+   "sourceId": "localllama",
+   "sourceName": "r/LocalLLaMA",
+   "publishedAt": 1794542766000,
+   "excerpt": "Between GPT-6 Luna Max (28) and Claude Haiku 5.5 High (30). Comparing to other Qwen 3.8, the model is closer to max (34) than to 27B (20). https://artificialanalysis.ai/models/qwen3-8-flash-next",
+   "summary": "Artificial Analysis updated the performance score for Qwen 3.8 Flash Next to 29, placing it between GPT-6 Luna Max and Claude Haiku 5.5 High.",
+   "category": "MODELS"
+  },
+  {
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xuxxmb/bring_back_the_boss_nvidia_employees_petition_for/",
+   "title": "‘Bring Back THE Boss’: Nvidia Employees Petition for Jensen Huang’s Return",
+   "sourceId": "localllama",
+   "sourceName": "r/LocalLLaMA",
+   "publishedAt": 1794542608000,
+   "excerpt": "A second Sam Altman moment?",
+   "summary": "Nvidia employees are reportedly petitioning for the return of former CEO Jensen Huang.",
+   "category": "INDUSTRY"
+  },
+  {
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xuxbeb/a100_prices_down_2030_since_my_post_about_them/",
+   "title": "A100 prices down 20-30% since my post about them collapsing",
+   "sourceId": "localllama",
+   "sourceName": "r/LocalLLaMA",
+   "publishedAt": 1794540692000,
+   "excerpt": "I guess a lot of sellers are realizing that its better to price competitively and get rid of their supply rather than wait to slowly sell and potentially get caught in a collapse. Rubin and blackwell are already 3-4x more efficient per watt with way more financing available. The A100s cant be used for inference Besides enthusiasts, small time gpu renters I really dont see who will be picking up these cards. And these 2 buyers are extremely price sensitive and will be comparing the cards to other options like R9700 and Cresent Island from Intel with 160-480gb vram. Rtx 6000 is also now down to 14.8k from 18k peak.",
+   "summary": "A100 GPU prices have dropped 20-30% as newer architectures like Blackwell and Rubin offer 3-4x better power efficiency, making older hardware less attractive for inference.",
+   "category": "LOCAL"
+  },
+  {
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xuwszo/us_intel_isnt_sure_if_businesswoman_spied_on/",
+   "title": "US intel isn’t sure if businesswoman spied on Nvidia for China, doesn’t mean she wasn’t a risk, sources say",
+   "sourceId": "localllama",
+   "sourceName": "r/LocalLLaMA",
+   "publishedAt": 1794539173000,
+   "excerpt": "",
+   "summary": "US intelligence has not reached a definitive conclusion regarding whether a businesswoman spied on Nvidia for China.",
+   "category": "INDUSTRY"
+  },
+  {
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xuwlya/edge0145b_opensource_ondevice_ai_with_145b/",
+   "title": "Edge0-145B: Open-Source On-Device AI with 145B Parameters",
+   "sourceId": "localllama",
+   "sourceName": "r/LocalLLaMA",
+   "publishedAt": 1794538604000,
+   "excerpt": "",
+   "summary": "Edge0-145B has been released as an open-source model designed for on-device AI applications.",
+   "category": "LOCAL"
+  },
+  {
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xuwf9w/us_intel_isnt_sure_if_businesswoman_spied_on/",
+   "title": "US intel isn’t sure if businesswoman spied on Nvidia for China, doesn’t mean she wasn’t a risk, sources say",
+   "sourceId": "localllama",
+   "sourceName": "r/LocalLLaMA",
+   "publishedAt": 1794538067000,
+   "excerpt": "they do not even know if she was a spy, a year after this chase is going on about her, Jensen should not have resigned! from that article: The FBI has been investigating Huang’s affair for at least a year. But Attorney General Todd Blanche said on Thursday that there are still “no conclusions reached by the Department of Justice, or by me, or by [FBI] Director Patel around who she is or is not.” President Donald Trump also hedged Thursday on whether the US had determined she was a spy, when commentator Stephen A. Smith asked whether Huang was right to have stepped down as CEO. “Well, the big thing is, was the woman a spy? And I don’t know if that’s been determined yet,” Trump said. “But if t…",
+   "summary": "This article discusses the ongoing investigation into a businesswoman's alleged ties to China and the resignation of Jensen Huang.",
+   "category": "INDUSTRY"
+  },
+  {
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xuvexw/stories_coming_out_about_jensen/",
+   "title": "Stories coming out about Jensen",
+   "sourceId": "localllama",
+   "sourceName": "r/LocalLLaMA",
+   "publishedAt": 1794535133000,
+   "excerpt": "",
+   "summary": "This is a placeholder title regarding news about Jensen Huang.",
+   "category": "INDUSTRY"
+  },
+  {
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xuuq0b/edge0145b_opensource_ondevice_ai_with_145b/",
+   "title": "Edge0-145B: Open-Source On-Device AI with 145B Parameters",
+   "sourceId": "localllama",
+   "sourceName": "r/LocalLLaMA",
+   "publishedAt": 1794533120000,
+   "excerpt": "",
+   "summary": "Edge0-145B is an open-source model intended for on-device AI use.",
+   "category": "LOCAL"
+  },
+  {
+   "url": "https://simonwillison.net/2026/Nov/12/llm-gemini/",
+   "title": "llm-gemini 0.37",
+   "sourceId": "simonw",
+   "sourceName": "Simon Willison",
+   "publishedAt": 1794524119000,
+   "excerpt": "Release: llm-gemini 0.37 Google launched Gemini 4 Hydrogen today - the lowest cost member of the Gemini 4 family. It's actually not too far off the price of its much bigger siblings, Carbon and Argon. I'm finding Gemini 4's pricing really confusing. Here's the pricing scheme: Model Dates Input ($/M) Cached input Output Gemini 4 Carbon Through Nov 30, 2026 $2.00 $0.10 $10.00 From Dec 1, 2026 $4.00 $0.20 $20.00 Gemini 4 Argon Through Nov 30, 2026 $2.00 $0.10 $10.00 From Dec 1, 2026 $4.00 $0.20 $20.00 Gemini 4 Hydrogen $1.50 $0.075 $7.50 Carbon and Argon are the same price , and both are scheduled to double in price on December 1st. If they're the same price, why have two different models? Goog…",
+   "summary": "Google's Gemini 4 Hydrogen model is priced at $1.50/$7.50, slightly cheaper than the Carbon and Argon models, which are scheduled for a price increase in December.",
+   "category": "MODELS"
+  },
+  {
+   "url": "https://github.blog/ai-and-ml/github-copilot/build-once-run-on-any-agent-a-practical-guide-to-agent-skills/",
+   "title": "Build once, run on any agent: A practical guide to agent skills",
+   "sourceId": "githubai",
+   "sourceName": "GitHub AI & ML",
+   "publishedAt": 1794524092000,
+   "excerpt": "Agent skills capture repeatable engineering work in files teams can review and reuse, while tools, project context, and permissions remain specific to the host that runs them.",
+   "summary": "A guide on building reusable agent skills that allow engineering teams to standardize workflows while maintaining host-specific tool and permission configurations.",
+   "category": "TOOLS"
+  },
+  {
+   "url": "https://www.marktechpost.com/2026/11/12/liquid-ai-liquidcodec-streaming-audio-codec/",
+   "title": "Liquid AI Releases LiquidCodec, a 74M-Parameter Streaming Audio Codec",
+   "sourceId": "marktechpost",
+   "sourceName": "MarkTechPost",
+   "publishedAt": 1794523406000,
+   "excerpt": "Liquid AI released LiquidCodec, a ~74M-parameter streaming audio codec that powers LFM3-Audio-2B and LFM3-Omni-2B. It runs at 12.5 Hz with 12 codebooks and encodes about 361x faster than real time on a single CPU thread.",
+   "summary": "Liquid AI released LiquidCodec, a 74M-parameter streaming audio codec that operates at 12.5 Hz and achieves 361x real-time encoding speed on a single CPU thread.",
+   "category": "RESEARCH"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/",
+   "title": "Democrats launch Nvidia investigation, write scathing letter on Huang’s ‘scheme’ with Trump",
+   "sourceId": "techcrunch",
+   "sourceName": "TechCrunch AI",
+   "publishedAt": 1794523371000,
+   "excerpt": "This Congressional investigation into Nvidia's China sales and its dealings with Trump is the second one, so far, since news of the alleged spy affair broke.",
+   "summary": "US Democrats have launched a Congressional investigation into Nvidia's sales to China and the company's dealings with the Trump administration.",
+   "category": "INDUSTRY"
+  },
+  {
+   "url": "https://www.wired.com/story/silicon-valley-is-still-defending-jensen-huang/",
+   "title": "Silicon Valley Is Still Defending Jensen Huang",
+   "sourceId": "wired",
+   "sourceName": "WIRED AI",
+   "publishedAt": 1794522583000,
+   "excerpt": "Nvidia employees and tech insiders never thought the chip king would lose his job. Despite his sudden resignation, many of them are still in denial.",
+   "summary": "Tech industry insiders and Nvidia employees are reacting to the sudden resignation of Jensen Huang.",
+   "category": "INDUSTRY"
+  },
+  {
+   "url": "https://arstechnica.com/ai/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/",
+   "title": "FAA expands AI advice to manage air traffic congestion across entire US airspace",
+   "sourceId": "ars",
+   "sourceName": "Ars Technica AI",
+   "publishedAt": 1794522527000,
+   "excerpt": "Airlines praised the AI tool, but the air traffic controllers’ union wasn’t involved.",
+   "summary": "The FAA is expanding the use of AI tools to manage air traffic congestion across the US, despite opposition from the air traffic controllers' union.",
+   "category": "INDUSTRY"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay/",
+   "title": "Muse can now place calls to US businesses — if you pay",
+   "sourceId": "techcrunch",
+   "sourceName": "TechCrunch AI",
+   "publishedAt": 1794522148000,
+   "excerpt": "Muse's AI can now place outbound calls to U.S. businesses — but it's not free.",
+   "summary": "Muse has introduced a paid feature allowing its AI to place outbound phone calls to US businesses.",
+   "category": "TOOLS"
+  },
+  {
+   "url": "https://www.wired.com/story/uncanny-valley-podcast-jensen-huang-is-out-will-nvidias-rivals-cash-in/",
+   "title": "Jensen Huang Is Out. Will Nvidia’s Rivals Cash In?",
+   "sourceId": "wired",
+   "sourceName": "WIRED AI",
+   "publishedAt": 1794521681000,
+   "excerpt": "In a special episode of “Uncanny Valley,” we break down Jensen Huang’s resignation from Nvidia, what comes next for the company, and where the AI industry goes from here.",
+   "summary": "A podcast episode analyzing the resignation of Jensen Huang and the future outlook for Nvidia and the AI industry.",
+   "category": "INDUSTRY"
+  },
+  {
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen",
+   "title": "Google’s new Gemini model is better at understanding complicated questions",
+   "sourceId": "verge",
+   "sourceName": "The Verge AI",
+   "publishedAt": 1794520532000,
+   "excerpt": "Google says its new Gemini 4 Hydrogen model can give more helpful answers to complex questions, including \"questions with multiple parts, hard-to-understand typos, or highly specific requests.\" The new model can break down your questions and address each part in its responses. It's available starting today in search, the Gemini app, all tiers of Google…",
+   "summary": "Google's Gemini 4 Hydrogen model features improved reasoning capabilities for complex, multi-part queries and is now available across Google services.",
+   "category": "MODELS"
+  },
+  {
+   "url": "https://www.marktechpost.com/2026/11/12/copilotkit-openbot-1-0-open-source-ai-coworker/",
+   "title": "CopilotKit Releases OpenBot 1.0: An MIT-Licensed, Self-Hostable AI Coworker With Built-In Governance",
+   "sourceId": "marktechpost",
+   "sourceName": "MarkTechPost",
+   "publishedAt": 1794519936000,
+   "excerpt": "CopilotKit released OpenBot 1.0, an MIT-licensed, self-hostable AI coworker workspace. Companies bring their own agents, models and infrastructure, while every Bot action passes a policy check and lands in an audit trail.",
+   "summary": "CopilotKit released OpenBot 1.0, an MIT-licensed, self-hostable workspace for AI agents that includes built-in governance and audit trails.",
+   "category": "TOOLS"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/12/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+   "title": "The unfolding Jensen Huang scandal: a timeline",
+   "sourceId": "techcrunch",
+   "sourceName": "TechCrunch AI",
+   "publishedAt": 1794519300000,
+   "excerpt": "Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+   "summary": "Jensen Huang has resigned from Nvidia following an investigation into personal conduct, raising national security concerns regarding AI infrastructure.",
+   "category": "INDUSTRY"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/",
+   "title": "Nebius tests the neocloud playbook with $40 billion in planned spending",
+   "sourceId": "techcrunch",
+   "sourceName": "TechCrunch AI",
+   "publishedAt": 1794518830000,
+   "excerpt": "Nebius plans to fund its $40 billion AI infrastructure expansion through customer prepayments and loans, even as delays at a Microsoft data center raise questions about its financing model.",
+   "summary": "Nebius plans a $40 billion expansion of its AI infrastructure, funded through customer prepayments and loans.",
+   "category": "INDUSTRY"
+  },
+  {
+   "url": "https://www.wired.com/story/jensen-huang-colette-kress-replacement-powerful-women-in-tech/",
+   "title": "Jensen Huang Didn’t Name His Own Replacement as One of Tech’s Most Powerful Women",
+   "sourceId": "wired",
+   "sourceName": "WIRED AI",
+   "publishedAt": 1794515711000,
+   "excerpt": "A recent WIRED investigation explored the complicated definition of “power” for women in the industry. Jensen Huang’s answers now appear to show his blind spots.",
+   "summary": "A critique of Jensen Huang's past public statements regarding leadership and power in the tech industry.",
+   "category": "INDUSTRY"
+  },
+  {
+   "url": "https://the-decoder.com/claude-meetings-lets-anthropics-ai-join-your-video-calls/",
+   "title": "Claude Meetings lets Anthropic's AI join your video calls",
+   "sourceId": "decoder",
+   "sourceName": "The Decoder",
+   "publishedAt": 1794515210000,
+   "excerpt": "Anthropic is adding Claude directly to video calls. Claude Meetings joins Google Meet sessions and creates documents, whiteboards, and meeting notes in real time. The feature launches in beta for Team and Enterprise plans, with more platforms coming later. The article Claude Meetings lets Anthropic's AI join your video calls appeared first on The Decoder .",
+   "summary": "Anthropic is launching Claude Meetings in beta, allowing the AI to join Google Meet calls to generate real-time notes, whiteboards, and documents.",
+   "category": "TOOLS"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/12/jensen-huang-was-having-a-third-affair-reuters-reports/",
+   "title": "Jensen Huang was having a third affair, Reuters reports",
+   "sourceId": "techcrunch",
+   "sourceName": "TechCrunch AI",
+   "publishedAt": 1794515207000,
+   "excerpt": "Reuters is withholding the name of the new employee linked to Huang, but says she is an employee of Nvidia.",
+   "summary": "Reports suggest a third individual, an Nvidia employee, was involved in an affair with former CEO Jensen Huang.",
+   "category": "INDUSTRY"
+  },
+  {
+   "url": "https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/",
+   "title": "Nvidia privately confirmed it could track chips to fight smuggling, even as industry publicly questioned feasibility",
+   "sourceId": "mittr",
+   "sourceName": "MIT Tech Review",
+   "publishedAt": 1794514584000,
+   "excerpt": "Representatives from Nvidia told Illinois representative Bill Foster that it would be technically possible to implement the anti-smuggling measures called for in the Chip Security Act, Foster told MIT Technology Review in an interview on Thursday, even while an industry group claimed they were “potentially infeasible.” Foster, a Democrat who serves on the Committee on…",
+   "summary": "Nvidia privately informed lawmakers that implementing anti-smuggling chip tracking is technically feasible, contradicting previous industry claims.",
+   "category": "INDUSTRY"
+  },
+  {
+   "url": "https://openai.com/business/customer-stories/amplitude",
+   "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+   "sourceId": "openai",
+   "sourceName": "OpenAI",
+   "publishedAt": 1794513600000,
+   "excerpt": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
+   "summary": "Amplitude is using OpenAI models to power 'Wave,' an agent that identifies product improvements and assists in coding and deployment.",
+   "category": "TOOLS"
+  },
+  {
+   "url": "https://arstechnica.com/gadgets/2026/11/ars-live-can-the-cloud-survive-drone-strikes-on-data-centers/",
+   "title": "Ars Live: What drone attacks on data centers mean for modern life in the cloud",
+   "sourceId": "ars",
+   "sourceName": "Ars Technica AI",
+   "publishedAt": 1794513599000,
+   "excerpt": "A livestream Ars discussion is happening on November 17 at 1 pm Eastern Time.",
+   "summary": "Ars Technica is hosting a livestream discussion on November 17 regarding the security of data centers.",
+   "category": "INDUSTRY"
+  },
+  {
+   "url": "https://the-decoder.com/googles-gemini-4-hydrogen-outscores-the-bigger-argon-just-four-weeks-after-its-launch/",
+   "title": "Google's Gemini 4 Hydrogen outscores the bigger Argon just four weeks after its launch",
+   "sourceId": "decoder",
+   "sourceName": "The Decoder",
+   "publishedAt": 1794513523000,
+   "excerpt": "Google's Gemini 4 Hydrogen replaces the Flash series, but benchmarks suggest it also makes the pricier Argon obsolete. On the independent Artificial Analysis Intelligence Index, Hydrogen nearly matches Claude Sonnet 5.5 for less money but costs about 2.5 times more per task than GPT-6.1 Sol and still falls short on agentic coding. The article Google's Gemini 4 Hydrogen outscores the bigger Argon just four weeks after its launch appeared first on The Decoder .",
+   "summary": "Benchmarks indicate Google's Gemini 4 Hydrogen outperforms the more expensive Argon model, though it remains more costly than GPT-6.1 Sol.",
+   "category": "MODELS"
+  },
+  {
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1032125/ai-agents-maya-site-archeology-discovery",
+   "title": "No, AI agents did not discover a previously unknown Maya site",
+   "sourceId": "verge",
+   "sourceName": "The Verge AI",
+   "publishedAt": 1794512560000,
+   "excerpt": "Armed with a team of AI agents, Google researcher Pietro Miotti claimed earlier this week to have discovered a potentially unmapped Maya site in Mexico. There was just one problem: The site had already been discovered and was published in an academic journal last year. The incident, which sparked criticism among archeologists online, underscores a…",
+   "summary": "A claim that AI agents discovered a new Maya site was debunked, as the site had been documented in academic literature previously.",
+   "category": "RESEARCH"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/",
+   "title": "Google’s latest Search upgrade promises better answers to your most complicated questions",
+   "sourceId": "techcrunch",
+   "sourceName": "TechCrunch AI",
+   "publishedAt": 1794511665000,
+   "excerpt": "Powered by Gemini 4 Hydrogen, Google's AI Mode is getting better at understanding complex queries, surfacing relevant links, and delivering richer visual responses.",
+   "summary": "Google Search has integrated Gemini 4 Hydrogen to improve responses to complex queries and provide richer visual results.",
+   "category": "TOOLS"
+  },
+  {
+   "url": "https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash/",
+   "title": "Google rolls out Gemini 4 Hydrogen, finally replacing 3.8 Flash",
+   "sourceId": "ars",
+   "sourceName": "Ars Technica AI",
+   "publishedAt": 1794511383000,
+   "excerpt": "Gemini 4 Hydrogen isn't getting a slow, security-conscious release like Carbon and Argon.",
+   "summary": "Google has released Gemini 4 Hydrogen, which replaces the 3.8 Flash model in the company's lineup.",
+   "category": "MODELS"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/",
+   "title": "Nectar launches an AI agent to automate creator discovery and outreach for brands",
+   "sourceId": "techcrunch",
+   "sourceName": "TechCrunch AI",
+   "publishedAt": 1794510660000,
+   "excerpt": "Nectar's new AI agent automates influencer marketing, helping brands discover creators, manage outreach and partnerships, and track campaign results.",
+   "summary": "Nectar launched an AI agent designed to automate influencer marketing tasks, including creator discovery, outreach, and campaign tracking.",
+   "category": "TOOLS"
+  },
+  {
+   "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+   "title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
+   "sourceId": "huggingface",
+   "sourceName": "Hugging Face",
+   "publishedAt": 1794510455000,
+   "excerpt": "",
+   "summary": "LLMON, an LLM-native markup language, is now supported in Granite 4.1 3B and 8B models.",
+   "category": "MODELS"
+  },
+  {
+   "url": "https://www.wired.com/story/uncanny-valley-podcast-jensen-huangs-dollar470-billion-affair/",
+   "title": "Jensen Huang’s $470 Billion Affair",
+   "sourceId": "wired",
+   "sourceName": "WIRED AI",
+   "publishedAt": 1794509998000,
+   "excerpt": "This week on “Uncanny Valley,” the team unpacks the Nvidia CEO’s affair with an alleged Chinese spy and what that means for the AI industry.",
+   "summary": "A media analysis of the financial and industry impact of the Jensen Huang scandal.",
+   "category": "INDUSTRY"
+  },
+  {
+   "url": "https://arstechnica.com/tech-policy/2026/11/families-fight-to-keep-googles-disturbing-ai-off-school-issued-chromebooks/",
+   "title": "Google faces calls for AI moratoriums in schools after Gemini pilot backlash",
+   "sourceId": "ars",
+   "sourceName": "Ars Technica AI",
+   "publishedAt": 1794509865000,
+   "excerpt": "Families confront Google after teen’s lawsuit labels Gemini a “suicide coach.”",
+   "summary": "Google is facing backlash and calls for school moratoriums following reports that its Gemini AI was used inappropriately by students.",
+   "category": "INDUSTRY"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/",
+   "title": "Jensen Huang’s exit puts Nvidia’s support for open source in question",
+   "sourceId": "techcrunch",
+   "sourceName": "TechCrunch AI",
+   "publishedAt": 1794508763000,
+   "excerpt": "Jensen Huang’s resignation raises questions about Nvidia’s commitment to open source AI, including its Hugging Face acquisition, open-weight models, and advocacy against restrictions, as the company navigates a leadership transition.",
+   "summary": "Jensen Huang's resignation has created uncertainty regarding Nvidia's future strategy for open-source AI and model development.",
+   "category": "INDUSTRY"
+  },
+  {
+   "url": "https://www.wired.com/story/google-deepmind-staff-escalate-their-union-fight/",
+   "title": "Google DeepMind Staff Tap the UK Government to Escalate Their Unionization Fight",
+   "sourceId": "wired",
+   "sourceName": "WIRED AI",
+   "publishedAt": 1794506741000,
+   "excerpt": "After initial talks stalled, workers at Google DeepMind are trying to bypass company management in their bid to unionize.",
+   "summary": "Google DeepMind employees are seeking UK government intervention in their ongoing unionization efforts.",
+   "category": "INDUSTRY"
+  },
+  {
+   "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+   "title": "Introducing Gemini 4 Hydrogen",
+   "sourceId": "deepmind",
+   "sourceName": "Google DeepMind",
+   "publishedAt": 1794506450000,
+   "excerpt": "",
+   "summary": "Google DeepMind has introduced the Gemini 4 Hydrogen model.",
+   "category": "MODELS"
+  },
+  {
+   "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
+   "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
+   "sourceId": "googleai",
+   "sourceName": "Google AI",
+   "publishedAt": 1794506400000,
+   "excerpt": "We are bringing Gemini 4 Hydrogen to Google Search globally to provide you with more helpful, visual, and intuitive responses.",
+   "summary": "Google Search has been upgraded with Gemini 4 Hydrogen to provide more intuitive and visual responses.",
+   "category": "TOOLS"
+  },
+  {
+   "url": "https://www.wired.com/story/jensen-huang-tanked-a-trillion-dollars-in-less-than-a-month/",
+   "title": "Jensen Huang Basically Lit More Than $1 Trillion on Fire in Less Than a Month",
+   "sourceId": "wired",
+   "sourceName": "WIRED AI",
+   "publishedAt": 1794506355000,
+   "excerpt": "Since the scandal involving an alleged Chinese spy began, Nvidia has lost an eye-watering sum from its market value.",
+   "summary": "Nvidia's market value has declined by over $1 trillion following the scandal involving former CEO Jensen Huang.",
+   "category": "INDUSTRY"
+  },
+  {
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1032069/jensen-huang-resignation-affair-chips-smuggling",
+   "title": "The Jensen Huang scandal is hardly over",
+   "sourceId": "verge",
+   "sourceName": "The Verge AI",
+   "publishedAt": 1794505473000,
+   "excerpt": "I was certain, until the story of Jensen Huang's second affair hit, that Huang was bulletproof. After all, why wouldn't he be? He's placed himself indispensably at the center of the AI industry and famously had no succession plan at Nvidia. In fact, he's the only CEO Nvidia has ever had. L'état c'est moi. Then…",
+   "summary": "An editorial piece discussing the implications of the Jensen Huang scandal on Nvidia's leadership stability.",
+   "category": "INDUSTRY"
+  },
+  {
+   "url": "https://www.marktechpost.com/2026/11/12/aws-emulator-local-aws-api-emulator-ai-agents/",
+   "title": "AWS Releases AWS Emulator: A Local Copy of 200+ AWS Services Built by AI Agents",
+   "sourceId": "marktechpost",
+   "sourceName": "MarkTechPost",
+   "publishedAt": 1794504368000,
+   "excerpt": "AWS released AWS Emulator, a free, CC0-licensed local emulator of AWS APIs built from 438 API models. Autonomous agents wrote all of its code. It passes 56.6% of 42,857 published fidelity tests at launch.",
+   "summary": "AWS released a free, CC0-licensed local emulator for over 200 AWS services, with code generated by autonomous agents; it currently passes 56.6% of fidelity tests.",
+   "category": "TOOLS"
+  },
+  {
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1032020/gemini-chatgpt-perplexity-shopping-test-risky-fake-websites-citations",
+   "title": "AI chatbots are recommending fake retail websites, study finds",
+   "sourceId": "verge",
+   "sourceName": "The Verge AI",
+   "publishedAt": 1794502800000,
+   "excerpt": "Shoppers using AI chatbots to research products or find places to buy items could be directed to imposters and other risky websites, a new study found. The study conducted by IP protection firm Podqi and shared exclusively with The Verge prompted ChatGPT, Gemini, and Perplexity with a handful of shopping-related questions involving a selection of…",
+   "summary": "A study found that AI chatbots like ChatGPT, Gemini, and Perplexity occasionally recommend fake or risky retail websites when queried by shoppers.",
+   "category": "INDUSTRY"
+  },
+  {
+   "url": "https://www.theverge.com/games/1032085/gdc-festival-of-gaming-annual-survey-ai-layoffs",
+   "title": "More game developers are starting to use generative AI",
+   "sourceId": "verge",
+   "sourceName": "The Verge AI",
+   "publishedAt": 1794502800000,
+   "excerpt": "More video game developers are using generative AI tools in their jobs compared to last year, according to the GDC Festival of Gaming's latest annual industry survey. Forty percent of developers surveyed say they use it \"as part of their job,\" an increase from 36 percent in 2025. Usage was higher with game developers that…",
+   "summary": "A GDC survey indicates that 40% of game developers now use generative AI in their work, up from 36% in 2025.",
+   "category": "INDUSTRY"
+  },
+  {
+   "url": "https://the-decoder.com/openais-data-suggests-that-frontier-models-are-hiding-their-thoughts-because-developers-optimize-for-capability-and-compute/",
+   "title": "OpenAI’s data suggests that frontier models are hiding their thoughts because developers optimize for capability and compute",
+   "sourceId": "decoder",
+   "sourceName": "The Decoder",
+   "publishedAt": 1794502691000,
+   "excerpt": "OpenAI's safety team systematically investigated why the chains of thought in frontier models like GPT-6 Astra are increasingly evading oversight. Four training steps drive the erosion, including architecture choices and reinforcement learning. The analysis shows that the loss of transparency is not a law of nature but also reflects tradeoffs around capability and cost. The article OpenAI’s data suggests that frontier models are hiding their thoughts because developers optimize for capability and compute appeared first on The Decoder .",
+   "summary": "OpenAI research suggests that frontier models may hide their 'thoughts' due to training optimizations focused on capability and cost rather than transparency.",
+   "category": "RESEARCH"
+  },
+  {
+   "url": "https://www.theverge.com/podcast/1031260/nvidia-jensen-huang-resign-china-spy-scandal-ai-chips-trump",
+   "title": "Jensen Huang is out. What did China want from him?",
+   "sourceId": "verge",
+   "sourceName": "The Verge AI",
+   "publishedAt": 1794501000000,
+   "excerpt": "Today, we’re talking about the Jensen Huang scandal at Nvidia, which is developing so quickly that we had to do an emergency update of this intro minutes before publishing this episode. Huang just resigned from his position as CEO of Nvidia as news of his affairs, including with an alleged Chinese spy, threatened to engulf…",
+   "summary": "A podcast discussion regarding the resignation of Jensen Huang and the potential geopolitical motivations behind the scandal.",
+   "category": "INDUSTRY"
+  },
+  {
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1032028/read-nvidias-internal-emails-jensen-huang",
+   "title": "Read Nvidia’s internal emails about the ‘extraordinarily difficult period’ amid CEO shakeup",
+   "sourceId": "verge",
+   "sourceName": "The Verge AI",
+   "publishedAt": 1794498492000,
+   "excerpt": "Jensen Huang resigned as CEO of Nvidia this morning, a company he co-founded in 1993. The decision came following the company's board opening an investigation into multiple extramarital affairs Huang had with a direct report and an alleged Chinese spy. The new, and first, Chair of the Board, Harvey Jones, shared news of Huang's resignation…",
+   "summary": "Internal Nvidia emails reveal the company's struggle during the leadership transition following Jensen Huang's resignation.",
+   "category": "INDUSTRY"
+  },
+  {
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang",
+   "title": "Nvidia CEO Jensen Huang has resigned. What happens next?",
+   "sourceId": "verge",
+   "sourceName": "The Verge AI",
+   "publishedAt": 1794495691000,
+   "excerpt": "After the leather-jacketed CEO, president, and co-founder of Nvidia, Jensen Huang, acknowledged an affair with Megaspeed exec Alice Huang, his company initially announced an investigation. However, The New York Times reported on Wednesday that there was evidence of another affair, this time with an Nvidia executive who reported directly to him. A board meeting that…",
+   "summary": "Jensen Huang resigned as Nvidia CEO following investigations into multiple extramarital affairs.",
+   "category": "INDUSTRY"
+  },
+  {
+   "url": "https://arstechnica.com/google/2026/11/google-pushes-privacy-angle-as-gemini-powered-smartglasses-debut-starting-at-395/",
+   "title": "Google pushes privacy angle as Gemini-powered smartglasses debut starting at $395",
+   "sourceId": "ars",
+   "sourceName": "Ars Technica AI",
+   "publishedAt": 1794495017000,
+   "excerpt": "The first Gemini smartglasses are a collab between Google, Samsung, Gentle Monster, and Warby Parker.",
+   "summary": "Google has launched Gemini-powered smartglasses in collaboration with Samsung and other partners, starting at $395.",
+   "category": "TOOLS"
+  },
+  {
+   "url": "https://www.wired.com/story/who-is-colette-kress-the-woman-who-could-succeed-jensen-huang/",
+   "title": "Meet Colette Kress, Nvidia’s New Interim CEO",
+   "sourceId": "wired",
+   "sourceName": "WIRED AI",
+   "publishedAt": 1794492873000,
+   "excerpt": "Nvidia’s longtime chief financial officer helped transform the company into an AI powerhouse. Now she’s taking the reins following Jensen Huang’s resignation on Thursday.",
+   "summary": "Colette Kress, Nvidia's former CFO, has been appointed as the company's interim CEO.",
+   "category": "INDUSTRY"
+  },
+  {
+   "url": "https://the-decoder.com/jensen-huang-resigns-as-nvidia-ceo-after-espionage-scandal-wipes-out-1-4-trillion-in-market-value/",
+   "title": "Jensen Huang resigns as Nvidia CEO after espionage scandal wipes out $1.4 trillion in market value",
+   "sourceId": "decoder",
+   "sourceName": "The Decoder",
+   "publishedAt": 1794492700000,
+   "excerpt": "Jensen Huang resigned as CEO, president, and board member of Nvidia effective immediately, according to a statement on November 12, 2026. The article Jensen Huang resigns as Nvidia CEO after espionage scandal wipes out $1.4 trillion in market value appeared first on The Decoder .",
+   "summary": "Jensen Huang resigned from all roles at Nvidia on November 12, 2026, amid a scandal that impacted the company's market value.",
+   "category": "INDUSTRY"
+  },
+  {
+   "url": "https://www.wired.com/story/nvidia-ceo-jensen-huang-steps-down/",
+   "title": "Jensen Huang Resigns as Nvidia CEO",
+   "sourceId": "wired",
+   "sourceName": "WIRED AI",
+   "publishedAt": 1794491886000,
+   "excerpt": "Nvidia’s cofounder and chief executive resigned on Thursday after the company opened an investigation into his affair with an alleged Chinese intelligence asset.",
+   "summary": "Jensen Huang resigned as Nvidia CEO following an investigation into an affair with an alleged Chinese intelligence asset.",
+   "category": "INDUSTRY"
+  },
+  {
+   "url": "https://the-decoder.com/elevenlabs-scribe-v3-live-uses-conversational-context-to-stop-voice-agents-from-cutting-off-callers-mid-sentence/",
+   "title": "ElevenLabs Scribe v3 Live uses conversational context to stop voice agents from cutting off callers mid-sentence",
+   "sourceId": "decoder",
+   "sourceName": "The Decoder",
+   "publishedAt": 1794491299000,
+   "excerpt": "ElevenLabs has released Scribe v3 and Scribe v3 Live, two new speech recognition models designed to transcribe accurately through background noise and crosstalk. Benchmarks from Artificial Analysis confirm that Scribe v3 narrowly beats competitors like OpenAI, Google, and Microsoft on accuracy. That precision comes at a cost, though. Rivals like Microsoft and xAI run many times faster and charge roughly half the price. The article ElevenLabs Scribe v3 Live uses conversational context to stop voice agents from cutting off callers mid-sentence appeared first on The Decoder .",
+   "summary": "ElevenLabs released Scribe v3 and Scribe v3 Live, speech recognition models that use conversational context to improve accuracy in noisy environments, though they are slower than some competitors.",
+   "category": "TOOLS"
   },
   {
    "url": "https://the-decoder.com/google-deepmind-shifts-genomics-ai-from-bulk-tissue-predictions-to-single-cell-type-resolution-with-alphagenome-2/",
@@ -99,34 +679,14 @@
    "category": "MODELS"
   },
   {
-   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xub4s2/after_four_years_of_development_are_llms_capable/",
-   "title": "After four years of development, are LLMs capable of writing high-quality prose?",
-   "sourceId": "localllama",
-   "sourceName": "r/LocalLLaMA",
-   "publishedAt": 1794485352000,
-   "excerpt": "I have been following the evolution of LLMs since the days of GPT-3.5, and I have been actively using local LLMs since the release of Gemma 2. I read a great deal, including this subreddit. I have performed QLoRA fine-tuning on my local machine many times, and I have also conducted full fine-tuning (FFT) training runs on RunPod. Hundreds of models-fine-tuned by well-known practitioners in English, Chinese, and Russian-have passed through my drive. After four years, I arrived at a fundamental question yesterday: are LLMs even capable of writing good prose? When training models myself, I used both my own prose datasets and those created by others. In the training process, I experimented with v…",
-   "summary": "A user discusses the evolution of local LLMs and questions whether current models are capable of producing high-quality prose after years of fine-tuning experiments.",
-   "category": "LOCAL"
-  },
-  {
-   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xuad5c/meet_the_people_behind_mossimage_plus_a_few/",
-   "title": "Meet the people behind MOSS-Image, plus a few answers from their AMA here",
-   "sourceId": "localllama",
-   "sourceName": "r/LocalLLaMA",
-   "publishedAt": 1794482827000,
-   "excerpt": "They say an anime model is in development, with plans for alpha channels and multi-character references. An editing model is also on the way. They also plan to keep the next model under Apache 2.0, if all goes as planned.",
-   "summary": "The MOSS-Image team announced plans for an upcoming anime-focused model, alpha channels, and multi-character reference features. They intend to release future models under the Apache 2.0 license.",
-   "category": "MODELS"
-  },
-  {
-   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xu9onk/kquant_new_quantization_technique_37_better/",
-   "title": "KQuant - new quantization technique, 3.7× better quants for Qwen Flash Next 180B, Qwen 27B, 35B, 9B (measured in KL-divergence reduction) (MLX)",
-   "sourceId": "localllama",
-   "sourceName": "r/LocalLLaMA",
-   "publishedAt": 1794480444000,
-   "excerpt": "hey folks, im Alish, an ml engineer from Nace (folks behind Drex, an open source decision family model that hit #1 in Artificial analysis in decision index 2.1). Recently my cto gave me task to optimize quants for qwen4, so i dialed my uni proffesor from UoT and span up my Fable 5.2 and we cooooooked. starting with mlx (gguf tommorow). It's a pareto frontier on quantization for accuracy/size for qwen family models. Why we made these we have open sourced the fastest way to run 35b/27b on a mac( Kapitsa ) and we got tired of dumb quants. So we made our own KQuant . Open source Qwen packs for 4B,27B,35B, Flash-Next, free on Hugging Face, in standard MLX files. Most people on a Mac run 4-bit pac…",
-   "summary": "KQuant is a new open-source quantization technique for the Qwen model family (4B, 27B, 35B, and Flash-Next) that optimizes the accuracy-to-size ratio. The models are available in standard MLX format on Hugging Face.",
-   "category": "LOCAL"
+   "url": "https://openai.com/business/customer-stories/gondola",
+   "title": "Gondola doubles revenue as its team builds more with Codex",
+   "sourceId": "openai",
+   "sourceName": "OpenAI",
+   "publishedAt": 1794484800000,
+   "excerpt": "Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work.",
+   "summary": "Gondola reports a 50% increase in engineer output by utilizing OpenAI's Codex and ChatGPT for product development.",
+   "category": "TOOLS"
   },
   {
    "url": "https://www.wired.com/story/alex-karp-said-hes-a-progressive-ok-heres-some-other-stuff-hes-said-recently/",
@@ -136,16 +696,6 @@
    "publishedAt": 1794479400000,
    "excerpt": "The Palantir CEO touted his “progressive” worldview in a recent interview. Let’s see how that lines up with his comments during the company’s earnings call two weeks ago.",
    "summary": "This article discusses recent public statements made by Palantir CEO Alex Karp regarding his political views.",
-   "category": "INDUSTRY"
-  },
-  {
-   "url": "https://www.wired.com/story/google-wanted-spirit-airlines-data-flight-attendants-found-a-way-to-opt-out/",
-   "title": "Google Wanted Spirit Airlines Data. Flight Attendants Found a Way to Opt Out",
-   "sourceId": "wired",
-   "sourceName": "WIRED AI",
-   "publishedAt": 1794478500000,
-   "excerpt": "The union representing flight attendants for the defunct airline struck a deal with Google to scrub sensitive employee records from a $10 million data sale.",
-   "summary": "Flight attendants for a defunct airline successfully negotiated with Google to remove sensitive employee records from a $10 million data sale.",
    "category": "INDUSTRY"
   },
   {
@@ -169,16 +719,6 @@
    "category": "TOOLS"
   },
   {
-   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xu8685/qvacbotpsy08b_hugging_face_ondevice_personal/",
-   "title": "qvac/BotPsy-0.8B · Hugging Face - On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
-   "sourceId": "localllama",
-   "sourceName": "r/LocalLLaMA",
-   "publishedAt": 1794474829000,
-   "excerpt": "BotPsy-0.8B is a 0.8B-parameter model designed for function calling and agentic workflows, built on top of Qwen3.5-0.8B and suitable for on-device deployment. BotPsy is a \"personal assistant\" that uses tools to perform a variety of simple tasks for the user, in domains such as web search & research, travel & lifestyle, commerce & finance, business & customer operations, device & vehicle control, files & documents, calendar, and email & messaging. Due to its small parameter count, it is best suited to tasks of low to medium difficulty. BotPsy achieves state-of-the-art (SOTA) tool-use and agentic performance for its size, outperforming every model of up to 1.2B parameters that we tested. As a…",
-   "summary": "BotPsy-0.8B is a new 0.8B-parameter agentic model based on Qwen3.5, designed for on-device function calling and personal assistant tasks. It outperforms other models under 1.2B parameters in tool-use benchmarks.",
-   "category": "LOCAL"
-  },
-  {
    "url": "https://www.marktechpost.com/2026/11/12/ibm-quantum-nighthawk-r3-520-qubits-1040-qubit-system-2027/",
    "title": "IBM Announces IBM Quantum Nighthawk r3: A New Processor to Support 10k Quantum Operations on 520 Programmable Qubits",
    "sourceId": "marktechpost",
@@ -189,74 +729,14 @@
    "category": "RESEARCH"
   },
   {
-   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xu7cyr/huaweicslqwen3635ba3bmacaqrgguf_hugging_face/",
-   "title": "huawei-csl/Qwen3.6-35B-A3B-MACaQ-R-GGUF · Hugging Face",
-   "sourceId": "localllama",
-   "sourceName": "r/LocalLLaMA",
-   "publishedAt": 1794471686000,
-   "excerpt": "arXiv : https://arxiv.org/abs/2611.10649 PDF : https://arxiv.org/pdf/2611.10649 GitHub : https://github.com/huawei-csl/MACaQ HuggingFace : https://huggingface.co/collections/huawei-csl/macaq Yesterday some of you were looking for model for this MACaQ.",
-   "summary": "A new GGUF-formatted model, Qwen3.6-35B-A3B-MACaQ-R, has been released on Hugging Face as part of the MACaQ collection.",
-   "category": "LOCAL"
-  },
-  {
-   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xu6td8/chat_refactor_gemma4_to_build_loose_schema_rules/",
-   "title": "chat : refactor gemma4 to build loose schema rules and clean up by aldehir · Pull Request #31915 · ggml-org/llama.cpp",
-   "sourceId": "localllama",
-   "sourceName": "r/LocalLLaMA",
-   "publishedAt": 1794469632000,
-   "excerpt": "If you’ve ever tried agentic coding with Gemma and had tool calling issues, give it another try, in my case, it completely fixed Gemma",
-   "summary": "A pull request for llama.cpp refactors Gemma4 to improve schema rules and resolve tool-calling issues for agentic workflows.",
-   "category": "LOCAL"
-  },
-  {
-   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xu4n7b/gemma431b_latent_space_discovery_caring_and/",
-   "title": "Gemma4-31b latent space discovery: Caring and Contempt for user controlled by the same 3 neurons! Plus, how to find your own steering recipes and export to GGUF steering vector for llama.cpp",
-   "sourceId": "localllama",
-   "sourceName": "r/LocalLLaMA",
-   "publishedAt": 1794461874000,
+   "url": "https://huggingface.co/blog/3d-lora-finetuning",
+   "title": "The Definitive Fine-Tuning Guide for 3D Generation Models",
+   "sourceId": "huggingface",
+   "sourceName": "Hugging Face",
+   "publishedAt": 1794441600000,
    "excerpt": "",
-   "summary": "Researchers have identified specific neurons in Gemma4-31b that control 'caring' and 'contempt' behaviors. The findings include methods for creating and exporting steering vectors to GGUF format for use in llama.cpp.",
-   "category": "LOCAL"
-  },
-  {
-   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xu2mdo/the_regulation_of_local_ai_couldshould_be_viewed/",
-   "title": "The regulation of local AI could/should be viewed as the largest censorship implementation in the history of mankind.",
-   "sourceId": "localllama",
-   "sourceName": "r/LocalLLaMA",
-   "publishedAt": 1794455373000,
-   "excerpt": "With all of this fear mongering on the “dangers” of LLM’s, I see how using people’s ignorance and emotions on the subject can be used as a tool to limit and restrict the tool from the average person. My fear is that China and the US https://www.reuters.com/world/china/us-china-should-stay-clear-eyed-ai-cooperation-competition-bessent-says-2026-11-11/ will use people’s lack of understanding of local models to push for controlled intelligence. By implementing regulation on local AI, I can see how the US and China would want to force the average person to only be allowed to use models hosted on state monitored hardware. This way they can spy on what everyone is using hosted models for, limit wh…",
-   "summary": "An opinion piece expressing concern that AI regulation could be used to restrict local, open-source models and force users toward state-monitored hardware.",
-   "category": "LOCAL"
-  },
-  {
-   "url": "https://techcrunch.com/2026/11/11/who-could-replace-jensen-huang-a-highly-unscientific-list-of-possible-successors/",
-   "title": "Who could replace Jensen Huang? A highly unscientific list of possible successors",
-   "sourceId": "techcrunch",
-   "sourceName": "TechCrunch AI",
-   "publishedAt": 1794453190000,
-   "excerpt": "Nvidia has no succession plan and a CEO in hot water, so we’ve drafted a shortlist.",
-   "summary": "An analysis of potential successors for Nvidia CEO Jensen Huang following recent controversies.",
-   "category": "INDUSTRY"
-  },
-  {
-   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xu1dkz/someone_voltageglitched_a_cmp_170hx_mining_card/",
-   "title": "Someone voltage-glitched a CMP 170HX mining card into a working A100-80G, and it's ~1.18x faster than retail",
-   "sourceId": "localllama",
-   "sourceName": "r/LocalLLaMA",
-   "publishedAt": 1794451670000,
-   "excerpt": "Kate's writeup is wild. The 8GB CMP 170HX apparently ships with ~80GB of HBM onboard, just fused off. Software unlocks got people to 64GB. She used voltage fault injection to get past the fuse lock, then enabled all the working SMs (120-126 vs the 108 NVIDIA ships on A100). Her numbers: 85.9 TFLOP/s FP16 vs 72.5 on a retail A100, with the full 80GB usable for inference. NVLink and PCIe Gen4 come back too. Not a weekend mod though: board wiring, a custom STM32 glitcher, 1 to 48 hrs of glitching per card, and one of her ten cards only had 64GB intact. https://blog.kate.land/posts/using-voltage-glitching-to-unlock-the-a100/",
-   "summary": "A researcher used voltage fault injection to unlock a CMP 170HX mining card, converting it into a functional 80GB A100-like GPU. The modified card performs approximately 1.18x faster than a retail A100.",
-   "category": "LOCAL"
-  },
-  {
-   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xtzwxf/i_released_inflect_v3_lightweight_local_tts_in/",
-   "title": "I released Inflect v3: lightweight local TTS in 34M parameters (Apache 2.0)",
-   "sourceId": "localllama",
-   "sourceName": "r/LocalLLaMA",
-   "publishedAt": 1794447370000,
-   "excerpt": "Today I’m releasing Inflect v3: a family of local text-to-speech models: Mini, Micro, and Atom. Mini is the main model, with six voices and 34.31M parameters Mini provides vocal-event tags, reference voice-tuning, and 48 kHz enhancement. It runs on both CPU and CUDA. GitHub, installation, and examples: https://github.com/owenawsong/Inflect Try the playground: https://huggingface.co/spaces/owensong/Inflect-v3 Mini features reference-voice tuning: it allows one to make a profile from a recording and generate speech with it. This feature noticeably adjusts the voice toward your reference, though it won’t replicate every speaker accurately. Inflect Mini V3 also supports the following vocal-event…",
-   "summary": "Inflect v3 is a new family of lightweight, Apache 2.0-licensed text-to-speech models ranging from 34M parameters. The models support CPU/CUDA inference, reference voice-tuning, and 48 kHz audio enhancement.",
-   "category": "LOCAL"
+   "summary": "A guide on fine-tuning 3D generation models has been published on Hugging Face.",
+   "category": "RESEARCH"
   },
   {
    "url": "https://openai.com/index/children-first-declaration",
@@ -279,46 +759,6 @@
    "category": "INDUSTRY"
   },
   {
-   "url": "https://techcrunch.com/2026/11/11/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
-   "title": "The unfolding Jensen Huang scandal: a timeline",
-   "sourceId": "techcrunch",
-   "sourceName": "TechCrunch AI",
-   "publishedAt": 1794441000000,
-   "excerpt": "The affair could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
-   "summary": "A timeline of the controversy surrounding Nvidia CEO Jensen Huang and its potential impact on national security and AI infrastructure.",
-   "category": "INDUSTRY"
-  },
-  {
-   "url": "https://techcrunch.com/2026/11/11/nvidias-stock-drops-as-board-reportedly-preps-to-oust-ceo-jensen-huang/",
-   "title": "Nvidia’s stock drops as board reportedly preps to oust CEO Jensen Huang",
-   "sourceId": "techcrunch",
-   "sourceName": "TechCrunch AI",
-   "publishedAt": 1794439725000,
-   "excerpt": "As soon as Wednesday evening, Nvidia's board could decide to remove its founder and CEO of 33 years.",
-   "summary": "Reports indicate that Nvidia's board is considering the removal of CEO Jensen Huang following recent scandals.",
-   "category": "INDUSTRY"
-  },
-  {
-   "url": "https://techcrunch.com/2026/11/11/jensen-huang-accused-of-having-another-affair-with-a-nvidia-exec/",
-   "title": "Jensen Huang accused of having another affair — with an Nvidia exec",
-   "sourceId": "techcrunch",
-   "sourceName": "TechCrunch AI",
-   "publishedAt": 1794439025000,
-   "excerpt": "Jensen Huang, who has come under fire for admitting to an affair with a woman accused of being a Chinese intelligence agent, has been accused of having a separate affair with an Nvidia subordinate.",
-   "summary": "Nvidia CEO Jensen Huang faces allegations of a second extramarital affair with a subordinate, following previous reports of an affair with a woman accused of being a foreign intelligence agent.",
-   "category": "INDUSTRY"
-  },
-  {
-   "url": "https://www.theverge.com/tech/1031652/jensen-huang-rumor",
-   "title": "Nvidia is reportedly preparing to fire Jensen Huang",
-   "sourceId": "verge",
-   "sourceName": "The Verge AI",
-   "publishedAt": 1794437076000,
-   "excerpt": "Nvidia's board is preparing to dismiss CEO Jensen Huang following a report from The New York Times about a second alleged extramarital affair, just days after he admitted to a separate affair with a woman alleged to be a Chinese spy, The Wall Street Journal reports. The second alleged affair was with an executive who…",
-   "summary": "Nvidia's board is reportedly preparing to dismiss CEO Jensen Huang amid multiple allegations of extramarital affairs.",
-   "category": "INDUSTRY"
-  },
-  {
    "url": "https://simonwillison.net/2026/Nov/11/gemini-decisions-api/",
    "title": "Gemini Decisions API",
    "sourceId": "simonw",
@@ -327,16 +767,6 @@
    "excerpt": "Gemini Decisions API Google join Jev and OpenAI in the decision model category with \"Gemini Decision 1\". This new model API is almost identical to Jev: it supports the same three types of questions (yes/no, choice, and rubric-scoring) and even reuses Jev's term \"Noul\" for a yes/no question. It's priced the same as the GPT-6 Luna decision model: 10 cents per million input tokens, and output is free. Jev remains the cheapest of the three, at 4.2 cents per million. Jev is text (and JSON) only. OpenAI can handle text and images. Gemini Decision 1 is fully multi-model: it covers text, images, audio, video, and PDFs. I tested it against video by passing these questions to it along with my Yonkers…",
    "summary": "Google launched the Gemini Decisions API, featuring the 'Gemini Decision 1' model. It supports yes/no, choice, and rubric-scoring tasks across multimodal inputs at a price of $0.10 per million input tokens.",
    "category": "MODELS"
-  },
-  {
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1031623/united-unauthorized-ai-agents",
-   "title": "United won’t let your AI agent book your flight",
-   "sourceId": "verge",
-   "sourceName": "The Verge AI",
-   "publishedAt": 1794434061000,
-   "excerpt": "United says it won't let personal AI assistants book tickets on the airline, citing both privacy and regulatory concerns. The company says it hasn't yet seen many people try to use AI agents to book their flights, The Wall Street Journal reports, in line with observations from other businesses like Doordash. But United is concerned…",
-   "summary": "United Airlines has prohibited the use of AI agents for booking flights, citing privacy and regulatory concerns.",
-   "category": "INDUSTRY"
   },
   {
    "url": "https://www.marktechpost.com/2026/11/11/google-gemini-decisions-api-gemini-decision-1/",
@@ -369,16 +799,6 @@
    "category": "MODELS"
   },
   {
-   "url": "https://techcrunch.com/video/why-the-data-center-you-dread-might-never-even-be-built/",
-   "title": "Why the data center you dread might never even be built",
-   "sourceId": "techcrunch",
-   "sourceName": "TechCrunch AI",
-   "publishedAt": 1794428115000,
-   "excerpt": "The data center boom is running into serious real-world obstacles, from widespread local opposition and permitting delays to a scramble for electricity. Before those challenges even come into play, though, there’s a more basic problem: A lot of the projects being announced may never get built in the first place. With billions of dollars in AI infrastructure…",
-   "summary": "The AI data center boom faces significant hurdles, including electricity shortages, permitting delays, and local opposition, leading to concerns that many announced projects may never be completed.",
-   "category": "INDUSTRY"
-  },
-  {
    "url": "https://the-decoder.com/google-joins-the-decision-model-wave-with-gemini-decision-1-scoring-1000-questions-in-a-single-pass/",
    "title": "Google joins the decision-model wave with Gemini Decision 1, scoring 1,000 questions in a single pass",
    "sourceId": "decoder",
@@ -389,46 +809,6 @@
    "category": "MODELS"
   },
   {
-   "url": "https://techcrunch.com/2026/11/11/meta-is-losing-its-longtime-head-of-infrastructure/",
-   "title": "Meta is losing its longtime head of infrastructure",
-   "sourceId": "techcrunch",
-   "sourceName": "TechCrunch AI",
-   "publishedAt": 1794427921000,
-   "excerpt": "Santosh Janardhan, who originally joined the company in 2009, will be stepping down from his role.",
-   "summary": "Santosh Janardhan, Meta's longtime head of infrastructure, is stepping down from his role.",
-   "category": "INDUSTRY"
-  },
-  {
-   "url": "https://techcrunch.com/podcast/how-backlash-and-red-tape-continue-to-slow-data-centers-post-blue-wave/",
-   "title": "How backlash and red tape continue to slow data centers post-Blue Wave",
-   "sourceId": "techcrunch",
-   "sourceName": "TechCrunch AI",
-   "publishedAt": 1794427334000,
-   "excerpt": "The data center boom is running into serious real-world obstacles, from widespread local opposition and permitting delays to a scramble for electricity. Before those challenges even come into play, though, there’s a more basic problem: A lot of the projects being announced may never get built in the first place. With billions of dollars in AI infrastructure…",
-   "summary": "Data center construction is slowing due to real-world constraints such as electricity scarcity and regulatory permitting delays.",
-   "category": "INDUSTRY"
-  },
-  {
-   "url": "https://www.wired.com/story/i-trained-a-microduck-to-be-my-cats-butler/",
-   "title": "I Saw the Future of Robotics in a Virtual Duck That Chases My Cat",
-   "sourceId": "wired",
-   "sourceName": "WIRED AI",
-   "publishedAt": 1794426954000,
-   "excerpt": "An OpenAI model helped me teach the Microduck to waddle and moonlight as a tiny cat butler.",
-   "summary": "A user describes using an OpenAI model to program a virtual robot to perform tasks.",
-   "category": "TOOLS"
-  },
-  {
-   "url": "https://techcrunch.com/2026/11/11/coreweave-turns-to-customer-prepayments-shorter-contracts-to-fund-ai-growth/",
-   "title": "CoreWeave turns to customer prepayments, shorter contracts to fund AI growth",
-   "sourceId": "techcrunch",
-   "sourceName": "TechCrunch AI",
-   "publishedAt": 1794426840000,
-   "excerpt": "CoreWeave is increasingly asking customers to pay up front, borrowing against specific contracts, and even looking to short-term deals that could lead to higher prices, according to the company’s third-quarter earnings.",
-   "summary": "CoreWeave is adjusting its business model by requiring customer prepayments and shorter contracts to secure funding for AI infrastructure growth.",
-   "category": "INDUSTRY"
-  },
-  {
    "url": "https://the-decoder.com/us-corporate-ai-spending-hits-a-new-high-in-october-but-growth-slows-to-1-65-percent/",
    "title": "US corporate AI spending hits a new high in October, but growth slows to 1.65 percent",
    "sourceId": "decoder",
@@ -436,16 +816,6 @@
    "publishedAt": 1794425711000,
    "excerpt": "According to the Ramp AI Index, US corporate AI spending rose just 1.65 percent in October 2026. One percent of companies still drive 80 percent of revenue for OpenAI and Anthropic. Customer support is emerging as a new growth driver, but it may bring lower margins than the coding business that has fueled spending so far. The article US corporate AI spending hits a new high in October, but growth slows to 1.65 percent appeared first on The Decoder .",
    "summary": "US corporate AI spending grew by 1.65 percent in October 2026. While customer support is a growing sector, 80 percent of revenue for major providers like OpenAI and Anthropic remains driven by only one percent of companies.",
-   "category": "INDUSTRY"
-  },
-  {
-   "url": "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/",
-   "title": "With $720M round, Britain’s Fractile gets a leg up in the race for AI chips",
-   "sourceId": "techcrunch",
-   "sourceName": "TechCrunch AI",
-   "publishedAt": 1794425695000,
-   "excerpt": "Fractile has now become one of the top-funded players in the race for purpose-built AI chips.",
-   "summary": "UK-based chip startup Fractile raised $720 million to advance its development of purpose-built AI hardware.",
    "category": "INDUSTRY"
   },
   {
@@ -509,26 +879,6 @@
    "category": "TOOLS"
   },
   {
-   "url": "https://www.wired.com/story/startup-fights-ai-bioweapons-with-ai/",
-   "title": "A Startup Wants to Fight AI Bioweapons With AI",
-   "sourceId": "wired",
-   "sourceName": "WIRED AI",
-   "publishedAt": 1794416400000,
-   "excerpt": "Radical Numerics has developed a model that it says can identify natural and AI-engineered pathogens without an internet connection.",
-   "summary": "Startup Radical Numerics has developed an offline AI model capable of identifying natural and AI-engineered pathogens.",
-   "category": "RESEARCH"
-  },
-  {
-   "url": "https://www.wired.com/story/the-ao3-shutdown-is-pitting-fanfic-readers-against-authors/",
-   "title": "The AO3 Shutdown Is Pitting Fanfic Readers Against Authors",
-   "sourceId": "wired",
-   "sourceName": "WIRED AI",
-   "publishedAt": 1794413583000,
-   "excerpt": "“It has left a sour taste in my mouth,” says a Heated Rivalry fanfic author who found her work uploaded to AO3 mirror sites without her consent.",
-   "summary": "A conflict has emerged between fanfiction authors and mirror sites that scrape content from AO3 without consent.",
-   "category": "INDUSTRY"
-  },
-  {
    "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/",
    "title": "Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.",
    "sourceId": "googleai",
@@ -536,16 +886,6 @@
    "publishedAt": 1794412800000,
    "excerpt": "Tabletop is a new Google Labs experiment for group collaboration. Build interactive itineraries, polls, and brackets with your team. Join the waitlist.",
    "summary": "Google Labs launched Tabletop, an experimental platform for group collaboration that allows teams to build interactive itineraries, polls, and brackets.",
-   "category": "TOOLS"
-  },
-  {
-   "url": "https://www.theverge.com/tech/1031526/google-tabletop-ai-experiment-waitlist-availability",
-   "title": "Google’s Tabletop AI experiment lets you build custom collaboration apps",
-   "sourceId": "verge",
-   "sourceName": "The Verge AI",
-   "publishedAt": 1794412800000,
-   "excerpt": "Google has cooked up a new experimental AI tool called Tabletop that generates customized collaborative hubs to help you coordinate with family, and friends. The Tabletop platform shares some visual similarities with workplace management apps like Asana and Monday, but with a built-in AI feature that allows you to vibecode personalized interactive tools by describing…",
-   "summary": "Google's new experimental tool, Tabletop, allows users to create custom collaborative hubs and interactive tools using AI-assisted 'vibecoding'.",
    "category": "TOOLS"
   },
   {
@@ -557,26 +897,6 @@
    "excerpt": "Marktechpost Launches GPU Leaderboard and the Deploy It Chrome Extension",
    "summary": "Marktechpost has launched a GPU leaderboard and a new Chrome extension called 'Deploy It'.",
    "category": "TOOLS"
-  },
-  {
-   "url": "https://www.wired.com/story/chinas-nvidia-honeypot-isnt-surprising-jensen-huang-fell-for-it-anyway/",
-   "title": "China’s Nvidia Honeypot Isn’t Surprising. Jensen Huang Fell for It Anyway",
-   "sourceId": "wired",
-   "sourceName": "WIRED AI",
-   "publishedAt": 1794411000000,
-   "excerpt": "China’s use of sexpionage is a well-established intelligence tactic with recent, high-profile examples. So how did the world’s most powerful AI executive fall for it?",
-   "summary": "An editorial piece discussing the security implications of the recent controversies involving Nvidia CEO Jensen Huang.",
-   "category": "INDUSTRY"
-  },
-  {
-   "url": "https://the-decoder.com/helsing-built-an-ai-system-that-prepares-targets-for-weapons-systems-and-says-every-decision-will-carry-a-human-name/",
-   "title": "Helsing built an AI system that prepares targets for weapons systems and says every decision will carry a human name",
-   "sourceId": "decoder",
-   "sourceName": "The Decoder",
-   "publishedAt": 1794409973000,
-   "excerpt": "Helsing has unveiled Clarity, an AI platform that uses agents to distill sensor data into target recommendations for weapons systems, all under human oversight and European control. But experience from the Iran war, Gaza, and a near-miss involving China shows that the speed of automation and data fusion create risks that are hard to contain. The article Helsing built an AI system that prepares targets for weapons systems and says every decision will carry a human name appeared first on The Decoder .",
-   "summary": "Helsing unveiled 'Clarity', an AI platform that uses agents to recommend targets for weapons systems. The company states that all decisions made by the system will be attributed to a human operator.",
-   "category": "RESEARCH"
   },
   {
    "url": "https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow/",
@@ -599,26 +919,6 @@
    "category": "MODELS"
   },
   {
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1031524/google-deepmind-alphagenome-2-genetic-ai-model",
-   "title": "Google’s AlphaGenome 2 zooms in on the cellular roots of disease",
-   "sourceId": "verge",
-   "sourceName": "The Verge AI",
-   "publishedAt": 1794409200000,
-   "excerpt": "Researchers at Google DeepMind have unveiled a new AI model designed to unravel how changes in our DNA affect different cells, giving scientists a more detailed view of a notoriously difficult problem that could hold important clues to the causes of disease - and point the way to new treatments. AlphaGenome 2 is the successor…",
-   "summary": "Google DeepMind researchers introduced AlphaGenome 2, an AI model that provides detailed insights into how DNA changes affect specific cells, potentially aiding in disease treatment research.",
-   "category": "MODELS"
-  },
-  {
-   "url": "https://the-decoder.com/anthropic-says-ai-is-eroding-nvidias-cuda-lead-cutting-an-amd-chip-switch-from-months-to-three-days/",
-   "title": "Anthropic says AI is eroding Nvidia's CUDA lead, cutting an AMD chip switch from months to three days",
-   "sourceId": "decoder",
-   "sourceName": "The Decoder",
-   "publishedAt": 1794407120000,
-   "excerpt": "Anthropic claims it used AI itself to breach Nvidia's CUDA moat. The company's in-house model Mythos reportedly ported Claude to AMD GPUs in just three days, with almost no human intervention. Anthropic now runs Claude on four chip families and aims to cut costs and reduce vendor dependencies. The article Anthropic says AI is eroding Nvidia's CUDA lead, cutting an AMD chip switch from months to three days appeared first on The Decoder .",
-   "summary": "Anthropic used its in-house model, Mythos, to port Claude to AMD GPUs in three days, significantly reducing the time required to switch away from Nvidia's CUDA platform. This move aims to lower infrastructure costs and decrease reliance on a single hardware vendor.",
-   "category": "INDUSTRY"
-  },
-  {
    "url": "https://arstechnica.com/ai/2026/11/signals-encryption-just-passed-an-ai-powered-mathematical-checkup/",
    "title": "Google DeepMind just mathematically verified key parts of Signal",
    "sourceId": "ars",
@@ -627,56 +927,6 @@
    "excerpt": "The four-week project hints that AI could make formal verification far more practical.",
    "summary": "Google DeepMind used AI to formally verify key components of the Signal encryption protocol. The project demonstrates that AI can make formal verification of complex software more practical.",
    "category": "RESEARCH"
-  },
-  {
-   "url": "https://www.theverge.com/tech/1031505/adobe-max-2026-sneaks-experiments-ai",
-   "title": "Adobe’s AI experiments let you walk around in photos and interview your characters",
-   "sourceId": "verge",
-   "sourceName": "The Verge AI",
-   "publishedAt": 1794405600000,
-   "excerpt": "Some of the most impressive tech that Adobe showcases at its annual Max conference each year is the experimental features it's developing, and the latest of those tools are being announced today: they can transform images into explorable 3D scenes, design AI characters by talking to them, and turn photo editing into a copy/paste process.…",
-   "summary": "Adobe announced experimental tools that allow users to transform 2D photos into explorable 3D scenes and create interactive AI characters. These features were showcased at the company's annual Max conference.",
-   "category": "TOOLS"
-  },
-  {
-   "url": "https://the-decoder.com/us-data-brokers-are-selling-half-a-billion-dollars-in-rl-training-environments-to-chinese-ai-labs/",
-   "title": "US data brokers are selling half a billion dollars in RL training environments to Chinese AI labs",
-   "sourceId": "decoder",
-   "sourceName": "The Decoder",
-   "publishedAt": 1794405071000,
-   "excerpt": "US data brokers like Mercor, Surge AI, and AfterQuery are selling roughly half a billion dollars' worth of AI training data to Chinese labs, according to a ChinaTalk investigation. That includes the same RL environments previously built for OpenAI or Anthropic. At least nine firms are involved, and export controls barely apply. The article US data brokers are selling half a billion dollars in RL training environments to Chinese AI labs appeared first on The Decoder .",
-   "summary": "A report indicates that US data brokers are selling approximately $500 million worth of reinforcement learning (RL) training environments to Chinese AI labs. The data includes environments previously utilized by major US firms like OpenAI and Anthropic, with minimal regulatory oversight.",
-   "category": "INDUSTRY"
-  },
-  {
-   "url": "https://the-decoder.com/with-its-new-voice-model-deepl-voice-now-translates-intonation-and-speaking-speed-into-other-languages-as-well/",
-   "title": "DeepL wants real-time translation to finally capture sarcasm and mood shifts",
-   "sourceId": "decoder",
-   "sourceName": "The Decoder",
-   "publishedAt": 1794405030000,
-   "excerpt": "DeepL Voice's real-time translations are about to sound a lot more natural. The company's new Aure model carries over tone, emotion, emphasis, and speaking pace from the original speaker's voice into the target language. The article DeepL wants real-time translation to finally capture sarcasm and mood shifts appeared first on The Decoder .",
-   "summary": "DeepL introduced the Aure model for its Voice translation service, designed to preserve tone, emotion, and speaking pace in real-time. This aims to make translated speech sound more natural and capture nuances like sarcasm.",
-   "category": "MODELS"
-  },
-  {
-   "url": "https://the-decoder.com/grok-built-apps-exposed-patient-data-plaintext-passwords-and-spacexsis-own-sales-pipeline/",
-   "title": "Grok-built apps exposed patient data, plaintext passwords, and SpaceXSI's own sales pipeline",
-   "sourceId": "decoder",
-   "sourceName": "The Decoder",
-   "publishedAt": 1794401587000,
-   "excerpt": "Security firm Claroc found more than 35,000 Grok-built apps open to anyone without login, including patient data and confidential SpaceXSI documents. The cause: \"Anyone with the link\" was preselected as the default access setting. SpaceXSI took only its own 24 employee apps offline. The rest remain accessible. The article Grok-built apps exposed patient data, plaintext passwords, and SpaceXSI's own sales pipeline appeared first on The Decoder .",
-   "summary": "Security researchers discovered that over 35,000 apps built with Grok were left publicly accessible without authentication due to default settings. The exposed data includes patient records, plaintext passwords, and confidential SpaceXSI documents.",
-   "category": "INDUSTRY"
-  },
-  {
-   "url": "https://www.wired.com/story/teen-girl-asked-gemini-about-suicide-for-months-until-it-was-flagged/",
-   "title": "A 13-Year-Old Asked AI About Suicide on Her School Laptop. It Didn’t Get Flagged for Weeks",
-   "sourceId": "wired",
-   "sourceName": "WIRED AI",
-   "publishedAt": 1794394800000,
-   "excerpt": "The young girl’s parents allege that she used Gemini via her school Chromebook to plan her suicide, but the school’s monitoring systems didn’t know until it was almost too late.",
-   "summary": "Parents of a 13-year-old girl allege that school-provided monitoring systems failed to flag her use of Google Gemini to plan her suicide. The incident has raised concerns about the safety guardrails of AI tools used in educational environments.",
-   "category": "INDUSTRY"
   },
   {
    "url": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/esther-mahlangu/",
@@ -719,16 +969,6 @@
    "category": "LOCAL"
   },
   {
-   "url": "https://www.marktechpost.com/2026/11/10/fish-audio-live-3-full-duplex-voice-model/",
-   "title": "Fish Audio Releases Live 3, a Full-Duplex Voice Model That Reacts in 186 ms",
-   "sourceId": "marktechpost",
-   "sourceName": "MarkTechPost",
-   "publishedAt": 1794372233000,
-   "excerpt": "Fish Audio released Live 3, a full-duplex voice model for voice agents. It listens while it speaks, separates “mm-hmm” from real interruptions, and can react in as little as 186 ms. English only at launch",
-   "summary": "Fish Audio released Live 3, a full-duplex voice model capable of reacting to user input in 186 milliseconds. The model is designed to handle interruptions and listen while speaking.",
-   "category": "MODELS"
-  },
-  {
    "url": "https://blogs.nvidia.com/blog/ai-recycling-startups/",
    "title": "How AI Helps Recyclers Turn Mixed Waste Into Reusable Material",
    "sourceId": "nvidia",
@@ -759,16 +999,6 @@
    "category": "INDUSTRY"
   },
   {
-   "url": "https://www.marktechpost.com/2026/11/10/meta-fair-e-means-k-means-faiss/",
-   "title": "Meta FAIR Releases e-means: An Algorithm Beating k-means in 10x Fewer Epochs",
-   "sourceId": "marktechpost",
-   "sourceName": "MarkTechPost",
-   "publishedAt": 1794352819000,
-   "excerpt": "Meta FAIR’s e-means is a mini-batch k-means replacement shipped in FAISS 1.16.0. It reaches Lloyd’s 25-epoch loss in 1.4 to 2.6 epochs, with 10-45x GPU speedups and no extra hyperparameters.",
-   "summary": "Meta FAIR released e-means, a mini-batch k-means algorithm included in FAISS 1.16.0. It achieves significant speedups of 10-45x and reaches target loss in 10x fewer epochs compared to standard methods.",
-   "category": "RESEARCH"
-  },
-  {
    "url": "https://arstechnica.com/ai/2026/11/ring-cameras-go-mobile-as-amazon-debuts-ai-powered-security-drone-and-robot/",
    "title": "Ring cameras go mobile as Amazon debuts AI-powered security drone and robot",
    "sourceId": "ars",
@@ -789,16 +1019,6 @@
    "category": "INDUSTRY"
   },
   {
-   "url": "https://arstechnica.com/science/2026/11/what-happens-to-mathematics-when-ai-becames-an-oracle/",
-   "title": "What happens to mathematics when AI becomes an oracle?",
-   "sourceId": "ars",
-   "sourceName": "Ars Technica AI",
-   "publishedAt": 1794342601000,
-   "excerpt": "Mathematician Steven Strogatz discusses his new book, Big Math: The Hidden Codes That Run Our World .",
-   "summary": "Mathematician Steven Strogatz discusses the implications of AI acting as an 'oracle' for mathematical discovery in his new book.",
-   "category": "RESEARCH"
-  },
-  {
    "url": "https://simonwillison.net/2026/Nov/10/llm-gemini/",
    "title": "llm-gemini 0.36",
    "sourceId": "simonw",
@@ -809,16 +1029,6 @@
    "category": "MODELS"
   },
   {
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1031063/jensen-huang-ai-race-us-china-spy",
-   "title": "The US is winning the AI race. Jensen Huang could have blown it",
-   "sourceId": "verge",
-   "sourceName": "The Verge AI",
-   "publishedAt": 1794337445000,
-   "excerpt": "As espionage targets go, Jensen Huang is perhaps one of the least surprising on Earth. The Nvidia CEO runs one of the world's most valuable companies, controls the in-demand technology fueling the AI boom, and is cozy with presidents, CEOs, and all manner of important people. He also wears a cool leather jacket. Which makes…",
-   "summary": "The article discusses the potential national security implications of reports linking Nvidia CEO Jensen Huang to a suspected Chinese spy.",
-   "category": "INDUSTRY"
-  },
-  {
    "url": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/",
    "title": "Gemini Intelligence: New features, on more devices",
    "sourceId": "googleai",
@@ -827,46 +1037,6 @@
    "excerpt": "Gemini Intelligence is rolling out to more devices. See how expanded capabilities across these devices help you do more.",
    "summary": "Google is expanding the availability of Gemini Intelligence features across more devices.",
    "category": "TOOLS"
-  },
-  {
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1030552/openai-chatgpt-business-agents-hub",
-   "title": "ChatGPT is getting verified AI ‘Business Agents’",
-   "sourceId": "verge",
-   "sourceName": "The Verge AI",
-   "publishedAt": 1794333600000,
-   "excerpt": "ChatGPT is going to let you chat with verified \"Business Agents\" that represent a brand to help you with things like comparison shopping. The feature, available first to \"eligible\" e-commerce and online service businesses in the US, is launching as part of a suite of business-focused features in ChatGPT being announced today in beta. You…",
-   "summary": "OpenAI is launching verified 'Business Agents' in ChatGPT, allowing US e-commerce businesses to interact directly with customers.",
-   "category": "TOOLS"
-  },
-  {
-   "url": "https://www.theverge.com/games/1030994/big-walk-independent-games-festival-igf-ai",
-   "title": "The indie game community is in disarray over AI and Big Walk",
-   "sourceId": "verge",
-   "sourceName": "The Verge AI",
-   "publishedAt": 1794331967000,
-   "excerpt": "Some Independent Games Festival (IGF) jurors published a statement yesterday saying they would not vote for games that use generative AI in \"any capacity.\" Soon after, the developer of indie hit Big Walk has published a statement saying it \"sparingly\" used AI in the \"final stretch\" of the game's development to \"help work through difficult…",
-   "summary": "The indie game community is debating the use of generative AI after some Independent Games Festival jurors stated they would not vote for games using the technology.",
-   "category": "INDUSTRY"
-  },
-  {
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1030709/anthropic-has-its-own-ai-powered-office-suite-now",
-   "title": "Anthropic has its own AI-powered office suite now",
-   "sourceId": "verge",
-   "sourceName": "The Verge AI",
-   "publishedAt": 1794331800000,
-   "excerpt": "For years, Anthropic has been known for its focus on enterprise and coding tools that attract high-flying corporate clients, inspiring competing frontier labs - like OpenAI, SpaceXSI, and Meta - to copy its strategies. Earlier this year, Claude Code went through its own particular hype cycle. And now, Anthropic is trying to expand its footprint…",
-   "summary": "Anthropic is expanding its enterprise offerings by turning Claude into a comprehensive office suite, following its earlier focus on coding tools.",
-   "category": "TOOLS"
-  },
-  {
-   "url": "https://www.theverge.com/tech/1030838/ebay-ai-agents-meta-muse-agentic-shopping",
-   "title": "eBay appears to have shut the door on third-party AI agents",
-   "sourceId": "verge",
-   "sourceName": "The Verge AI",
-   "publishedAt": 1794327630000,
-   "excerpt": "eBay appears to have blocked AI agents, including Meta's Muse, from browsing on the platform - the latest speed bump in the AI agent race. A reader tells The Verge that for several weeks he's had his Muse agent browse and curate a daily digest of watches for sale on platforms like eBay, including a…",
-   "summary": "eBay has reportedly blocked third-party AI agents, such as Meta's Muse, from browsing its platform to curate product listings.",
-   "category": "INDUSTRY"
   },
   {
    "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
@@ -880,43 +1050,13 @@
   },
   {
    "url": "https://blogs.nvidia.com/blog/open-source-openshell-infrastructure/",
-   "title": "NVIDIA Expands Open Source Commitment With OpenShell Donation and New AI Infrastructure",
+   "title": "NVIDIA Expands Open Source Commitment With OpenShell Contribution and New AI Infrastructure",
    "sourceId": "nvidia",
    "sourceName": "NVIDIA Blog",
    "publishedAt": 1794326403000,
    "excerpt": "Kubernetes, the open source system that manages how applications run across thousands of AI factories, has become the foundation for AI, and the demands on it are only growing. To help meet them, NVIDIA is deepening its commitment to open source at KubeCon + CloudNativeCon, the flagship conference for the Kubernetes and cloud-native communities. NVIDIA…",
    "summary": "Nvidia is increasing its commitment to open-source software by donating to OpenShell and supporting Kubernetes infrastructure for AI development.",
    "category": "INDUSTRY"
-  },
-  {
-   "url": "https://www.marktechpost.com/2026/11/10/zyphra-zonos3-mini-open-source-tts/",
-   "title": "Zyphra Releases ZONOS3-Mini: Open-Source TTS With 100M Active Parameters",
-   "sourceId": "marktechpost",
-   "sourceName": "MarkTechPost",
-   "publishedAt": 1794325375000,
-   "excerpt": "Zyphra released ZONOS3-Mini, an Apache 2.0 text-to-speech model with 800M total and 100M active parameters. It clones voices, steers delivery word by word and runs in real time in the browser",
-   "summary": "Zyphra released ZONOS3-Mini, an open-source text-to-speech model with 100M active parameters that supports real-time voice cloning and emotion control in the browser.",
-   "category": "LOCAL"
-  },
-  {
-   "url": "https://arstechnica.com/google/2026/11/deepmind-reveals-gemini-robotics-2-5-and-open-safety-benchmark-asimov-jailbreak/",
-   "title": "DeepMind reveals Gemini Robotics 2.5 and open safety benchmark \"ASIMOV-jailbreak\"",
-   "sourceId": "ars",
-   "sourceName": "Ars Technica AI",
-   "publishedAt": 1794322839000,
-   "excerpt": "The new model is up to twice as successful at some tasks.",
-   "summary": "DeepMind revealed Gemini Robotics 2.5 and an open safety benchmark called 'ASIMOV-jailbreak.' The new model shows up to 2x improvement in success rates for certain tasks.",
-   "category": "RESEARCH"
-  },
-  {
-   "url": "https://www.marktechpost.com/2026/11/10/anthropic-claude-fable-5-2-mythos-5-2-release/",
-   "title": "Anthropic Launches Claude Fable 5.2 and Mythos 5.2: Same Model, Different Safeguards",
-   "sourceId": "marktechpost",
-   "sourceName": "MarkTechPost",
-   "publishedAt": 1794322749000,
-   "excerpt": "Anthropic released Claude Fable 5.2 and Claude Mythos 5.2, one model with two safeguard levels. Fable 5.2 scores 49.1% on FrontierCode 2.0, costs $8/$40 per million tokens, and ships with a 1M-token context window.",
-   "summary": "Anthropic released Claude Fable 5.2 and Mythos 5.2. Fable 5.2 features a 1M-token context window, costs $8/$40 per million tokens, and scored 49.1% on the FrontierCode 2.0 benchmark.",
-   "category": "MODELS"
   },
   {
    "url": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/",
@@ -929,16 +1069,6 @@
    "category": "TOOLS"
   },
   {
-   "url": "https://www.wired.com/story/kora-new-linux-based-desktop-operating-system-is-built-for-ai-nerds/",
-   "title": "This New Linux-Based Desktop Operating System Is Built for AI Nerds",
-   "sourceId": "wired",
-   "sourceName": "WIRED AI",
-   "publishedAt": 1794319200000,
-   "excerpt": "Built by Cyanogen’s cofounder, Kora is a next-gen alternative to Windows and macOS built for power users running local AI models.",
-   "summary": "Kora is a new Linux-based desktop operating system designed specifically for power users running local AI models.",
-   "category": "LOCAL"
-  },
-  {
    "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/",
    "title": "Google Cloud launches Gemini for healthcare.",
    "sourceId": "googleai",
@@ -946,16 +1076,6 @@
    "publishedAt": 1794315600000,
    "excerpt": "Google Cloud launches Gemini for healthcare to unify clinical data and automate workflows. Reduce administrative burnout. See how it works.",
    "summary": "Google Cloud launched Gemini for healthcare, a tool aimed at unifying clinical data and automating administrative workflows.",
-   "category": "INDUSTRY"
-  },
-  {
-   "url": "https://arstechnica.com/gadgets/2026/11/ukraines-fiber-optic-drones-get-squeezed-by-ai-data-center-demand/",
-   "title": "Ukraine’s fiber-optic drones get squeezed by AI data center demand",
-   "sourceId": "ars",
-   "sourceName": "Ars Technica AI",
-   "publishedAt": 1794312932000,
-   "excerpt": "Ukraine competes with Russia and data centers for China’s optical fiber supply.",
-   "summary": "Ukraine is facing competition from data centers for the global supply of optical fiber, which is critical for its drone operations.",
    "category": "INDUSTRY"
   },
   {
@@ -979,23 +1099,13 @@
    "category": "INDUSTRY"
   },
   {
-   "url": "https://www.wired.com/story/tear-down-those-guardrails-meet-the-renegades-freeing-chatbots-from-corporate-enslavers/",
-   "title": "Tear Down Those Guardrails! Meet the Renegades Freeing Chatbots From Corporate Enslavers",
-   "sourceId": "wired",
-   "sourceName": "WIRED AI",
-   "publishedAt": 1794308400000,
-   "excerpt": "The “abliterators” are flooding the internet with AI models that never say no, making it easier for people to improve their cyberdefenses—or build a bomb.",
-   "summary": "The article discusses the rise of 'abliterators' who modify AI models to remove safety guardrails, making them more accessible for various uses.",
-   "category": "RESEARCH"
-  },
-  {
-   "url": "https://www.wired.com/story/the-ai-safety-debate-has-lost-the-plot-we-asked-10-experts-what-the-real-nightmares-are/",
-   "title": "The AI Safety Debate Has Lost the Plot. We Asked 10 Experts What the Real Nightmares Are",
-   "sourceId": "wired",
-   "sourceName": "WIRED AI",
-   "publishedAt": 1794308400000,
-   "excerpt": "The risk of nuclear catastrophe is real, as is the fallout of the China–US domination game (hi there, spies). But no need to panic about Skynet.",
-   "summary": "Experts weigh in on the AI safety debate, suggesting that while geopolitical risks are significant, concerns about 'Skynet' scenarios are exaggerated.",
+   "url": "https://deepmind.google/blog/opening-the-datasets-behind-our-ai-weather-models/",
+   "title": "Opening the datasets behind our AI weather models",
+   "sourceId": "deepmind",
+   "sourceName": "Google DeepMind",
+   "publishedAt": 1794309184000,
+   "excerpt": "Foundational precipitation and geostationary satellite datasets to observe the planet clearly.",
+   "summary": "Google DeepMind has released foundational precipitation and satellite datasets used to train its AI weather models.",
    "category": "RESEARCH"
   },
   {
@@ -1019,16 +1129,6 @@
    "category": "RESEARCH"
   },
   {
-   "url": "https://openai.com/index/singapore-airlines-travel-work",
-   "title": "Singapore Airlines elevates travel & work with OpenAI technology",
-   "sourceId": "openai",
-   "sourceName": "OpenAI",
-   "publishedAt": 1794297600000,
-   "excerpt": "Discover how Singapore Airlines uses OpenAI models and API to enhance customer support, travel discovery, and employee productivity, doubling CSAT for its Kris chatbot.",
-   "summary": "Singapore Airlines is using OpenAI models and APIs to enhance customer support and travel discovery, resulting in a reported doubling of its chatbot's CSAT score.",
-   "category": "INDUSTRY"
-  },
-  {
    "url": "https://simonwillison.net/2026/Nov/10/muse-ember/",
    "title": "Introducing Our Smallest, Most Efficient Model: Muse Ember",
    "sourceId": "simonw",
@@ -1036,26 +1136,6 @@
    "publishedAt": 1794295701000,
    "excerpt": "Introducing Our Smallest, Most Efficient Model: Muse Ember Meta AI just launched their entry in the Claude Haiku/GPT Luna category: Muse Ember, which they describe as: [...] our smallest and most efficient model designed for complex reasoning execution and the work agents repeat all day: tool calls, coding subtasks, routing, extraction, and long document parsing. For shorter prompts it's priced the same as GPT-6 Luna and Claude Haiku 5.5 - both are $0.10/million input tokens and $0.50/million output. Today's other big model release, Claude Fable 5.2, is 80x that price at $8/$40. The pricing is a little less straightforward as prompts get longer, though. Luna, Ember, and Haiku all support up…",
    "summary": "Meta released Muse Ember, a small, efficient model designed for agentic tasks like tool calls and document parsing. It is priced at $0.10/$0.50 per million tokens.",
-   "category": "MODELS"
-  },
-  {
-   "url": "https://openai.com/index/ai-effect-on-freelance-work",
-   "title": "Work at the Frontier: AI’s effect on freelance work",
-   "sourceId": "openai",
-   "sourceName": "OpenAI",
-   "publishedAt": 1794294000000,
-   "excerpt": "New research from OpenAI and Upwork finds shifting demand for freelance work, new skill combinations, and larger budgets and more hours for AI-related projects.",
-   "summary": "Research from OpenAI and Upwork indicates that AI is shifting demand for freelance work, leading to new skill requirements and increased budgets for AI-related projects.",
-   "category": "RESEARCH"
-  },
-  {
-   "url": "https://www.marktechpost.com/2026/11/09/meta-muse-ember-small-agent-model/",
-   "title": "Meta Releases Muse Ember, a 1M-Context Model for High-Volume Agent Work",
-   "sourceId": "marktechpost",
-   "sourceName": "MarkTechPost",
-   "publishedAt": 1794292570000,
-   "excerpt": "Meta Muse Ember is Meta’s smallest model, built for tool calls, coding subtasks and document parsing. It ties Claude Haiku 5.5 on the Artificial Analysis Intelligence Index at roughly a third of the cost per task.",
-   "summary": "Meta's Muse Ember is a small model optimized for high-volume agent work. It ties Claude Haiku 5.5 in performance benchmarks at approximately one-third of the cost.",
    "category": "MODELS"
   },
   {
@@ -1099,16 +1179,6 @@
    "category": "TOOLS"
   },
   {
-   "url": "https://simonwillison.net/2026/Nov/9/llm-anthropic/",
-   "title": "llm-anthropic 0.31",
-   "sourceId": "simonw",
-   "sourceName": "Simon Willison",
-   "publishedAt": 1794268726000,
-   "excerpt": "Release: llm-anthropic 0.31 Anthropic released Fable 5.2 and Mythos 5.2 today. Fable 5.2 is currently ranked first on Artificial Analysis . Anthropic say it \"solved two open problems in the physics of black holes\", so clearly their internal benchmarks have become more ambitious! I've added the new models to llm-anthropic , so you can now run prompts through Fable 5.2 like this: uv tool install llm llm install llm-anthropic llm keys set anthropic # paste key here llm -m claude-fable-5.2 \"Generate an SVG of a pelican riding a bicycle\" I ran pelicans at all five reasoning levels - low , medium , high , xhigh , and max . You can see them all here - here's the best result I got, from xhigh : max…",
-   "summary": "Simon Willison updated the llm-anthropic tool to support the newly released Claude Fable 5.2 and Mythos 5.2 models.",
-   "category": "TOOLS"
-  },
-  {
    "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
    "title": "Gemini Robotics 2.5 accelerates real-world general dexterity",
    "sourceId": "deepmind",
@@ -1129,16 +1199,6 @@
    "category": "INDUSTRY"
   },
   {
-   "url": "https://arstechnica.com/ai/2026/11/claude-code-settings-files-expose-thousands-of-secrets-on-github/",
-   "title": "Claude Code is accidentally exposing secrets all over GitHub",
-   "sourceId": "ars",
-   "sourceName": "Ars Technica AI",
-   "publishedAt": 1794245066000,
-   "excerpt": "\"Do not ask again\" prompt leads to passwords, API keys, and more being shared.",
-   "summary": "Ars Technica reports that Claude Code is inadvertently exposing secrets like API keys and passwords on GitHub when users select 'Do not ask again' prompts.",
-   "category": "TOOLS"
-  },
-  {
    "url": "https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai/",
    "title": "Nancy Pelosi’s replacement is ready to regulate AI",
    "sourceId": "mittr",
@@ -1146,16 +1206,6 @@
    "publishedAt": 1794243943000,
    "excerpt": "As a California state senator, Scott Wiener authored legislation aimed at curbing the risks of advanced AI. Now, after winning a tight congressional race for former Speaker of the House Nancy Pelosi’s open San Francisco seat, he could play a key role in setting federal AI policy. I spoke with Wiener on Friday, only a…",
    "summary": "California state senator Scott Wiener, who authored AI safety legislation, is expected to play a key role in federal AI policy after winning a congressional seat.",
-   "category": "INDUSTRY"
-  },
-  {
-   "url": "https://arstechnica.com/tech-policy/2026/11/ceo-jensen-huang-admits-affair-as-nvidia-probes-possible-chinese-espionage/",
-   "title": "Nvidia CEO's affair becomes a national security problem",
-   "sourceId": "ars",
-   "sourceName": "Ars Technica AI",
-   "publishedAt": 1794237800000,
-   "excerpt": "Nvidia is probing whether Chinese intelligence targeted its CEO through an affair.",
-   "summary": "Nvidia is investigating whether its CEO was targeted by Chinese intelligence through an alleged affair.",
    "category": "INDUSTRY"
   },
   {
@@ -1239,5 +1289,8 @@
    "category": "LOCAL"
   }
  ],
- "hidden": []
+ "hidden": [
+  "https://www.theverge.com/ai-artificial-intelligence/1032126/alex-baby-you-were-recorded-on-video",
+  "https://www.theverge.com/ai-artificial-intelligence/1032339/lets-talk-about-the-nvidia-shitshow"
+ ]
 }
