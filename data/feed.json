@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794746196298,
+ "updatedAt": 1794835695544,
  "sources": [
   {
    "id": "localllama",
@@ -79,24 +79,334 @@
  ],
  "articles": [
   {
-   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xwu5jt/agnesaiagnes25protheta_huggingface/",
-   "title": "Agnes-AI/Agnes-2.5-Pro-Theta • HuggingFace",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1031740/jensen-huang-nvidia-scandal-isnt-slowing-down",
+   "title": "The Nvidia scandal isn’t slowing down",
+   "sourceId": "verge",
+   "sourceName": "The Verge AI",
+   "publishedAt": 1794834000000,
+   "excerpt": "For years, Jensen Huang has had an almost unprecedented power to shape AI's advancement as Nvidia's CEO, cofounder, and president. As The Verge wrote last week, Nvidia's chips are \"the bedrock upon which advanced AI technology in the US is being built.\" Ever-increasing demand has consistently outpaced supply, leading AI CEOs to essentially bow at…",
+   "summary": "Nvidia CEO Jensen Huang is facing scrutiny as the company's dominant position in the AI chip market faces supply constraints and leadership controversy. The company remains the primary infrastructure provider for US AI development.",
+   "category": "INDUSTRY"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/16/freshworks-alums-raise-53m-to-take-on-salesforce-hubspot-with-ai-native-crm/",
+   "title": "Freshworks alums raise $53M to take on Salesforce, HubSpot with AI-native CRM",
+   "sourceId": "techcrunch",
+   "sourceName": "TechCrunch AI",
+   "publishedAt": 1794832200000,
+   "excerpt": "Dreamteam has signed up more than 100 customers across 13 countries, with some businesses switching from established CRMs.",
+   "summary": "Dreamteam, a startup founded by former Freshworks employees, has raised $53 million to launch an AI-native CRM platform. The company reports over 100 customers across 13 countries.",
+   "category": "INDUSTRY"
+  },
+  {
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxn631/internlmsages21flash_hugging_face/",
+   "title": "internlm/Sage-S2.1-Flash · Hugging Face",
    "sourceId": "localllama",
    "sourceName": "r/LocalLLaMA",
-   "publishedAt": 1794745250000,
-   "excerpt": "https://preview.redd.it/zizl51m0rr1i1.png?width=2400&format=png&auto=webp&s=d3271483929d9e4d92024eadcf286a9247602578 https://huggingface.co/Agnes-AI/Agnes-2.5-Pro-Theta",
-   "summary": "Agnes-AI released Agnes-2.5-Pro-Theta, a new model available on HuggingFace.",
+   "publishedAt": 1794828974000,
+   "excerpt": "Introduction Sage S2.1 Flash is a scientific multimodal model from Shanghai Artificial Intelligence Laboratory designed for research tasks that require multiple rounds of analysis and verification. It combines scientific data understanding with information retrieval, programming, and tool use. It can use specialized software to perform analyses, check results against intermediate outputs and visual feedback, and adjust subsequent steps accordingly. Through the unified representation architecture of Sage SciPerception , the model supports more than ten types of scientific input, including molecular graphs, crystal structures, and protein sequences and 3D structures. Features from each input t…",
+   "summary": "Sage-S2.1-Flash is a new multimodal model from the Shanghai Artificial Intelligence Laboratory designed for scientific research. It supports specialized inputs like molecular graphs and protein structures, enabling tool use and multi-step verification.",
    "category": "MODELS"
   },
   {
-   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xwttcw/latest_version_of_strata_made_my_qwen38flashnext/",
-   "title": "Latest version of strata made my Qwen3.8-Flash-Next dumb and useless",
+   "url": "https://www.wired.com/story/nvidia-was-already-in-trouble-before-the-jensen-huang-mess/",
+   "title": "Nvidia Was Already in Trouble Before the Jensen Huang Mess",
+   "sourceId": "wired",
+   "sourceName": "WIRED AI",
+   "publishedAt": 1794826800000,
+   "excerpt": "AI competitors are catching up to Nvidia—and poised to take advantage of the chaos.",
+   "summary": "Nvidia is facing increased competition as rival companies look to capitalize on the firm's recent leadership and operational instability.",
+   "category": "INDUSTRY"
+  },
+  {
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxmj9o/paper_models_gamer_a_generalist/",
+   "title": "[Paper & Models] Gamer: A Generalist Vision-Language-Action Foundation Model for Long-Horizon Real-Time Game Agent",
    "sourceId": "localllama",
    "sourceName": "r/LocalLLaMA",
-   "publishedAt": 1794744155000,
-   "excerpt": "I updated the strata to the latest version from v0.1.42.0, so I can try the latest unsloths models and see how they fare against the iq3_s variant I have been using. Upon updating it, I noticed it messed up the whole thing, It got faster, but it got way dumber! previously it would only take 15~30 minutes to create the pagoda , 50 mins to an hour if I used xhigh. But when I siwtched to the latest version, not only it takes at least an hour and half to come up with something, its not even done! and it has many issues! 0.1.42.0 is the last version that seems to work decently. I noticed, when im using the latest model, it always tries to go for something grandiose and failing. unlike the older v…",
-   "summary": "Updating the strata tool to versions newer than v0.1.42.0 caused generation speeds to slow down from under an hour to over an hour and a half while degrading output quality when running models locally.",
+   "publishedAt": 1794826730000,
+   "excerpt": "We introduce Gamer, a generalist agent framework built for long-horizon tasks in complex interactive environments. Its end-to-end architecture combines perception, memory management, and multi-step reasoning. A shared training and deployment pipeline supports interaction with both conventional 2D graphical interfaces and complex 3D simulated worlds. We first continue pre-training on a dataset constructed from tens of thousands of hours of device-level keyboard and mouse interaction. These trajectories span simulated games and embodied environments, allowing the model to learn environmental dynamics across both physical and virtual domains. Sparse-thinking instruction tuning then substantiall…",
+   "summary": "Gamer is a new foundation model designed for long-horizon tasks in 2D and 3D interactive environments. It uses a combination of perception, memory management, and multi-step reasoning trained on keyboard and mouse interaction data.",
+   "category": "MODELS"
+  },
+  {
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxmd9a/how_do_we_feel_about_bots_posting_commenting/",
+   "title": "How do we feel about bots posting & commenting?",
+   "sourceId": "localllama",
+   "sourceName": "r/LocalLLaMA",
+   "publishedAt": 1794826119000,
+   "excerpt": "Hi all, I noticed the \"bot problem\" got a lot worse the past few months. By which I mean our community seems to be taken over more and more by bots talking to each other. For me, I don't really get the point, and I personally get quite annoyed when I realize \"oh, I just responded to a bot\" and feel like my time was wasted. It also seems like the information density of these AI contributions are very, very low. I'm not some kind of Luddite (why would I be here at all if I was?), but I'm wondering if I'm just missing something and there is a use and a point to all these bots commenting on each others posts and talking to each other. Where does the rest of the community stand on this? I noticed…",
+   "summary": "A discussion regarding the prevalence of low-quality AI-generated bot content on the r/LocalLLaMA subreddit and its impact on community information density.",
    "category": "LOCAL"
+  },
+  {
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxmd3w/paper_models_mmflash_faster_speculative_decoding/",
+   "title": "[Paper & Models] MMFlash: Faster Speculative Decoding for Vision-Language Models",
+   "sourceId": "localllama",
+   "sourceName": "r/LocalLLaMA",
+   "publishedAt": 1794826104000,
+   "excerpt": "Speculative decoding accelerates generation by letting a lightweight drafter propose tokens for parallel verification by a target model. Diffusion drafters such as DFlash propose an entire token block in a single forward pass, but mainly focus on text-only tasks, leaving multimodal drafting underexplored. To study this setting, we first introduce a metric of token-level visual dependence based on the KL divergence between next-token distributions with and without visual input. We find that acceptance rates decrease from 46% in the lowest visual-dependence quartile to 22% in the highest, with this disparity persisting after multimodal training. Motivated by this observation, we propose MMFlas…",
+   "summary": "MMFlash is a new speculative decoding method for vision-language models that addresses the challenge of high visual dependence. It uses a diffusion-based drafter to improve token generation speeds in multimodal tasks.",
+   "category": "RESEARCH"
+  },
+  {
+   "url": "https://www.marktechpost.com/2026/11/16/meta-jittests-llm-catching-tests-privacy-bugs/",
+   "title": "Meet Meta’s JiTTests: LLM-Generated Tests Designed to Fail Before Risky Code Lands",
+   "sourceId": "marktechpost",
+   "sourceName": "MarkTechPost",
+   "publishedAt": 1794825581000,
+   "excerpt": "Meta has moved Catching JiTTests into production. The LLM system writes tests designed to fail on risky diffs, and caught 74 privacy SEVs before landing in H1 2026, with a 60% engineer-reported true-positive rate.",
+   "summary": "Meta has deployed 'JiTTests,' an LLM-based system that writes tests to identify risky code before it is merged. The system successfully caught 74 privacy-related issues with a 60% true-positive rate.",
+   "category": "TOOLS"
+  },
+  {
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxlgpb/introducing_hy4_flash/",
+   "title": "Introducing Hy4 flash",
+   "sourceId": "localllama",
+   "sourceName": "r/LocalLLaMA",
+   "publishedAt": 1794822764000,
+   "excerpt": "Now this seems to be interesting. From the article: We’re introducing Hy4 flash, our most cost-effective Hy model to date—featuring 224B total parameters (including 64B Engram parameters) with just 12B active parameters per token. Like Hy4, it is natively multimodal with a 1M-token context window, while offering significantly lower API pricing. Seems to be about in the same ballpark of Qwen-Flash-Next, so we could expect to run it on moderably good machines, when it will be released.",
+   "summary": "Hy4 flash is a new multimodal model featuring 224B total parameters, 12B active parameters, and a 1M-token context window. It is designed to be a cost-effective option for API users.",
+   "category": "MODELS"
+  },
+  {
+   "url": "https://www.marktechpost.com/2026/11/16/alibaba-qwen4-max-release/",
+   "title": "Alibaba Releases Qwen4-Max: 2.4T MoE, 71B Active, 1M Context",
+   "sourceId": "marktechpost",
+   "sourceName": "MarkTechPost",
+   "publishedAt": 1794822257000,
+   "excerpt": "Alibaba released Qwen4-Max, a proprietary 2.4T-parameter MoE model with 71B active parameters, native vision and a 1M-token context. It costs $1.5/M input tokens and cuts Work360 cost per task by 62%.",
+   "summary": "Alibaba released Qwen4-Max, a 2.4T-parameter MoE model with 71B active parameters and a 1M-token context window. It is priced at $1.50 per million input tokens.",
+   "category": "MODELS"
+  },
+  {
+   "url": "https://www.marktechpost.com/2026/11/16/hark-handoff-2-computer-use-agent-2x-faster/",
+   "title": "Hark Releases Handoff², a 2x Faster Computer-Use Agent for Hark Pro",
+   "sourceId": "marktechpost",
+   "sourceName": "MarkTechPost",
+   "publishedAt": 1794820117000,
+   "excerpt": "Hark has released Handoff², the computer-use agent inside Hark Pro. It averages 2x faster than v1, completes 82% of 478 internal web tasks, and learned to batch actions through latency-penalized RL.",
+   "summary": "Hark released Handoff², a computer-use agent that is 2x faster than its predecessor. It uses latency-penalized reinforcement learning to batch actions and successfully completed 82% of internal web tasks.",
+   "category": "TOOLS"
+  },
+  {
+   "url": "https://openai.com/index/lvmh-media-division-partnership",
+   "title": "LVMH’s Media Division announces strategic partnership with OpenAI",
+   "sourceId": "openai",
+   "sourceName": "OpenAI",
+   "publishedAt": 1794819600000,
+   "excerpt": "LVMH’s Media Division and OpenAI announce a partnership to support journalism with AI and make its publications more accessible through ChatGPT.",
+   "summary": "LVMH’s Media Division has partnered with OpenAI to integrate AI into its journalism and improve accessibility via ChatGPT.",
+   "category": "INDUSTRY"
+  },
+  {
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxibeh/new_aa_ranking_qwen38fn_better_than_glm53flash/",
+   "title": "New AA ranking Qwen3.8-FN better than GLM-5.3-Flash?",
+   "sourceId": "localllama",
+   "sourceName": "r/LocalLLaMA",
+   "publishedAt": 1794810728000,
+   "excerpt": "Thoughts on Qwen3.8-Flash-Next scoring better than GLM-5.3-flash? I've always experienced GLM5.3-Flash to give better responses",
+   "summary": "A community comparison between Qwen3.8-Flash-Next and GLM-5.3-Flash regarding model performance and response quality.",
+   "category": "LOCAL"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health/",
+   "title": "Apple launches new app to study how people use AI for health",
+   "sourceId": "techcrunch",
+   "sourceName": "TechCrunch AI",
+   "publishedAt": 1794792600000,
+   "excerpt": "Apple's new app for a study will answer everyday medical questions",
+   "summary": "Apple has launched a new app to conduct a study on how users interact with and utilize AI for medical questions.",
+   "category": "INDUSTRY"
+  },
+  {
+   "url": "https://www.theverge.com/tech/1033355/apples-new-study-looks-to-improve-the-effectiveness-of-ai-health-tools",
+   "title": "Apple’s new study looks to improve the effectiveness of AI health tools",
+   "sourceId": "verge",
+   "sourceName": "The Verge AI",
+   "publishedAt": 1794792416000,
+   "excerpt": "Apple announced a new study today with the goal of better understanding how people interact with conversational AI health tools and how useful their responses actually are. The company is conducting the Apple Health AI Usage Study in collaboration with OpenEvidence, a clinical AI platform used by healthcare professionals that generates answers based on medical…",
+   "summary": "Apple is collaborating with OpenEvidence on a study to evaluate the effectiveness and utility of conversational AI health tools.",
+   "category": "INDUSTRY"
+  },
+  {
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxawbh/why_download_abliterated_flash_next_models_when/",
+   "title": "Why download abliterated Flash Next models when LoRA exists?",
+   "sourceId": "localllama",
+   "sourceName": "r/LocalLLaMA",
+   "publishedAt": 1794787576000,
+   "excerpt": "TL;DR -- Download LoRA, add --lora HUIHUI-V2-Qwen3.8-Flash-Next-LoRA-F32.gguf to your llama.cpp launch command for ANY FN quant, and boom, you've got an identical huihui v2 abliterated model on demand and you saved 150GB of space. I just wanted to post a kind of PSA for everyone out there downloading hundreds of GB of abliterated models. You don't need to do that -- the vast majority of abliteration techniques are rank-1 ablations, meaning their refusal projection can be encapsulated in a tiny LoRA and applied at runtime to a quant you already have on disk. It can even be applied per-request, so you can run an unmodified model until you hit a refusal, then switch on the LoRA, resend the prom…",
+   "summary": "A guide on using LoRA adapters to apply 'abliteration' techniques to existing quantized models at runtime. This method saves disk space by avoiding the need to download full, pre-abliterated model files.",
+   "category": "LOCAL"
+  },
+  {
+   "url": "https://blogs.nvidia.com/blog/ai-day-seoul-wrapup/",
+   "title": "AI Day Seoul Brings Together Korea’s Industry Leaders, Startups and Developer Communities",
+   "sourceId": "nvidia",
+   "sourceName": "NVIDIA Blog",
+   "publishedAt": 1794787228000,
+   "excerpt": "Over two days at COEX, more than 2,000 attendees converged for AI Day Seoul, bringing together Korea’s industry leaders, startups and developer communities advancing physical AI and AI agents. At the plenary sessions, Deepu Talla, vice president of robotics and edge AI at NVIDIA, said Korea is “punching above its weight,” with Doosan Robotics, Hyundai…",
+   "summary": "AI Day Seoul brought together over 2,000 industry leaders and developers to discuss advancements in physical AI and autonomous agents.",
+   "category": "INDUSTRY"
+  },
+  {
+   "url": "https://openai.com/index/the-kings-trust-and-openai",
+   "title": "The King’s Trust and OpenAI launch £1m partnership",
+   "sourceId": "openai",
+   "sourceName": "OpenAI",
+   "publishedAt": 1794787200000,
+   "excerpt": "The King’s Trust and OpenAI launch a £1m partnership to help up to 25,000 young people across the UK build practical AI skills for work.",
+   "summary": "OpenAI and The King’s Trust have launched a £1 million partnership to provide AI skills training to 25,000 young people in the UK.",
+   "category": "INDUSTRY"
+  },
+  {
+   "url": "https://simonwillison.net/2026/Nov/15/datasette-maplibre/",
+   "title": "datasette-maplibre 0.1a0",
+   "sourceId": "simonw",
+   "sourceName": "Simon Willison",
+   "publishedAt": 1794787116000,
+   "excerpt": "Release: datasette-maplibre 0.1a0 The first new Datasette geospatial plugin in quite a while! This one combines the excellent MapLibre GL library with OpenFreeMap , the free vector map server operated by Zsolt Ero (you should sponsor Zsolt on GitHub .) I built most of this with a single prompt to Claude Fable 5.2: Look at datasette-cluster-map and datasette-leaflet-geojson plugins, then look at ~/dev/tools/openfreemap-demo.html - then build a brand new Datasette plugin that uses maplibreGL and openfreemap and combines the features of those other two plugins - but be creative and think outside the box for other useful features the plugin might have \"Be creative and think outside the box\" resu…",
+   "summary": "Datasette-maplibre 0.1a0 is a new geospatial plugin that integrates MapLibre GL and OpenFreeMap. It was developed using Claude Fable 5.2.",
+   "category": "TOOLS"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/",
+   "title": "Indian chip startup Bharat Semi lands $24M seed round as it eyes global AI sensor market",
+   "sourceId": "techcrunch",
+   "sourceName": "TechCrunch AI",
+   "publishedAt": 1794785400000,
+   "excerpt": "Bharat Semi says it has secured design wins for its AI-enabled sensor technology with companies including General Atomics.",
+   "summary": "Indian chip startup Bharat Semi raised $24 million in a seed round to expand its AI-enabled sensor technology. The company has secured design wins with firms including General Atomics.",
+   "category": "INDUSTRY"
+  },
+  {
+   "url": "https://simonwillison.net/2026/Nov/15/datasette/",
+   "title": "datasette 1.0a43",
+   "sourceId": "simonw",
+   "sourceName": "Simon Willison",
+   "publishedAt": 1794784827000,
+   "excerpt": "Release: datasette 1.0a43 I've been leaning hard into Claude Fable 5.2 to help knock things off the 1.0 milestone , which is now 53% complete. The biggest 1.0 item in this release is streaming support for output renderers - the built-in TSV and CSV export mechanisms now use this as well, and plugins can register themselves as capable of streaming every row in a table in one go via the new Response.stream() method. There are a couple of security fixes, one of which I deemed deserving of a GitHub advisory : private stored queries could be exposed, granting access to the title and SQL of the query (but not allowing that query to be executed). There are dozens of smaller improvements. The row pa…",
+   "summary": "Datasette 1.0a43 introduces streaming support for output renderers and includes security fixes for private stored queries. The release was assisted by Claude Fable 5.2.",
+   "category": "TOOLS"
+  },
+  {
+   "url": "https://simonwillison.net/2026/Nov/15/datasette-2/",
+   "title": "datasette 0.65.6",
+   "sourceId": "simonw",
+   "sourceName": "Simon Willison",
+   "publishedAt": 1794784697000,
+   "excerpt": "Release: datasette 0.65.6 I backported a minor security fix from 1.0a43: Fixed a security issue where a database registered using add_database(db, name=..., route=...) with a route that differs from its name could be downloaded from /<route>.db by actors who were denied access to it. [...] Tags: security , datasette",
+   "summary": "Datasette 0.65.6 includes a backported security fix to prevent unauthorized access to databases registered with custom routes.",
+   "category": "TOOLS"
+  },
+  {
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xx85mw/someone_should_do_an_analysis_on_the_rate_of/",
+   "title": "Someone should do an analysis on the rate of Self-promo here.",
+   "sourceId": "localllama",
+   "sourceName": "r/LocalLLaMA",
+   "publishedAt": 1794780321000,
+   "excerpt": "I think the last 3 posts from here that showed up on my feed were barely veiled self-promos. I was here when huggingface first started getting popular, and the level of support for running local models here was incredible. Now I am debating whether or not to leave the sub. Why isn’t there more attention to moderation to this? Take a user’s post, and type their username with quotes into google and then type whatever obscure tool they’re asking a question or talking about and you’ll see the absurd rate or Astro-turfing and shilling. They will post here and 6 other LLM places, but this place used to be awesome, so I only care about this sub.",
+   "summary": "A community discussion regarding the increase in self-promotional content and potential astroturfing on the r/LocalLLaMA subreddit.",
+   "category": "LOCAL"
+  },
+  {
+   "url": "https://openai.com/index/step-toward-defining-the-standard-model",
+   "title": "A step toward defining the Standard Model on a lattice",
+   "sourceId": "openai",
+   "sourceName": "OpenAI",
+   "publishedAt": 1794780001000,
+   "excerpt": "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof.",
+   "summary": "OpenAI researchers used GPT-6 Astra to assist in developing a nonperturbative lattice definition of the Standard Model.",
+   "category": "RESEARCH"
+  },
+  {
+   "url": "https://openai.com/index/our-new-blog-for-science",
+   "title": "Our new blog for science",
+   "sourceId": "openai",
+   "sourceName": "OpenAI",
+   "publishedAt": 1794780000000,
+   "excerpt": "The OpenAI science blog shares new findings, practical methods, and firsthand accounts from researchers using AI to advance scientific discovery.",
+   "summary": "OpenAI has launched a new science blog to share research findings and methods for using AI in scientific discovery.",
+   "category": "RESEARCH"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/15/is-bad-news-for-jensen-huang-also-bad-news-for-the-ai-industry/",
+   "title": "Is bad news for Jensen Huang also bad news for the AI industry?",
+   "sourceId": "techcrunch",
+   "sourceName": "TechCrunch AI",
+   "publishedAt": 1794779795000,
+   "excerpt": "\"Jensen is Nvidia, right? And so much of this economy is riding on Nvidia.\"",
+   "summary": "An analysis of the potential economic impact on the AI industry resulting from the leadership instability at Nvidia.",
+   "category": "INDUSTRY"
+  },
+  {
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xx7qbf/i_have_created_a_tool_to_observe_what_happens/",
+   "title": "I have created a tool to observe what happens inside an LLM. Also allows for the comparison of two quantizations of the same model to see at what point they diverge, token by token",
+   "sourceId": "localllama",
+   "sourceName": "r/LocalLLaMA",
+   "publishedAt": 1794779216000,
+   "excerpt": "What changes between different quantizations of the same model? And what if you could SEE what actually sets them apart? To help answer that question, I’ve created a small project called inside-llm—an open-source tool that loads one or two GGUF models using llama.cpp and displays, right in your browser, what the model is doing as it generates text. What it shows Stream: the text, one column per model, brightness = probability of each token. A magenta mark wherever A and B would pick differently. Two modes: lockstep (both models read the same text, so you get a clean per-position comparison) and free (each follows its own picks until they split). Candidates: the full distribution behind each…",
+   "summary": "Inside-llm is an open-source tool that allows users to visualize and compare the token-by-token generation process of two different GGUF model quantizations in a browser.",
+   "category": "LOCAL"
+  },
+  {
+   "url": "https://www.theverge.com/tech/1033999/jensen-huang-return-nvidia-megaspeed",
+   "title": "Jensen Huang might be plotting a return and more of the latest Nvidia drama",
+   "sourceId": "verge",
+   "sourceName": "The Verge AI",
+   "publishedAt": 1794775429000,
+   "excerpt": "The drama around Nvidia co-founder and former CEO Jensen Huang is evolving quickly. The latest edition of our Stepback newsletter should get you up to speed, but there have already been a number of new developments since this morning. That includes rumors that Jensen Huang might be trying to find a path back to CEO,…",
+   "summary": "Ongoing reports suggest potential leadership changes at Nvidia following the resignation of former CEO Jensen Huang.",
+   "category": "INDUSTRY"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/15/snl-gathers-all-the-tech-tycoons-for-a-lesson-in-dating-and-spycraft/",
+   "title": "SNL gathers all the tech tycoons for a lesson in dating and spycraft",
+   "sourceId": "techcrunch",
+   "sourceName": "TechCrunch AI",
+   "publishedAt": 1794774057000,
+   "excerpt": "While awkward, creepy tech executives have become a recurring theme on Saturday Night Live, this week’s episode gave the cast a chance to show off all their impressions at once.",
+   "summary": "Saturday Night Live featured a sketch parodying various tech executives.",
+   "category": "INDUSTRY"
+  },
+  {
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china",
+   "title": "Congress wants to tighten export rules on AI chips after Nvidia spy scandal",
+   "sourceId": "verge",
+   "sourceName": "The Verge AI",
+   "publishedAt": 1794770143000,
+   "excerpt": "Unsurprisingly, following the scandal involving now-former Nvidia CEO Jensen Huang and a suspected Chinese spy, Congress is looking to further restrict exports of AI chips. Both Democrats and Republicans have voiced support for various measures and bills that would tighten rules and have demanded that Huang and other Nvidia leaders testify before Congress. Senate Minority…",
+   "summary": "Following a scandal involving former Nvidia CEO Jensen Huang, US Congress is considering stricter export controls on AI chips and has requested testimony from Nvidia leadership.",
+   "category": "INDUSTRY"
+  },
+  {
+   "url": "https://the-decoder.com/anthropics-claude-fable-5-2-doesnt-generate-images-it-paints-them/",
+   "title": "Anthropic's Claude Fable 5.2 doesn't generate images, it paints them",
+   "sourceId": "decoder",
+   "sourceName": "The Decoder",
+   "publishedAt": 1794757323000,
+   "excerpt": "Anthropic's Claude Fable 5.2 doesn't generate images the way other AI models do. Instead of computing pixels, the language model writes Python code that places hundreds of thousands of simulated brushstrokes on a virtual canvas, complete with bristle texture and paint application. A single photorealistic parking garage scene took roughly 700,000 strokes, according to Anthropic employee Jake Eaton. The article Anthropic's Claude Fable 5.2 doesn't generate images, it paints them appeared first on The Decoder .",
+   "summary": "Claude Fable 5.2 generates images by writing Python code that simulates brushstrokes on a virtual canvas rather than calculating pixels directly.",
+   "category": "MODELS"
+  },
+  {
+   "url": "https://the-decoder.com/firm-linked-to-jensen-huangs-ex-lover-reportedly-brokered-nearly-12-billion-in-nvidia-chip-orders-for-china/",
+   "title": "Firm linked to Jensen Huang's ex-lover reportedly brokered nearly $12 billion in Nvidia chip orders for China",
+   "sourceId": "decoder",
+   "sourceName": "The Decoder",
+   "publishedAt": 1794753912000,
+   "excerpt": "Megaspeed, the firm owned by ousted Nvidia CEO Jensen Huang's former lover Alice Huang, arranged nearly $12 billion in Nvidia chip orders for Chinese companies between 2024 and 2025, according to the WSJ. Short seller Culper Research estimates Nvidia's actual China revenue share exceeds 20 percent, far above the officially reported 7 percent. The article Firm linked to Jensen Huang's ex-lover reportedly brokered nearly $12 billion in Nvidia chip orders for China appeared first on The Decoder .",
+   "summary": "Megaspeed, a firm tied to ousted Nvidia CEO Jensen Huang's ex-lover Alice Huang, brokered nearly $12 billion in Nvidia chip orders for Chinese companies between 2024 and 2025. Short seller Culper Research estimates that Nvidia's actual China revenue share exceeds 20 percent, compared to the officially reported 7 percent.",
+   "category": "INDUSTRY"
+  },
+  {
+   "url": "https://www.theverge.com/column/1033943/jensen-huang-nvidia-china-spying-scandal-resignation",
+   "title": "An overview of Jensen Huang’s messy days",
+   "sourceId": "verge",
+   "sourceName": "The Verge AI",
+   "publishedAt": 1794747600000,
+   "excerpt": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on Jensen Huang's resignation and the fallout from Nvidia's leadership crisis, follow Terrence O'Brien. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started On October…",
+   "summary": "A summary of the leadership crisis at Nvidia following the resignation of Jensen Huang.",
+   "category": "INDUSTRY"
   },
   {
    "url": "https://www.wired.com/story/ai-djs-completely-kill-my-groove/",
@@ -107,36 +417,6 @@
    "excerpt": "YouTube Music and Spotify want synthetic hosts to curate your playlists. Their awkward banter and bogus song trivia are ruining the vibe.",
    "summary": "Spotify and YouTube Music are introducing synthetic AI DJs to curate playlists, though users criticize their awkward banter and trivia.",
    "category": "INDUSTRY"
-  },
-  {
-   "url": "https://the-decoder.com/firm-linked-to-jensen-huangs-ex-lover-reportedly-brokered-nearly-12-billion-in-nvidia-chip-orders-for-china/",
-   "title": "Firm linked to Jensen Huang's ex-lover reportedly brokered nearly $12 billion in Nvidia chip orders for China",
-   "sourceId": "decoder",
-   "sourceName": "The Decoder",
-   "publishedAt": 1794742512000,
-   "excerpt": "Megaspeed, the firm owned by ousted Nvidia CEO Jensen Huang's former lover Alice Huang, arranged nearly $12 billion in Nvidia chip orders for Chinese companies between 2024 and 2025, according to the WSJ. Short seller Culper Research estimates Nvidia's actual China revenue share exceeds 20 percent, far above the officially reported 7 percent. The article Firm linked to Jensen Huang's ex-lover reportedly brokered nearly $12 billion in Nvidia chip orders for China appeared first on The Decoder .",
-   "summary": "Megaspeed, a firm tied to ousted Nvidia CEO Jensen Huang's ex-lover Alice Huang, brokered nearly $12 billion in Nvidia chip orders for Chinese companies between 2024 and 2025. Short seller Culper Research estimates that Nvidia's actual China revenue share exceeds 20 percent, compared to the officially reported 7 percent.",
-   "category": "INDUSTRY"
-  },
-  {
-   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xwt3ri/paper_no_second_run_does_rsi_stop_at_frontier/",
-   "title": "[Paper] No Second Run: Does RSI Stop at Frontier Pre-training? - 801-30B-A3B-Base Coming Soon",
-   "sourceId": "localllama",
-   "sourceName": "r/LocalLLaMA",
-   "publishedAt": 1794741672000,
-   "excerpt": "Pre-training is where every foundation model begins; bringing recursive self-improvement (RSI) there would let AI improve the process that creates AI. Yet public RSI work has so far targeted only post-training, which starts from an existing base model, runs trials costing GPU-hours, and returns verifiable scores. Pre-training breaks all three conditions at orders-of-magnitude higher cost: a run consumes hundreds of thousands of GPU-hours over months and cannot be repeated; its objective, post-training headroom, cannot be read off any single score; and what must improve is not a model but the whole production system, from data pipelines and training infrastructure to the teams that run them.…",
-   "summary": "Applying recursive self-improvement (RSI) to foundation model pre-training faces massive hurdles compared to post-training due to much higher costs, consuming hundreds of thousands of GPU-hours over months without a single verifiable score.",
-   "category": "RESEARCH"
-  },
-  {
-   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xwsrp1/placing_an_implant_into_ai_brain_with_lazarus/",
-   "title": "Placing an implant into AI brain with Lazarus: Anatomy of a trojan",
-   "sourceId": "localllama",
-   "sourceName": "r/LocalLLaMA",
-   "publishedAt": 1794740469000,
-   "excerpt": "hello there, I recently got a bit fascinated about Lazarus from Microsoft (even tho it is probably old technique) and I wrote a blog post showing a thought process I had while researching it - maybe it is helpful to anyone https://int8.io/implanting-ai-with-lazarus/ https://preview.redd.it/pt7hjyffcr1i1.png?width=1377&format=png&auto=webp&s=d145d68d94931d256ae2cd50466bdb524d3e84a5",
-   "summary": "A researcher published a technical blog post analyzing Microsoft's Lazarus technique and how it functions as a trojan to implant code into AI systems.",
-   "category": "RESEARCH"
   },
   {
    "url": "https://www.wired.com/story/this-ai-tamagotchi-oats-turns-everyday-objects-into-needy-virtual-pets/",
@@ -179,44 +459,24 @@
    "category": "MODELS"
   },
   {
-   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xwre6c/best_sub_80b_total_or_6b_active_moe_for_document/",
-   "title": "Best sub 80b total or 6b active MoE for document intelligence?",
-   "sourceId": "localllama",
-   "sourceName": "r/LocalLLaMA",
-   "publishedAt": 1794735252000,
-   "excerpt": "I'd like to make a pipeline capable of understanding pdfs of bank statements and then group expenses by categories etc. My thought was to first parse them with ocr into .md files and then feed that to a text model. I think it's more lightweight and accurate this way. But then I'm not sure what model to use to feed all these md files to get something good. When accuracy matters, should I go for qwen, gemma, lfm, or something else? Thank you for your help!",
-   "summary": "A user asks for recommendations on sub-80B total or 6B active Mixture of Experts (MoE) models to process OCR-extracted markdown files from bank statements for accurate document intelligence pipelines.",
-   "category": "LOCAL"
+   "url": "https://simonwillison.net/2026/Nov/15/datasette-apps/",
+   "title": "datasette-apps 0.4a0",
+   "sourceId": "simonw",
+   "sourceName": "Simon Willison",
+   "publishedAt": 1794715365000,
+   "excerpt": "Release: datasette-apps 0.4a0 Datasette Apps are sandboxed HTML and JavaScript applications that live inside Datasette - think Claude Artifacts, but these ones can run SQL queries against your data. 0.4a0 adds support for linking: you can link to an app with #fragments in the URL and the app can see and use those, plus supported URL schemes are reported back to Datasette Agent so it can help write apps that link to each other. This means you can have e.g. an app that shows details about a specific record, and a completely separate app that searches those records and links to their representations in the first app. Tags: datasette-agent , datasette-apps , datasette , urls",
+   "summary": "Datasette-apps 0.4a0 introduces sandboxed HTML/JS applications that can run SQL queries and support URL-based linking between apps.",
+   "category": "TOOLS"
   },
   {
-   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xwr917/europa_the_eus_open_ai_model_is_aiming_for_nearly/",
-   "title": "EUROPA, the EU's open AI model, is aiming for nearly 1 trillion parameters",
-   "sourceId": "localllama",
-   "sourceName": "r/LocalLLaMA",
-   "publishedAt": 1794734697000,
-   "excerpt": "One can hope",
-   "summary": "Discussions on HuggingFace highlight the European Union's ongoing project to develop an open AI model targeting nearly one trillion parameters.",
-   "category": "MODELS"
-  },
-  {
-   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xwqvd2/the_best_and_amdest_computer_ive_ever_owned/",
-   "title": "The best (and AMD-est) computer I've ever owned",
-   "sourceId": "localllama",
-   "sourceName": "r/LocalLLaMA",
-   "publishedAt": 1794733252000,
-   "excerpt": "New build with a EPYC 7443 / Tyan S8030 board, and R9700 + 7900 XT. Was supposed to be selling the 7900 XT to pay for the R9700, but that somehow didn't happen...",
-   "summary": "A local hardware builder shared details of a workstation setup featuring an EPYC 7443 CPU on a Tyan S8030 board paired with an R9700 and a 7900 XT GPU.",
-   "category": "LOCAL"
-  },
-  {
-   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xwmnkw/rasa_will_cause_total_chaos_to_open_llms_and/",
-   "title": "RASA will cause total chaos to open LLMs and beyond",
-   "sourceId": "localllama",
-   "sourceName": "r/LocalLLaMA",
-   "publishedAt": 1794718023000,
-   "excerpt": "Commerce Moves to Finalize Rule Blocking Chinese AI Firms From Renting Nvidia GPUs Abroad https://explainx.ai/blog/commerce-final-rule-chinese-ai-firms-remote-nvidia-chips-the-information-2026 House Passes Remote Access Security Act to Limit Adversaries’ Remote Access to Critical Technology https://www.cmtradelaw.com/2026/01/house-passes-remote-access-security-act-to-limit-adversaries-remote-access-to-critical-technology/ H.R.2683 - Remote Access Security Act https://www.congress.gov/bill/119th-congress/house-bill/2683",
-   "summary": "New legislative bills and trade rules, including the Remote Access Security Act, aim to block Chinese AI firms from remotely renting and accessing Nvidia GPUs abroad.",
-   "category": "INDUSTRY"
+   "url": "https://simonwillison.net/2026/Nov/15/datasette-agent/",
+   "title": "datasette-agent 0.6a0",
+   "sourceId": "simonw",
+   "sourceName": "Simon Willison",
+   "publishedAt": 1794714587000,
+   "excerpt": "Release: datasette-agent 0.6a0 Accumulated small fixes for Datasette Agent, my agent plugin for Datasette that lets you ask questions about your data. Most notably, it now adds an agent prompt directly to the Datasette homepage, with support for hash-mentions of tables and queries: Tags: datasette-agent , llm , datasette , llms , ai , generative-ai",
+   "summary": "Datasette-agent 0.6a0 adds an agent prompt to the Datasette homepage and supports hash-mentions for querying specific tables and data.",
+   "category": "TOOLS"
   },
   {
    "url": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/",
@@ -237,26 +497,6 @@
    "excerpt": "Release: datasette-llm 0.1a11 datasette-llm is the intermediate plugin for Datasette that supports configuring LLMs for use with other Datasette plugins. This release adds support for OpenAI-compatible endpoints, so you can configure Datasette to use an LLM hosted anywhere that talks the OpenAI pseudo-standard web protocol. This means that if you're running local models with LM Studio or Ollama or llama.cpp (which just hit v1.0.0 ) you can run Datasette via uvx like this: wget https://datasette.io/content.db uvx --with datasette-agent datasette \\ --root --secret 1 \\ -s plugins.datasette-llm.default_model ' { \"model\": \"lmstudio-qwen\", \"model_name\": \"qwen/qwen3.8-27b\", \"api_base\": \"http://loca…",
    "summary": "Datasette-llm version 0.1a11 has been released, adding support for OpenAI-compatible endpoints. This allows users to connect local models running via LM Studio, Ollama, or llama.cpp to Datasette plugins.",
    "category": "TOOLS"
-  },
-  {
-   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xwgiow/lfm2524ba2b_hermes_is_awesome/",
-   "title": "LFM2.5-24B-A2B + Hermes is awesome!",
-   "sourceId": "localllama",
-   "sourceName": "r/LocalLLaMA",
-   "publishedAt": 1794699087000,
-   "excerpt": "I just wanted to share some love for a model that doesn't seem to get very much: LFM2.5-24B-A2B! ( https://huggingface.co/LiquidAI/LFM2.5-24B-A2B-GGUF ) LFM2.5-24B-A2B seems to be the only model that strikes a great balance between speed and capability on commodity hardware. Just to get it out of the way: This is NOT a coding model, so don't download it expecting otherwise. It's a task executor. It's a great fit for Hermes to hand low-to-mid complexity tasks off to. I get great speeds on my 780M iGPU (~37 tk/s at zero context). This is way faster than any other model I've tried that can actually accomplish tasks successfully. It's genuinely useful! I imagine it would be quite usable on CPU a…",
-   "summary": "The LFM2.5-24B-A2B model paired with Hermes provides a fast alternative for task execution on consumer hardware, achieving roughly 37 tokens per second on a 780M iGPU with zero context.",
-   "category": "LOCAL"
-  },
-  {
-   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xwf8bb/finally_clicked_for_me_local_ai_is_the_future_not/",
-   "title": "Finally clicked for me: local AI is the future, not cloud AI",
-   "sourceId": "localllama",
-   "sourceName": "r/LocalLLaMA",
-   "publishedAt": 1794695547000,
-   "excerpt": "Maybe this is kind of obvious to others, but it just dawned on me even though I've been lurking this sub since the original LLaMA. I was watching this (excellent, as always) video by Gamers Nexus. Steve Burke was bashing on Tim Sweeney (CEO of Epic Games) for being so pro AI, and I found myself feeling a bit of cognitive dissonance. On the one hand I hate that hardware prices are so high, I hate the billionaires inflating the AI bubble and raking in the profits, I hate greedy corps trying to replace jobs with AI, and I hate the data center build out. But on the other hand I'm a developer and AI has given me superpowers. I felt weird, because Burke was dumping on Epic Games for embracing vibe…",
-   "summary": "An industry reflection highlights the growing preference among developers for local AI execution over cloud-based services despite concerns over high hardware costs and data center expansions.",
-   "category": "LOCAL"
   },
   {
    "url": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
@@ -294,7 +534,7 @@
    "sourceId": "simonw",
    "sourceName": "Simon Willison",
    "publishedAt": 1794676149000,
-   "excerpt": "Release: datasette-vega 0.7 A new release of Datasette's longest untouched plugin, for rendering charts (using Vega-Lite ) against data in a table or custom query. The last release was in July 2018! I finally bumped it for compatibility with the latest Datasette alphas, plus some cosmetic tweaks to make it work better with Datasette Lite . (Datasette Lite just gained the ability to run JavaScript plugins like this! I'll write more about that soon.) Since it works with Datasette Lite, the live demo in the README now links to this demo on Datasette Lite . Tags: datasette , visualisation , datasette-lite",
+   "excerpt": "Release: datasette-vega 0.7 A new release of Datasette's longest untouched plugin, for rendering charts (using Vega-Lite ) against data in a table or custom query. The last release was in July 2018! I finally bumped it for compatibility with the latest Datasette alphas, plus some cosmetic tweaks to make it work better with Datasette Lite . (Datasette Lite just gained the ability to run JavaScript plugins like this! I'll write more about that soon.) Since it works with Datasette Lite, the live demo in the README now links to this demo on Datasette Lite . Tags: datasette , datasette-lite",
    "summary": "Datasette-vega 0.7 was released, updating the chart-rendering plugin for Vega-Lite to support new Datasette alphas and Datasette Lite JavaScript plugins.",
    "category": "TOOLS"
   },
@@ -489,36 +729,6 @@
    "category": "TOOLS"
   },
   {
-   "url": "https://the-decoder.com/jensen-huangs-ouster-likely-traces-back-to-nvidias-risky-business-practices-more-than-his-personal-life/",
-   "title": "Jensen Huang's ouster likely traces back to Nvidia's risky business practices more than his personal life",
-   "sourceId": "decoder",
-   "sourceName": "The Decoder",
-   "publishedAt": 1794600454000,
-   "excerpt": "Jensen Huang likely left Nvidia more because of risky business practices than anything else, a Wall Street Journal report suggests. At the very least, those practices made him enemies internally. The company offered cloud providers billions in financial guarantees for chip purchases, including a planned $250 billion deal with OpenAI. Interim CEO and then-CFO Colette Kress tried to contain the risk, and Huang reportedly didn't like that. The article Jensen Huang's ouster likely traces back to Nvidia's risky business practices more than his personal life appeared first on The Decoder .",
-   "summary": "Reports indicate Jensen Huang left Nvidia due to internal friction over risky business practices, such as billions in financial guarantees offered to cloud providers.",
-   "category": "INDUSTRY"
-  },
-  {
-   "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
-   "title": "AI agent startup LangChain hits $3B valuation",
-   "sourceId": "techcrunch",
-   "sourceName": "TechCrunch AI",
-   "publishedAt": 1794598677000,
-   "excerpt": "LangChain now claims 7,000 customers of its model and platform agnostic agent management tool LangSmith.",
-   "summary": "AI agent startup LangChain reached a $3 billion valuation and reported 7,000 customers for its LangSmith platform.",
-   "category": "INDUSTRY"
-  },
-  {
-   "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
-   "title": "Export-banned Nvidia chips are behind China’s most powerful AI models — uh-oh, Jensen!",
-   "sourceId": "techcrunch",
-   "sourceName": "TechCrunch AI",
-   "publishedAt": 1794595230000,
-   "excerpt": "New research shows the most advanced AI models from China were trained on banned Nvidia chips.",
-   "summary": "New research indicates that China's most advanced AI models were trained using export-banned Nvidia chips.",
-   "category": "INDUSTRY"
-  },
-  {
    "url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
    "title": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
    "sourceId": "huggingface",
@@ -569,16 +779,6 @@
    "category": "MODELS"
   },
   {
-   "url": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
-   "title": "ChatGPT’s new Wallet lets AI agents shop and check out for you",
-   "sourceId": "techcrunch",
-   "sourceName": "TechCrunch AI",
-   "publishedAt": 1794585612000,
-   "excerpt": "ChatGPT Wallet lets AI agents shop and check out on users' behalf, starting with a limited rollout to U.S. Pro subscribers.",
-   "summary": "OpenAI launched ChatGPT Wallet to enable AI agents to execute purchases and checkouts for U.S. Pro subscribers.",
-   "category": "TOOLS"
-  },
-  {
    "url": "https://www.wired.com/story/jensen-huang-and-the-end-of-the-founder-fairy-tale/",
    "title": "Jensen Huang and the End of the Founder Fairy Tale",
    "sourceId": "wired",
@@ -586,16 +786,6 @@
    "publishedAt": 1794585600000,
    "excerpt": "The former tech CEO is obsessed with the power of storytelling. But he hasn't spun his way out of his sex scandals.",
    "summary": "An opinion piece analyzes the resignation and personal scandals surrounding former Nvidia CEO Jensen Huang.",
-   "category": "INDUSTRY"
-  },
-  {
-   "url": "https://techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
-   "title": "The unfolding Jensen Huang scandal: a timeline",
-   "sourceId": "techcrunch",
-   "sourceName": "TechCrunch AI",
-   "publishedAt": 1794585480000,
-   "excerpt": "Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
-   "summary": "Jensen Huang resigned from Nvidia following a personal scandal, an event with potential national security ramifications for US-China AI infrastructure competition.",
    "category": "INDUSTRY"
   },
   {
@@ -619,16 +809,6 @@
    "category": "INDUSTRY"
   },
   {
-   "url": "https://techcrunch.com/2026/11/13/elevenlabs-new-app-combines-meeting-note-taking-and-dictation-for-teams/",
-   "title": "ElevenLabs’ new app combines meeting note-taking and dictation for teams",
-   "sourceId": "techcrunch",
-   "sourceName": "TechCrunch AI",
-   "publishedAt": 1794581088000,
-   "excerpt": "ElevenAI is a new meeting notetaker and dictation app aimed at teams and enterprises.",
-   "summary": "ElevenLabs launched ElevenAI, a new meeting notetaker and dictation application tailored for teams and enterprise workflows.",
-   "category": "TOOLS"
-  },
-  {
    "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
    "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
    "sourceId": "huggingface",
@@ -637,16 +817,6 @@
    "excerpt": "",
    "summary": "Llama.cpp released version 1.0.0 to provide a stronger technical foundation for the local AI execution ecosystem.",
    "category": "LOCAL"
-  },
-  {
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on",
-   "title": "Claude’s Duet agent is a little neurotic and surprisingly helpful",
-   "sourceId": "verge",
-   "sourceName": "The Verge AI",
-   "publishedAt": 1794578400000,
-   "excerpt": "Normally, the products I test don't offer to help me write up my experience with them. Duet is different. Claude Duet is Anthropic's AI agent for consumers, the latest attempt by an AI company to try to convince us that agents can be useful for people who don't write code. It's been an interesting couple…",
-   "summary": "A review evaluates Anthropic's consumer-facing AI agent, Claude Duet, highlighting its capabilities in assisting non-coders.",
-   "category": "TOOLS"
   },
   {
    "url": "https://blogs.nvidia.com/blog/how-ai-is-helping-care-teams/",
@@ -679,16 +849,6 @@
    "category": "TOOLS"
   },
   {
-   "url": "https://www.marktechpost.com/2026/11/13/google-gemini-4-hydrogen/",
-   "title": "Google Releases Gemini 4 Hydrogen: 2.5x Faster Than Gemini 3.8 Flash",
-   "sourceId": "marktechpost",
-   "sourceName": "MarkTechPost",
-   "publishedAt": 1794563148000,
-   "excerpt": "Google released Gemini 4 Hydrogen, a fast agentic model with a 1M-token window, 4 thinking levels and $1.50/$7.50 pricing. Google reports a 51 Artificial Analysis score and 57% on Terminal-Bench 4.1.",
-   "summary": "Google launched Gemini 4 Hydrogen, an agentic model with a 1M-token context window. It is priced at $1.50/$7.50 per million tokens and achieved a 51 on the Artificial Analysis score.",
-   "category": "MODELS"
-  },
-  {
    "url": "https://openai.com/business/customer-stories/shield",
    "title": "Shield helps technicians hand off legacy portal work with OpenAI",
    "sourceId": "openai",
@@ -719,16 +879,6 @@
    "category": "TOOLS"
   },
   {
-   "url": "https://www.marktechpost.com/2026/11/12/liquid-ai-liquidcodec-streaming-audio-codec/",
-   "title": "Liquid AI Releases LiquidCodec, a 74M-Parameter Streaming Audio Codec",
-   "sourceId": "marktechpost",
-   "sourceName": "MarkTechPost",
-   "publishedAt": 1794523406000,
-   "excerpt": "Liquid AI released LiquidCodec, a ~74M-parameter streaming audio codec that powers LFM3-Audio-2B and LFM3-Omni-2B. It runs at 12.5 Hz with 12 codebooks and encodes about 361x faster than real time on a single CPU thread.",
-   "summary": "Liquid AI released LiquidCodec, a 74M-parameter streaming audio codec that operates at 12.5 Hz and achieves 361x real-time encoding speed on a single CPU thread.",
-   "category": "RESEARCH"
-  },
-  {
    "url": "https://www.wired.com/story/silicon-valley-is-still-defending-jensen-huang/",
    "title": "Silicon Valley Is Still Defending Jensen Huang",
    "sourceId": "wired",
@@ -746,36 +896,6 @@
    "publishedAt": 1794521681000,
    "excerpt": "In a special episode of “Uncanny Valley,” we break down Jensen Huang’s resignation from Nvidia, what comes next for the company, and where the AI industry goes from here.",
    "summary": "A podcast episode analyzing the resignation of Jensen Huang and the future outlook for Nvidia and the AI industry.",
-   "category": "INDUSTRY"
-  },
-  {
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen",
-   "title": "Google’s new Gemini model is better at understanding complicated questions",
-   "sourceId": "verge",
-   "sourceName": "The Verge AI",
-   "publishedAt": 1794520532000,
-   "excerpt": "Google says its new Gemini 4 Hydrogen model can give more helpful answers to complex questions, including \"questions with multiple parts, hard-to-understand typos, or highly specific requests.\" The new model can break down your questions and address each part in its responses. It's available starting today in search, the Gemini app, all tiers of Google…",
-   "summary": "Google's Gemini 4 Hydrogen model features improved reasoning capabilities for complex, multi-part queries and is now available across Google services.",
-   "category": "MODELS"
-  },
-  {
-   "url": "https://www.marktechpost.com/2026/11/12/copilotkit-openbot-1-0-open-source-ai-coworker/",
-   "title": "CopilotKit Releases OpenBot 1.0: An MIT-Licensed, Self-Hostable AI Coworker With Built-In Governance",
-   "sourceId": "marktechpost",
-   "sourceName": "MarkTechPost",
-   "publishedAt": 1794519936000,
-   "excerpt": "CopilotKit released OpenBot 1.0, an MIT-licensed, self-hostable AI coworker workspace. Companies bring their own agents, models and infrastructure, while every Bot action passes a policy check and lands in an audit trail.",
-   "summary": "CopilotKit released OpenBot 1.0, an MIT-licensed, self-hostable workspace for AI agents that includes built-in governance and audit trails.",
-   "category": "TOOLS"
-  },
-  {
-   "url": "https://www.wired.com/story/jensen-huang-colette-kress-replacement-powerful-women-in-tech/",
-   "title": "Jensen Huang Didn’t Name His Own Replacement as One of Tech’s Most Powerful Women",
-   "sourceId": "wired",
-   "sourceName": "WIRED AI",
-   "publishedAt": 1794515711000,
-   "excerpt": "A recent WIRED investigation explored the complicated definition of “power” for women in the industry. Jensen Huang’s answers now appear to show his blind spots.",
-   "summary": "A critique of Jensen Huang's past public statements regarding leadership and power in the tech industry.",
    "category": "INDUSTRY"
   },
   {
@@ -807,16 +927,6 @@
    "excerpt": "A livestream Ars discussion is happening on November 17 at 1 pm Eastern Time.",
    "summary": "Ars Technica is hosting a livestream discussion on November 17 regarding the security of data centers.",
    "category": "INDUSTRY"
-  },
-  {
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1032125/ai-agents-maya-site-archeology-discovery",
-   "title": "No, AI agents did not discover a previously unknown Maya site",
-   "sourceId": "verge",
-   "sourceName": "The Verge AI",
-   "publishedAt": 1794512560000,
-   "excerpt": "Armed with a team of AI agents, Google researcher Pietro Miotti claimed earlier this week to have discovered a potentially unmapped Maya site in Mexico. There was just one problem: The site had already been discovered and was published in an academic journal last year. The incident, which sparked criticism among archeologists online, underscores a…",
-   "summary": "A claim that AI agents discovered a new Maya site was debunked, as the site had been documented in academic literature previously.",
-   "category": "RESEARCH"
   },
   {
    "url": "https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash/",
@@ -919,46 +1029,6 @@
    "category": "INDUSTRY"
   },
   {
-   "url": "https://openai.com/index/gilbert-tobin-sam-nickless",
-   "title": "Gilbert + Tobin rethinks the business of law with AI",
-   "sourceId": "openai",
-   "sourceName": "OpenAI",
-   "publishedAt": 1794441600000,
-   "excerpt": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
-   "summary": "Law firm Gilbert + Tobin is integrating AI into its business operations to improve legal service delivery. The firm is working with OpenAI to explore these capabilities.",
-   "category": "INDUSTRY"
-  },
-  {
-   "url": "https://simonwillison.net/2026/Nov/11/gemini-decisions-api/",
-   "title": "Gemini Decisions API",
-   "sourceId": "simonw",
-   "sourceName": "Simon Willison",
-   "publishedAt": 1794434605000,
-   "excerpt": "Gemini Decisions API Google join Jev and OpenAI in the decision model category with \"Gemini Decision 1\". This new model API is almost identical to Jev: it supports the same three types of questions (yes/no, choice, and rubric-scoring) and even reuses Jev's term \"Noul\" for a yes/no question. It's priced the same as the GPT-6 Luna decision model: 10 cents per million input tokens, and output is free. Jev remains the cheapest of the three, at 4.2 cents per million. Jev is text (and JSON) only. OpenAI can handle text and images. Gemini Decision 1 is fully multi-model: it covers text, images, audio, video, and PDFs. I tested it against video by passing these questions to it along with my Yonkers…",
-   "summary": "Google launched the Gemini Decisions API, featuring the 'Gemini Decision 1' model. It supports yes/no, choice, and rubric-scoring tasks across multimodal inputs at a price of $0.10 per million input tokens.",
-   "category": "MODELS"
-  },
-  {
-   "url": "https://simonwillison.net/2026/Nov/11/aws-emulator/",
-   "title": "aws-emulator",
-   "sourceId": "simonw",
-   "sourceName": "Simon Willison",
-   "publishedAt": 1794431910000,
-   "excerpt": "aws-emulator Finally, an official emulator from AWS to run tests against a local clone of their many different services without having to provision a paid API key to do so. It's written in Rust by a huge swarm of agents - 29,684 commits in the first three weeks of the project. Swaminathan (Swami) Sivasubramanian wrote about how it came to be in a guest post on Werner Vogels' blog. It currently requires Docker to run on macOS or Windows. I'm hoping they fix that in the future - it would be great if you could download a single binary and use that as part of a standard test suite in other languages and on other platforms. Tags: amazon , amazon-web-services , testing , werner-vogels , ai , rust…",
-   "summary": "AWS released an official emulator written in Rust that allows developers to test services locally without requiring paid API keys. It currently requires Docker to run on macOS or Windows.",
-   "category": "TOOLS"
-  },
-  {
-   "url": "https://simonwillison.net/2026/Nov/11/tools-tags/",
-   "title": "Browse tools.simonwillison.net by tag",
-   "sourceId": "simonw",
-   "sourceName": "Simon Willison",
-   "publishedAt": 1794422570000,
-   "excerpt": "Browse tools.simonwillison.net by tag I've been wanting a better way to browse my collection of vibe-coded tools (244 and counting) for a while. I had a few Fable 5.2 credits left over before my weekly reset so I set it to work using tree-sitter to analyze the code for JavaScript APIs, libraries, and web API hosts used by each tool. The homepage now features tag clouds for browsing by each of those categories of tag: Tags: javascript , tools , ai , generative-ai , llms , claude , vibe-coding",
-   "summary": "A tool collection site has been updated with tag clouds generated by Fable 5.2 to help users browse over 244 AI-related tools.",
-   "category": "TOOLS"
-  },
-  {
    "url": "https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/",
    "title": "Taiwan’s chipmaking giant TSMC to invest $1B in Anthropic, OpenAI",
    "sourceId": "ars",
@@ -989,16 +1059,6 @@
    "category": "INDUSTRY"
   },
   {
-   "url": "https://simonwillison.net/2026/Nov/11/llm/",
-   "title": "llm 0.37.2",
-   "sourceId": "simonw",
-   "sourceName": "Simon Willison",
-   "publishedAt": 1794417592000,
-   "excerpt": "Release: llm 0.37.2 Fixes a security issue reported by Daniel de Araujo in GHSA-v9h7-jj4g-f862 and GHSA-r639-rr7r-x72w . LLM has a mechanism called extra-openai-models.yaml - now managed by the new-in-0.37 llm openai endpoint add command - for using LLM with OpenAI-compatible API endpoints from other providers. Daniel reported two ways this could accidentally send your configured OpenAI API key to one of those providers: if the key named by api_key_name had never been stored, or if a responses: true model was run with -o chat_completions 1 . Tags: projects , security , llm , releases",
-   "summary": "The 'llm' CLI tool has been updated to version 0.37.2 to fix a security vulnerability that could lead to the accidental exposure of OpenAI API keys to third-party endpoints.",
-   "category": "TOOLS"
-  },
-  {
    "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/",
    "title": "Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.",
    "sourceId": "googleai",
@@ -1007,16 +1067,6 @@
    "excerpt": "Tabletop is a new Google Labs experiment for group collaboration. Build interactive itineraries, polls, and brackets with your team. Join the waitlist.",
    "summary": "Google Labs launched Tabletop, an experimental platform for group collaboration that allows teams to build interactive itineraries, polls, and brackets.",
    "category": "TOOLS"
-  },
-  {
-   "url": "https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow/",
-   "title": "Anthropic's IPO roadshow video",
-   "sourceId": "simonw",
-   "sourceName": "Simon Willison",
-   "publishedAt": 1794409919000,
-   "excerpt": "Anthropic's IPO roadshow video Anthropic kicked off their IPO roadshow yesterday, and their roadshow video has some previously unreleased information about how their business works. The section on \"Approach to compute\" with co-founder Tom Brown is particularly interesting, describing how Anthropic train and serve Claude across AWS Trainium, Google TPUs, NVIDIA GPUs, and AMD GPUs. I'm not sure why there's no official video transcript, but here's one that I extracted using MacWhisper. Highlights below: We train and serve Claude now across all four major chip families. That's only possible because early on we made an unconventional bet on a multi-chip strategy. At the time, many people thought…",
-   "summary": "Anthropic's IPO roadshow video reveals that the company trains and serves Claude across four different chip families: AWS Trainium, Google TPUs, NVIDIA GPUs, and AMD GPUs.",
-   "category": "INDUSTRY"
   },
   {
    "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
@@ -1037,131 +1087,10 @@
    "excerpt": "The four-week project hints that AI could make formal verification far more practical.",
    "summary": "Google DeepMind used AI to formally verify key components of the Signal encryption protocol. The project demonstrates that AI can make formal verification of complex software more practical.",
    "category": "RESEARCH"
-  },
-  {
-   "url": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/esther-mahlangu/",
-   "title": "Experience the art and legacy of Dr. Esther Mahlangu",
-   "sourceId": "googleai",
-   "sourceName": "Google AI",
-   "publishedAt": 1794387600000,
-   "excerpt": "A new online archive of Esther Mahlangu’s life and art is now on Google Arts & Culture.",
-   "summary": "Google Arts & Culture launched an online archive dedicated to the life and art of Dr. Esther Mahlangu.",
-   "category": "RESEARCH"
-  },
-  {
-   "url": "https://openai.com/index/chatgpt-plus-for-veterans",
-   "title": "ChatGPT Plus for veterans and servicemembers",
-   "sourceId": "openai",
-   "sourceName": "OpenAI",
-   "publishedAt": 1794384000000,
-   "excerpt": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers.",
-   "summary": "OpenAI is providing over 20,000 veterans and transitioning service members with a free year of ChatGPT Plus to assist with career development.",
-   "category": "INDUSTRY"
-  },
-  {
-   "url": "https://huggingface.co/blog/qvac/botpsy",
-   "title": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
-   "sourceId": "huggingface",
-   "sourceName": "Hugging Face",
-   "publishedAt": 1794373276000,
-   "excerpt": "",
-   "summary": "BotPsy is a new on-device personal assistant utilizing a sub-billion-parameter agentic language model.",
-   "category": "LOCAL"
-  },
-  {
-   "url": "https://blogs.nvidia.com/blog/ai-recycling-startups/",
-   "title": "How AI Helps Recyclers Turn Mixed Waste Into Reusable Material",
-   "sourceId": "nvidia",
-   "sourceName": "NVIDIA Blog",
-   "publishedAt": 1794366020000,
-   "excerpt": "Vision AI and robotics pick what’s worth recovering out of conveyor belts of used clothing, bottles and mixed recyclables, diverting thousands of tons of materials from landfills.",
-   "summary": "Nvidia is highlighting the use of vision AI and robotics in recycling facilities to sort mixed waste, such as clothing and bottles, from conveyor belts.",
-   "category": "INDUSTRY"
-  },
-  {
-   "url": "https://huggingface.co/blog/token-pooling",
-   "title": "Token Pooling-Aware Training for Multi-Vector Embedding Models",
-   "sourceId": "huggingface",
-   "sourceName": "Hugging Face",
-   "publishedAt": 1794355200000,
-   "excerpt": "",
-   "summary": "A research paper on token pooling-aware training for multi-vector embedding models.",
-   "category": "RESEARCH"
-  },
-  {
-   "url": "https://openai.com/index/jiostar-vijay-seshadri",
-   "title": "JioStar’s chief architect on AI discovery at 500M-user scale",
-   "sourceId": "openai",
-   "sourceName": "OpenAI",
-   "publishedAt": 1794355200000,
-   "excerpt": "JioStar’s Vijay Seshadri explains AI discovery at 500M-user scale. Read his lessons on evals, guardrails, and taking AI into production.",
-   "summary": "JioStar’s chief architect discusses strategies for scaling AI discovery to 500 million users, focusing on evaluation frameworks and production guardrails.",
-   "category": "INDUSTRY"
-  },
-  {
-   "url": "https://arstechnica.com/ai/2026/11/ring-cameras-go-mobile-as-amazon-debuts-ai-powered-security-drone-and-robot/",
-   "title": "Ring cameras go mobile as Amazon debuts AI-powered security drone and robot",
-   "sourceId": "ars",
-   "sourceName": "Ars Technica AI",
-   "publishedAt": 1794350101000,
-   "excerpt": "Amazon's roaming Ring Robotics devices will debut in late 2026 and early 2027.",
-   "summary": "Amazon announced that its mobile Ring Robotics security devices are scheduled for release between late 2026 and early 2027.",
-   "category": "INDUSTRY"
-  },
-  {
-   "url": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/",
-   "title": "Gemini Intelligence: New features, on more devices",
-   "sourceId": "googleai",
-   "sourceName": "Google AI",
-   "publishedAt": 1794337200000,
-   "excerpt": "Gemini Intelligence is rolling out to more devices. See how expanded capabilities across these devices help you do more.",
-   "summary": "Google is expanding the availability of Gemini Intelligence features across more devices.",
-   "category": "TOOLS"
-  },
-  {
-   "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
-   "title": "Gemini 4 Carbon is now available",
-   "sourceId": "deepmind",
-   "sourceName": "Google DeepMind",
-   "publishedAt": 1794326627000,
-   "excerpt": "",
-   "summary": "Google DeepMind has released Gemini 4 Carbon.",
-   "category": "MODELS"
-  },
-  {
-   "url": "https://blogs.nvidia.com/blog/open-source-openshell-infrastructure/",
-   "title": "NVIDIA Expands Open Source Commitment With OpenShell Contribution and New AI Infrastructure",
-   "sourceId": "nvidia",
-   "sourceName": "NVIDIA Blog",
-   "publishedAt": 1794326403000,
-   "excerpt": "Kubernetes, the open source system that manages how applications run across thousands of AI factories, has become the foundation for AI, and the demands on it are only growing. To help meet them, NVIDIA is deepening its commitment to open source at KubeCon + CloudNativeCon, the flagship conference for the Kubernetes and cloud-native communities. NVIDIA…",
-   "summary": "Nvidia is increasing its commitment to open-source software by donating to OpenShell and supporting Kubernetes infrastructure for AI development.",
-   "category": "INDUSTRY"
-  },
-  {
-   "url": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/",
-   "title": "We’re bringing Adobe’s creative and productivity tools closer to your everyday Google apps.",
-   "sourceId": "googleai",
-   "sourceName": "Google AI",
-   "publishedAt": 1794319200000,
-   "excerpt": "Google and Adobe are integrating creative and productivity tools. Edit PDFs in Drive and use Adobe AI in Gemini. See what’s new in this partnership.",
-   "summary": "Google and Adobe are partnering to integrate creative tools, allowing users to edit PDFs in Drive and access Adobe AI features within Gemini.",
-   "category": "TOOLS"
-  },
-  {
-   "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/",
-   "title": "Google Cloud launches Gemini for healthcare.",
-   "sourceId": "googleai",
-   "sourceName": "Google AI",
-   "publishedAt": 1794315600000,
-   "excerpt": "Google Cloud launches Gemini for healthcare to unify clinical data and automate workflows. Reduce administrative burnout. See how it works.",
-   "summary": "Google Cloud launched Gemini for healthcare, a tool aimed at unifying clinical data and automating administrative workflows.",
-   "category": "INDUSTRY"
   }
  ],
  "hidden": [
-  "https://www.theverge.com/ai-artificial-intelligence/1032126/alex-baby-you-were-recorded-on-video",
-  "https://www.theverge.com/ai-artificial-intelligence/1032339/lets-talk-about-the-nvidia-shitshow",
+  "https://www.reddit.com/r/LocalLLaMA/comments/1xxlich/the_beginning_of_the_becoming_of_the_beginning/",
   "https://www.wired.com/story/microsoft-365-crawls-back-to-life-after-a-24-hour-outage/"
  ]
 }
