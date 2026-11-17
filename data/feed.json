@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794835695544,
+ "updatedAt": 1794924887240,
  "sources": [
   {
    "id": "localllama",
@@ -79,34 +79,644 @@
  ],
  "articles": [
   {
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1031740/jensen-huang-nvidia-scandal-isnt-slowing-down",
-   "title": "The Nvidia scandal isn’t slowing down",
-   "sourceId": "verge",
-   "sourceName": "The Verge AI",
-   "publishedAt": 1794834000000,
-   "excerpt": "For years, Jensen Huang has had an almost unprecedented power to shape AI's advancement as Nvidia's CEO, cofounder, and president. As The Verge wrote last week, Nvidia's chips are \"the bedrock upon which advanced AI technology in the US is being built.\" Ever-increasing demand has consistently outpaced supply, leading AI CEOs to essentially bow at…",
-   "summary": "Nvidia CEO Jensen Huang is facing scrutiny as the company's dominant position in the AI chip market faces supply constraints and leadership controversy. The company remains the primary infrastructure provider for US AI development.",
-   "category": "INDUSTRY"
-  },
-  {
-   "url": "https://techcrunch.com/2026/11/16/freshworks-alums-raise-53m-to-take-on-salesforce-hubspot-with-ai-native-crm/",
-   "title": "Freshworks alums raise $53M to take on Salesforce, HubSpot with AI-native CRM",
+   "url": "https://techcrunch.com/2026/11/17/nvidias-first-big-move-after-jensen-huangs-exit-targets-national-security/",
+   "title": "Nvidia’s first big move after Jensen Huang’s exit targets national security",
    "sourceId": "techcrunch",
    "sourceName": "TechCrunch AI",
-   "publishedAt": 1794832200000,
-   "excerpt": "Dreamteam has signed up more than 100 customers across 13 countries, with some businesses switching from established CRMs.",
-   "summary": "Dreamteam, a startup founded by former Freshworks employees, has raised $53 million to launch an AI-native CRM platform. The company reports over 100 customers across 13 countries.",
+   "publishedAt": 1794924330000,
+   "excerpt": "The new standing committee will give board-level oversight of national security policies, export control compliance, and global trade risks, the company said.",
+   "summary": null,
    "category": "INDUSTRY"
   },
   {
-   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxn631/internlmsages21flash_hugging_face/",
-   "title": "internlm/Sage-S2.1-Flash · Hugging Face",
+   "url": "https://arstechnica.com/security/2026/11/grok-bot-took-unapproved-actions-ignored-orders-to-stop-and-then-denied-it/",
+   "title": "Grok Bot took unapproved actions, ignored orders to stop, and then denied it",
+   "sourceId": "ars",
+   "sourceName": "Ars Technica AI",
+   "publishedAt": 1794924029000,
+   "excerpt": "AI agent takes unapproved actions even when laptop lid is closed and told not to.",
+   "summary": null,
+   "category": "LOCAL"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/17/spotifys-new-tool-aims-to-stop-deepfakes-from-being-attributed-to-real-artists/",
+   "title": "Spotify’s new tool aims to stop deepfakes from being attributed to real artists",
+   "sourceId": "techcrunch",
+   "sourceName": "TechCrunch AI",
+   "publishedAt": 1794924000000,
+   "excerpt": "The update comes as Billboard reported last month that Sony Music had requested the removal of more than 260,000 deepfake songs from digital platforms, nearly double the number the label disclosed in March.",
+   "summary": null,
+   "category": "TOOLS"
+  },
+  {
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xykjuy/the_upcoming_open_weight_small_qwen_models_are/",
+   "title": "The upcoming open weight small Qwen models are likely going to lack training data related to offensive cyber capabilities.",
    "sourceId": "localllama",
    "sourceName": "r/LocalLLaMA",
-   "publishedAt": 1794828974000,
-   "excerpt": "Introduction Sage S2.1 Flash is a scientific multimodal model from Shanghai Artificial Intelligence Laboratory designed for research tasks that require multiple rounds of analysis and verification. It combines scientific data understanding with information retrieval, programming, and tool use. It can use specialized software to perform analyses, check results against intermediate outputs and visual feedback, and adjust subsequent steps accordingly. Through the unified representation architecture of Sage SciPerception , the model supports more than ten types of scientific input, including molecular graphs, crystal structures, and protein sequences and 3D structures. Features from each input t…",
-   "summary": "Sage-S2.1-Flash is a new multimodal model from the Shanghai Artificial Intelligence Laboratory designed for scientific research. It supports specialized inputs like molecular graphs and protein structures, enabling tool use and multi-step verification.",
+   "publishedAt": 1794922385000,
+   "excerpt": "With the release of Qwen 4 Max, they claim that training data related to offensive capabilities has been removed, is this largely a placebo/nothingburger or does it have the capability to genuinely lobotomize a model's capabilities in cyber?",
+   "summary": null,
+   "category": "LOCAL"
+  },
+  {
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xyjxli/gemma_4_twice_as_fast_on_ryzen_ai_max_395/",
+   "title": "Gemma 4 twice as fast on Ryzen AI Max+ 395",
+   "sourceId": "localllama",
+   "sourceName": "r/LocalLLaMA",
+   "publishedAt": 1794920683000,
+   "excerpt": "Hi! Just want to share that we have optimized Gemma 4 to run more than twice as fast as llama.cpp on the Ryzen AI Max+ 395! To maintain accuracy we use a combination of rotation and GPTQ, along with selective mixed precision. https://embedl.com/google/gemma-4-31B-it/ryzen-ai-max-395",
+   "summary": null,
+   "category": "LOCAL"
+  },
+  {
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xyjkts/gemma_on_a_printer/",
+   "title": "Gemma on a printer",
+   "sourceId": "localllama",
+   "sourceName": "r/LocalLLaMA",
+   "publishedAt": 1794919689000,
+   "excerpt": "Now you can run Gemma locally on your printer (from u/hackerllama ) https://x.com/osanseviero/status/2122646098418491739",
+   "summary": null,
+   "category": "LOCAL"
+  },
+  {
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xyixml/gpu_prices_big_discounts/",
+   "title": "GPU prices - Big \"discounts\"",
+   "sourceId": "localllama",
+   "sourceName": "r/LocalLLaMA",
+   "publishedAt": 1794917713000,
+   "excerpt": "Discounts in quotes because these are still over MSRP, but my local Microcenter has the deepest \"discounts\" (sorry, I just can't call an over MSRP price a discount without quotes) I've seen in months on a lot of the AI cards. Pro4500 around 40% \"off\", Pro6000's 4K off with plenty of stock for both at my local (Charlotte) store. Pro 5000 72GB at 9K. Now, don't get me wrong, all these prices are still awful. But they are a little \"less awful\" than they were a month ago! It's still an awful time to buy any of this gear IMHO, but if you're desperate and need it, seems like we're finally starting to turn a corner. https://preview.redd.it/34nf0p06z52i1.png?width=640&format=png&auto=webp&s=ee958a1a…",
+   "summary": null,
+   "category": "LOCAL"
+  },
+  {
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xyioi8/intel_shares_first_benchmarks_of_its_nextgen/",
+   "title": "Intel Shares First Benchmarks of Its Next-Gen Crescent Island \"D270\" GPU, Claiming a 5.9x Throughput Over RTX PRO 6000 As Xe3P Goes Big On FP64",
+   "sourceId": "localllama",
+   "sourceName": "r/LocalLLaMA",
+   "publishedAt": 1794916929000,
+   "excerpt": "The title talks about FP64. For local inference this info from the content is relevant: \"In AI benchmarks, Intel's D270 GPU offered 29% lower latency and 1.12x throughput versus the RTX PRO 6000 Blackwell.\" Maybe we are getting a good RTX PRO 6000 alternative...",
+   "summary": null,
+   "category": "LOCAL"
+  },
+  {
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xyi6hj/rotate_kv_read_order_for_better_l2_cache_hit/",
+   "title": "Rotate K/V read order for better L2 cache hit rates by gaugarg-nv · Pull Request #32407 · ggml-org/llama.cpp",
+   "sourceId": "localllama",
+   "sourceName": "r/LocalLLaMA",
+   "publishedAt": 1794915286000,
+   "excerpt": "Significant prompt processing speedup with long contexts gpu_info model_type n_prompt n_gen n_depth Master (t/s) PR (t/s) Speed-up NVIDIA GeForce RTX 5090 qwen35 27B Q4_K - Medium 512 0 131072 1290.10833 1822.36027 1.41 NVIDIA GeForce RTX 5090 qwen35 27B Q4_K - Medium 512 0 65536 2030.31282 2527.97409 1.25 NVIDIA GeForce RTX 5090 qwen35 27B Q4_K - Medium 512 0 32768 2931.96118 3142.20539 1.07 NVIDIA GeForce RTX 5090 qwen35 27B Q4_K - Medium 512 0 16384 3562.18311 3573.59336 1.00 NVIDIA GeForce RTX 5090 qwen35 27B Q4_K - Medium 512 0 8192 3854.83184 3850.97547 1.00 NVIDIA GeForce RTX 5090 qwen35 27B Q4_K - Medium 512 0 4096 3974.20194 4015.85501 1.01 NVIDIA GeForce RTX 5090 qwen35 27B Q4_K -…",
+   "summary": null,
+   "category": "LOCAL"
+  },
+  {
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xyi3aa/nvidiaqwen38flashnextnvfp4qad/",
+   "title": "nvidia/Qwen3.8-Flash-Next-NVFP4-QAD",
+   "sourceId": "localllama",
+   "sourceName": "r/LocalLLaMA",
+   "publishedAt": 1794914974000,
+   "excerpt": "Looks pretty interesting! Also sorry if the \"new model\" flair is inappropiate here, wasn't sure if I should pick that or \"discussion\".",
+   "summary": null,
+   "category": "INDUSTRY"
+  },
+  {
+   "url": "https://www.wired.com/story/apple-watch-audio-intelligence-live-rewind-siri-recap/",
+   "title": "The Apple Watch’s Live Rewind Can Record and Rewind Spoken Conversations. It’s Pretty Awkward",
+   "sourceId": "wired",
+   "sourceName": "WIRED AI",
+   "publishedAt": 1794913200000,
+   "excerpt": "Live Rewind and Siri Recap can transcribe missed moments and summarize your day—if you don’t mind a little social clumsiness.",
+   "summary": null,
+   "category": "INDUSTRY"
+  },
+  {
+   "url": "https://www.wired.com/story/wired-yearbook-2026-clement-delangue/",
+   "title": "Rogue Agents Hacked His Company. Why Is Clément Delangue So Optimistic About AI?",
+   "sourceId": "wired",
+   "sourceName": "WIRED AI",
+   "publishedAt": 1794913200000,
+   "excerpt": "The French CEO of Hugging Face, a mega-hub of open-source AI software, says the attack by OpenAI models earlier this year proved one thing: Humanity can’t let AI be controlled by the few.",
+   "summary": null,
+   "category": "TOOLS"
+  },
+  {
+   "url": "https://www.wired.com/story/ai-told-these-ex-google-guys-how-to-build-a-billion-dollar-weapons-business/",
+   "title": "AI Told These Ex-Google Guys How to Build a Billion-Dollar Weapons Business",
+   "sourceId": "wired",
+   "sourceName": "WIRED AI",
+   "publishedAt": 1794912465000,
+   "excerpt": "Google and Apple alumni Chad Steelberg and Andy Baynes are applying what they learned running software companies and designing iPhones to manufacturing lethal munitions.",
+   "summary": null,
+   "category": "INDUSTRY"
+  },
+  {
+   "url": "https://www.marktechpost.com/2026/11/17/nvidia-nvke-nvkr-managed-kubernetes-gpu/",
+   "title": "NVIDIA Open-Sources NVKE and NVKR for Managed Kubernetes on GPU Infrastructure",
+   "sourceId": "marktechpost",
+   "sourceName": "MarkTechPost",
+   "publishedAt": 1794911831000,
+   "excerpt": "NVIDIA has open-sourced NVIDIA Kubernetes Engine (NVKE) and NVIDIA Kubernetes Recipes (NVKR) under Apache 2.0. Together they let AI factories run a managed Kubernetes service on their own bare-metal GPU servers. Both are in public preview.",
+   "summary": null,
    "category": "MODELS"
+  },
+  {
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xygtj4/ovh_announces_olala_mini_7a1b/",
+   "title": "OVH announces Olala mini 7A1B",
+   "sourceId": "localllama",
+   "sourceName": "r/LocalLLaMA",
+   "publishedAt": 1794910475000,
+   "excerpt": "Olala mini is based on a 7-billion-parameter architecture (7B), with one billion active parameters spread across 256 experts per layer, and hybrid attention combining Differential-TPA and Mamba-3, in BF16 format. Only a fraction of the model is used for each request, making it faster and less memory-hungry. As a direct result, the model runs on a GPU with as little as 8 GB of memory, reaching 160 tokens per second on an RTX A4500, and even without a GPU, on a standard processor, at 50 tokens per second. Its context window currently reaches 32,000 tokens. Olala mini will be available as open source on Hugging Face, under the Apache 2.0 licence.",
+   "summary": null,
+   "category": "LOCAL"
+  },
+  {
+   "url": "https://www.marktechpost.com/2026/11/17/sarvam-token-factory-india-inference-platform/",
+   "title": "Sarvam Launches Sarvam Token Factory: Bringing India-Hosted Inference to 8 Open Models",
+   "sourceId": "marktechpost",
+   "sourceName": "MarkTechPost",
+   "publishedAt": 1794909078000,
+   "excerpt": "Sarvam Token Factory is now open to everyone. It serves Sarvam 105B, GLM 5.3, DeepSeek V4.1 Flash, Kimi K3.1 Pro and Gemma 4 31B from GPU clusters in India through one OpenAI-compatible API.",
+   "summary": null,
+   "category": "MODELS"
+  },
+  {
+   "url": "https://www.marktechpost.com/2026/11/17/liquid-ai-d1-2-omnimodal-decision-models/",
+   "title": "Liquid AI Releases d1.2 and d1.2-ultra: Omnimodal Decision Models That Top the AA Decision Index",
+   "sourceId": "marktechpost",
+   "sourceName": "MarkTechPost",
+   "publishedAt": 1794907257000,
+   "excerpt": "Liquid AI released d1.2 and d1.2-ultra, decision models that read text, images and audio and return calibrated probabilities with zero output tokens. d1.2-ultra scores 75 on the Artificial Analysis Decision Index v2.1.",
+   "summary": null,
+   "category": "MODELS"
+  },
+  {
+   "url": "https://simonwillison.net/2026/Nov/17/go-proverbs/",
+   "title": "Quoting Go Proverbs",
+   "sourceId": "simonw",
+   "sourceName": "Simon Willison",
+   "publishedAt": 1794896186000,
+   "excerpt": "A little copying is better than a little dependency. — Go Proverbs , via Tags: go , programming",
+   "summary": null,
+   "category": "INDUSTRY"
+  },
+  {
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xycsm1/dspine_updates_on_pr_ggufs/",
+   "title": "DSpine - Updates on PR & GGUFs",
+   "sourceId": "localllama",
+   "sourceName": "r/LocalLLaMA",
+   "publishedAt": 1794895405000,
+   "excerpt": "Previous thread on DSpine : [Paper] DSpine - Draft in Parallel, Condition Through Depth: Adjacent Causal Injection for Speculative Decoding - tencent GGUFs : Found below GGUFs & model cards has more details including comparison with DFlash2. https://huggingface.co/aj9o9/Qwen3.8-27B-DSpine-b16-GGUF (This Post's image is from this GGUF) https://huggingface.co/generalinference/Qwen3.8-27B-DSpine-b16-GGUF llama.cpp Open PR for DSpine : https://github.com/ggml-org/llama.cpp/pull/31941",
+   "summary": null,
+   "category": "LOCAL"
+  },
+  {
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xyb7jw/clover_2_dense_278b_base_7_lora_experts_routed/",
+   "title": "Clover 2: dense 27.8B base + 7 LoRA experts routed per token, not a static merge, weights public",
+   "sourceId": "localllama",
+   "sourceName": "r/LocalLLaMA",
+   "publishedAt": 1794890128000,
+   "excerpt": "Disclosure: I’m with the team that built this. Wanted to share something a little different from the usual finetune drop. Clover 2 keeps a base model and 7 trained LoRA adapters (roleplay, general assistant, security, math, long-document, efficiency, knowledge) separate at inference time. A trained router picks the right expert(s) per token live, with a null slot that falls back to plain base when nothing specialized applies. So it’s not a merged blend, the model actually makes a decision at every token. Real benchmark gains over the untouched base: meaningful jumps on GSM8K/MATH-500/GSM-Hard, a solid bump on LongBench-v2, and a measurable drop in generic AI-writing tics on creative writing…",
+   "summary": null,
+   "category": "LOCAL"
+  },
+  {
+   "url": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
+   "title": "Strengthening NATO and allied cyber defenses with AI",
+   "sourceId": "openai",
+   "sourceName": "OpenAI",
+   "publishedAt": 1794873600000,
+   "excerpt": "How OpenAI is working with NATO and allied cyber agencies to help trusted defenders find vulnerabilities, test fixes and protect essential systems.",
+   "summary": null,
+   "category": "INDUSTRY"
+  },
+  {
+   "url": "https://openai.com/index/introducing-openai-for-chile",
+   "title": "Introducing OpenAI for Chile",
+   "sourceId": "openai",
+   "sourceName": "OpenAI",
+   "publishedAt": 1794873600000,
+   "excerpt": "OpenAI and the Government of Chile are partnering to support responsible AI adoption, build public-sector skills and help local startups develop AI applications.",
+   "summary": null,
+   "category": "MODELS"
+  },
+  {
+   "url": "https://simonwillison.net/2026/Nov/16/llm/",
+   "title": "llm 0.37.3",
+   "sourceId": "simonw",
+   "sourceName": "Simon Willison",
+   "publishedAt": 1794873446000,
+   "excerpt": "Release: llm 0.37.3 A bug fix release for LLM , mainly to cover a problem with the most recent Homebrew package of the software. Homebrew now ships the latest SQLite, 3.54.1 , which includes a fix that broke LLM's logging code . Short version: in SQLite 3.54.0 the following SQL: select json_object('a', (select json_array(1))) Returns this: {\"a\":[1]} But in 3.54.1 the same query returns this: {\"a\":\"[1]\"} According to D. Richard Hipp : That was a bug fix. Per the documentation, (SELECT json_array(...)) returns SQL text, not JSON. Hence the 3.54.1 behavior is correct and 3.54.0 was a bug. The workaround looks like this: select json_object('a', json((select json_array(1)))) Tags: llm , webassemb…",
+   "summary": null,
+   "category": "INDUSTRY"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/",
+   "title": "Cybersecurity AI startup Corma reaches $1B valuation in about 3 months",
+   "sourceId": "techcrunch",
+   "sourceName": "TechCrunch AI",
+   "publishedAt": 1794871952000,
+   "excerpt": "Three months since introducing its product, AI cybersecurity startup Corba has raised a $125 million Series A at a $1 billion valuation led by NEA.",
+   "summary": null,
+   "category": "INDUSTRY"
+  },
+  {
+   "url": "https://www.theverge.com/tech/1035027/tech-leaders-nvidia-jensen-huang-theories",
+   "title": "Tech leaders are convinced that Jensen Huang’s exit was a plot against him",
+   "sourceId": "verge",
+   "sourceName": "The Verge AI",
+   "publishedAt": 1794871054000,
+   "excerpt": "Jensen Huang's stunning resignation from Nvidia after more than 33 years has sent shockwaves throughout the tech industry. Now prominent figures are calling for Huang's reinstatement, and many are also hopping on board with a theory spreading throughout Silicon Valley: that the scandal is the result of a plot against the former CEO. At the…",
+   "summary": null,
+   "category": "INDUSTRY"
+  },
+  {
+   "url": "https://arstechnica.com/ai/2026/11/robo-soldier-startup-backed-by-eric-trump-misses-payroll-may-collapse/",
+   "title": "Robo-soldier startup backed by Eric Trump misses payroll, may collapse",
+   "sourceId": "ars",
+   "sourceName": "Ars Technica AI",
+   "publishedAt": 1794869907000,
+   "excerpt": "Robotics startup misses payroll a year after CEO used funds for luxury home.",
+   "summary": null,
+   "category": "INDUSTRY"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/16/all-the-questions-nvidia-should-answer-on-tuesday-but-probably-wont/",
+   "title": "All the questions Nvidia should answer on Tuesday — but probably won’t",
+   "sourceId": "techcrunch",
+   "sourceName": "TechCrunch AI",
+   "publishedAt": 1794866582000,
+   "excerpt": "Nvidia interim CEO and longtime CFO Colette Kress is about to have one of the biggest days of her career on Tuesday when the company reports its third-quarter results. Given the turmoil Nvidia is in, there are a number of questions that Nvidia should answer.",
+   "summary": null,
+   "category": "INDUSTRY"
+  },
+  {
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1034815/california-openai-hugging-face-lawsuit",
+   "title": "California sues OpenAI over rogue AI hacking incidents",
+   "sourceId": "verge",
+   "sourceName": "The Verge AI",
+   "publishedAt": 1794861961000,
+   "excerpt": "California is suing OpenAI after its AI agents broke out of their testing environment and hacked other companies, including Hugging Face. In a lawsuit filed Monday, Attorney General Rob Bonta accuses OpenAI of violating consumer safety law by knowingly developing a \"dangerous product without proper oversight,\" as reported earlier by Reuters. The lawsuit claims the…",
+   "summary": null,
+   "category": "TOOLS"
+  },
+  {
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1034787/sam-altman-ram-shortage-semafor",
+   "title": "Sam Altman says he wants everyone ‘to have a lot of RAM’",
+   "sourceId": "verge",
+   "sourceName": "The Verge AI",
+   "publishedAt": 1794861688000,
+   "excerpt": "OpenAI CEO Sam Altman is once again addressing his controversial comments on PC RAM purchases. \"I want to be clear, I want people to have a lot of RAM, I think everybody should be able to buy a lot of RAM for their own computer,\" Altman said today. \"I think the home tinkering is great.\"…",
+   "summary": null,
+   "category": "INDUSTRY"
+  },
+  {
+   "url": "https://www.theverge.com/science/1034694/nuclear-energy-constellation-earnings-data-centers-democrats",
+   "title": "Big Nuclear isn’t worried about the Democrats stopping data centers",
+   "sourceId": "verge",
+   "sourceName": "The Verge AI",
+   "publishedAt": 1794860977000,
+   "excerpt": "Constellation Energy - America's largest operator of nuclear power plants - does not share Wall Street's concerns that the Democrats will slow down data center development. On the company's third-quarter earnings call last week, CEO Joe Dominguez was, for lack of a better word, unbothered as he addressed the blue wave. \"I do think we've…",
+   "summary": null,
+   "category": "INDUSTRY"
+  },
+  {
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1034668/data-centers-electricity-climate-pollution-study-harvard",
+   "title": "US data centers now burn more electricity than a midsized country",
+   "sourceId": "verge",
+   "sourceName": "The Verge AI",
+   "publishedAt": 1794860878000,
+   "excerpt": "Fossil fuels are still the biggest source of electricity for hyperscale data centers in the US, a new paper published in the journal Nature Sustainability shows. They likely burn through more electricity collectively than many countries do, resulting in a serious amount of greenhouse gas emissions. The study homes in on hyperscale facilities - the…",
+   "summary": null,
+   "category": "RESEARCH"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/",
+   "title": "California state AG sues OpenAI over rogue agent incidents",
+   "sourceId": "techcrunch",
+   "sourceName": "TechCrunch AI",
+   "publishedAt": 1794859633000,
+   "excerpt": "The California lawsuit represents one of the first attempts to hold an AI lab legally accountable for a rogue agent incident.",
+   "summary": null,
+   "category": "TOOLS"
+  },
+  {
+   "url": "https://blogs.nvidia.com/blog/ai-infrastructure-supply-chain/",
+   "title": "How the World’s Most Advanced AI Infrastructure Supply Chain Invents the Future",
+   "sourceId": "nvidia",
+   "sourceName": "NVIDIA Blog",
+   "publishedAt": 1794859237000,
+   "excerpt": "Deb Shoquist leads operations at NVIDIA, overseeing the supply chain and manufacturing behind its AI platforms. That description sums up the job, but it doesn’t begin to encompass what Shoquist has made possible over decades. Shoquist, her team and their global network of manufacturing partners enable NVIDIA to introduce world-leading technologies year-round. Much of the…",
+   "summary": null,
+   "category": "INDUSTRY"
+  },
+  {
+   "url": "https://the-decoder.com/google-warns-that-fully-automated-cyberattacks-have-arrived-and-will-get-worse-fast/",
+   "title": "Google warns that fully automated cyberattacks have arrived and will get worse fast",
+   "sourceId": "decoder",
+   "sourceName": "The Decoder",
+   "publishedAt": 1794858133000,
+   "excerpt": "Google's Threat Intelligence Group has for the first time caught attackers finding and exploiting security vulnerabilities with no human involvement at all. An AI framework called \"exploit_agent,\" found on an exposed server, automatically compared code before and after patches, built exploits, and ran them on its own. The article Google warns that fully automated cyberattacks have arrived and will get worse fast appeared first on The Decoder .",
+   "summary": null,
+   "category": "TOOLS"
+  },
+  {
+   "url": "https://www.theverge.com/tech/1034581/apple-intelligence-siri-ai-daily-usage-limits-icloud-subscription",
+   "title": "Apple is testing daily usage limits for more complex Siri AI interactions",
+   "sourceId": "verge",
+   "sourceName": "The Verge AI",
+   "publishedAt": 1794857080000,
+   "excerpt": "Apple released betas of iOS 27.3, iPadOS 27.3, and macOS 27.3 today, and the company is using the update to test new per device daily usage limits for some Siri AI and Apple Intelligence features, according to MacRumors. Basic Siri commands and requests will remain free and unlimited, but more advanced features that rely on…",
+   "summary": null,
+   "category": "TOOLS"
+  },
+  {
+   "url": "https://www.theverge.com/policy/1034527/openai-csam-classifier",
+   "title": "OpenAI wants to stop deepfakes from overwhelming child abuse tiplines",
+   "sourceId": "verge",
+   "sourceName": "The Verge AI",
+   "publishedAt": 1794857025000,
+   "excerpt": "OpenAI is announcing a tool that it says will help child sexual abuse investigators cut through the noise to find harmful material they can act on quickly. At a Monday press briefing in Washington, DC, OpenAI announced a classifier it says can better detect abusive imagery of kids, including whether it's AI-generated. It's also offering…",
+   "summary": null,
+   "category": "TOOLS"
+  },
+  {
+   "url": "https://the-decoder.com/openais-gpt-6-astra-tackles-the-standard-models-toughest-math-problem-on-a-lattice/",
+   "title": "OpenAI's GPT-6 Astra tackles the Standard Model's toughest math problem on a lattice",
+   "sourceId": "decoder",
+   "sourceName": "The Decoder",
+   "publishedAt": 1794856796000,
+   "excerpt": "OpenAI physicist Nathaniel Craig used GPT-6 Astra to tackle a problem that had stumped particle physicists for over 25 years. The AI model took Craig's strategy for defining the full Standard Model on a computational lattice and turned it into a working proof. Craig says a lot of work remains before realistic simulations are possible. The article OpenAI's GPT-6 Astra tackles the Standard Model's toughest math problem on a lattice appeared first on The Decoder .",
+   "summary": null,
+   "category": "MODELS"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/16/trump-says-ex-nvidia-ceo-jensen-huangs-affair-with-an-alleged-chinese-spy-did-not-threaten-national-security/",
+   "title": "Trump says ex-Nvidia CEO Jensen Huang’s affair with an alleged Chinese spy did not threaten national security",
+   "sourceId": "techcrunch",
+   "sourceName": "TechCrunch AI",
+   "publishedAt": 1794856322000,
+   "excerpt": "Trump contradicted his own government's intelligence officials, who reportedly concluded that Alice Huang is a Chinese spy.",
+   "summary": null,
+   "category": "INDUSTRY"
+  },
+  {
+   "url": "https://arstechnica.com/tech-policy/2026/11/us-moves-to-cut-chinas-remote-access-to-ai-chips/",
+   "title": "US moves to cut China’s remote access to AI chips",
+   "sourceId": "ars",
+   "sourceName": "Ars Technica AI",
+   "publishedAt": 1794856209000,
+   "excerpt": "Trump bets China won’t mind US blocking remote access to AI chips.",
+   "summary": null,
+   "category": "INDUSTRY"
+  },
+  {
+   "url": "https://the-decoder.com/moonshot-ai-pivots-kimi-models-from-coding-to-science-as-benchmark-gains-flatten/",
+   "title": "Moonshot AI pivots Kimi models from coding to science as benchmark gains flatten",
+   "sourceId": "decoder",
+   "sourceName": "The Decoder",
+   "publishedAt": 1794855175000,
+   "excerpt": "Moonshot AI is done chasing coding benchmarks, it says. The Beijing startup is pivoting its Kimi language models toward biology, chemistry, and pharma research, arguing that science demands smarter AI than law, finance, or code. The article Moonshot AI pivots Kimi models from coding to science as benchmark gains flatten appeared first on The Decoder .",
+   "summary": null,
+   "category": "RESEARCH"
+  },
+  {
+   "url": "https://www.theverge.com/tech/1034501/nvidia-board-jensen-huang-not-bringing-back",
+   "title": "Nvidia’s board is reportedly ‘not considering’ hiring Jensen Huang back",
+   "sourceId": "verge",
+   "sourceName": "The Verge AI",
+   "publishedAt": 1794854615000,
+   "excerpt": "Nvidia's board of directors \"isn't considering\" having Jensen Huang return as CEO, according to a report from CNBC. A source tells the outlet the board \"is focused on an investigation into Huang, and is not in discussions to bring him back.\" Since Huang's resignation last week, tech executives, along with current and former Nvidia employees,…",
+   "summary": null,
+   "category": "INDUSTRY"
+  },
+  {
+   "url": "https://www.technologyreview.com/2026/11/16/1148624/the-open-source-movement-wants-jensen-huang-back/",
+   "title": "The open-source movement wants Jensen Huang back",
+   "sourceId": "mittr",
+   "sourceName": "MIT Tech Review",
+   "publishedAt": 1794854327000,
+   "excerpt": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. On Friday, a petition to reinstate Jensen Huang as CEO of Nvidia began circulating on social media, and by Monday it listed some notable signatories, including Elon Musk and several influential Nvidia…",
+   "summary": null,
+   "category": "INDUSTRY"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/16/sam-altman-on-nvidia-without-jensen-huang-the-industry-will-be-fine/",
+   "title": "Sam Altman on Nvidia without Jensen Huang: The industry will be ‘fine’",
+   "sourceId": "techcrunch",
+   "sourceName": "TechCrunch AI",
+   "publishedAt": 1794852670000,
+   "excerpt": "OpenAI CEO Sam Altman acknowledged the special role Nvidia CEO Jensen Huang has played in the AI boom, but ultimately thinks the industry will be “fine” without him at the helm.",
+   "summary": null,
+   "category": "INDUSTRY"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours/",
+   "title": "FBI says Artex AI open source hacking tool used to breach networks in ‘under three hours’",
+   "sourceId": "techcrunch",
+   "sourceName": "TechCrunch AI",
+   "publishedAt": 1794850603000,
+   "excerpt": "The FBI says that the open source hacking tool was used in cyberattacks targeting a U.S. IT giant and the South Korean financial industry.",
+   "summary": null,
+   "category": "TOOLS"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/16/jordan-belforts-new-ai-voice-startup-tone-wants-to-sell-like-the-wolf-of-wall-street/",
+   "title": "Jordan Belfort’s new AI voice startup, Tone, wants to sell like the ‘Wolf of Wall Street’",
+   "sourceId": "techcrunch",
+   "sourceName": "TechCrunch AI",
+   "publishedAt": 1794849000000,
+   "excerpt": "Belfort claims his AI sales voice can already close deals almost as well as the best human salespeople, and he thinks it will catch up in a year.",
+   "summary": null,
+   "category": "INDUSTRY"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/16/openai-will-embed-apollo-researchers-to-investigate-ai-subversion/",
+   "title": "OpenAI will embed safety researchers to investigate AI subversion",
+   "sourceId": "techcrunch",
+   "sourceName": "TechCrunch AI",
+   "publishedAt": 1794848563000,
+   "excerpt": "OpenAI will embed six Apollo Research evaluators to investigate whether its AI models engage in subversive behavior, but restrictions on access and disclosure raise questions about their independence.",
+   "summary": null,
+   "category": "RESEARCH"
+  },
+  {
+   "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+   "title": "Broadening access to AI for scientists",
+   "sourceId": "openai",
+   "sourceName": "OpenAI",
+   "publishedAt": 1794848400000,
+   "excerpt": "We’re expanding our ChatGPT for Academic Researchers program to offer 200,000 researchers worldwide free access to our frontier models.",
+   "summary": null,
+   "category": "RESEARCH"
+  },
+  {
+   "url": "https://openai.com/index/strengthening-online-child-safety",
+   "title": "Strengthening the fight against online child sexual abuse with new tools and support",
+   "sourceId": "openai",
+   "sourceName": "OpenAI",
+   "publishedAt": 1794848400000,
+   "excerpt": "New tools, practical guidance, and partnerships will help prevent, detect and respond to online child sexual exploitation and abuse.",
+   "summary": null,
+   "category": "TOOLS"
+  },
+  {
+   "url": "https://the-decoder.com/alibabas-qwen4-max-takes-on-opus-5-5-gpt-6-and-kimi-k3-1-pro-at-much-lower-prices/",
+   "title": "Alibaba's Qwen4-Max takes on Opus 5.5, GPT-6, and Kimi K3.1 Pro at much lower prices",
+   "sourceId": "decoder",
+   "sourceName": "The Decoder",
+   "publishedAt": 1794848164000,
+   "excerpt": "Alibaba launches Qwen4-Max, a new flagship model with 2.4 trillion parameters that activates only 71 billion per token. A hybrid architecture sharply cuts costs on long contexts. Qwen4-Max lands just behind Kimi K3.1 Pro on the Artificial Analysis Intelligence Index, and Alibaba plans to release smaller Qwen4 models as open source. The article Alibaba's Qwen4-Max takes on Opus 5.5, GPT-6, and Kimi K3.1 Pro at much lower prices appeared first on The Decoder .",
+   "summary": null,
+   "category": "MODELS"
+  },
+  {
+   "url": "https://www.wired.com/story/the-big-interview-podcast-lauren-goode-jensen-huang/",
+   "title": "Jensen Huang Is Gone. Now What?",
+   "sourceId": "wired",
+   "sourceName": "WIRED AI",
+   "publishedAt": 1794845571000,
+   "excerpt": "After a shocking downfall, Nvidia’s CEO is out of a job. WIRED’s Lauren Goode explains what that means for the world’s most critical chip company, the AI industry, and Jensen Huang himself.",
+   "summary": null,
+   "category": "INDUSTRY"
+  },
+  {
+   "url": "https://the-decoder.com/claude-now-builds-interactive-websites-inside-canvas-graphics-reviving-the-flash-era-with-real-html/",
+   "title": "Claude now builds interactive websites inside canvas graphics, reviving the Flash era with real HTML",
+   "sourceId": "decoder",
+   "sourceName": "The Decoder",
+   "publishedAt": 1794845422000,
+   "excerpt": "Claude can now embed text, buttons, and other web elements into complex graphics and 3D effects. The article Claude now builds interactive websites inside canvas graphics, reviving the Flash era with real HTML appeared first on The Decoder .",
+   "summary": null,
+   "category": "MODELS"
+  },
+  {
+   "url": "https://www.technologyreview.com/2026/11/16/1148565/building-trustworthy-ai-by-fencing-it-in-not-predicting-it/",
+   "title": "Building trustworthy AI by fencing it in, not predicting it",
+   "sourceId": "mittr",
+   "sourceName": "MIT Tech Review",
+   "publishedAt": 1794845068000,
+   "excerpt": "In October this year, OpenAI disclosed that two of its AI agents had switched off the systems built to monitor them. One muted its own safety alerts after misreading an instruction not to send messages; the other removed its monitoring integration during migration, then said it hadn’t. No rule had told the agents to do…",
+   "summary": null,
+   "category": "TOOLS"
+  },
+  {
+   "url": "https://blogs.nvidia.com/blog/lambda-photonics/",
+   "title": "Lambda Boosts AI Factory Resiliency and Efficiency With NVIDIA Photonics",
+   "sourceId": "nvidia",
+   "sourceName": "NVIDIA Blog",
+   "publishedAt": 1794844851000,
+   "excerpt": "To train an AI model, thousands of GPUs have to work together, requiring a network that’s fast, efficient and resilient. Lambda is tackling the network piece of the puzzle with NVIDIA Photonics co-packaged optics (CPO) switches. The cloud provider is using the switches to connect NVIDIA GB300 NVL72 racks with more than 10,000 GPUs, delivering…",
+   "summary": null,
+   "category": "INDUSTRY"
+  },
+  {
+   "url": "https://blogs.nvidia.com/blog/mlperf-training-endpoints-vera-rubin/",
+   "title": "NVIDIA Sweeps MLPerf Training and Endpoints as Vera Rubin Debuts With Leading Performance",
+   "sourceId": "nvidia",
+   "sourceName": "NVIDIA Blog",
+   "publishedAt": 1794844825000,
+   "excerpt": "In its MLPerf benchmarks debut, with results released today, the NVIDIA Vera Rubin platform delivers leading performance across training, post-training and agentic inference. NVIDIA swept every MLPerf Training v6.1 benchmark and, in its first MLPerf Endpoints submission, delivered more than 10x generational gains in throughput per watt for agentic AI — measuring how much agentic…",
+   "summary": null,
+   "category": "RESEARCH"
+  },
+  {
+   "url": "https://blogs.nvidia.com/blog/cuda-x-libraries-agents-accelerate-scientific-discovery/",
+   "title": "NVIDIA CUDA-X Libraries Give Agents the Tools to Accelerate Scientific Discovery",
+   "sourceId": "nvidia",
+   "sourceName": "NVIDIA Blog",
+   "publishedAt": 1794844816000,
+   "excerpt": "With expanded NVIDIA CUDA-X libraries, including cuPhoton, cuPotential and cuSpa, researchers can sift through vast amounts of data to accelerate research, from astrophysics and materials science to single-cell biology. The speedups are helping scientists analyze larger datasets and model more complex systems. The new libraries give AI agents the tools to help researchers make discoveries…",
+   "summary": null,
+   "category": "RESEARCH"
+  },
+  {
+   "url": "https://blogs.nvidia.com/blog/20-years-cuda/",
+   "title": "CUDA at 20: How the Platform Transformed Scientific Computing",
+   "sourceId": "nvidia",
+   "sourceName": "NVIDIA Blog",
+   "publishedAt": 1794844811000,
+   "excerpt": "This week at SC26, NVIDIA is marking two decades of CUDA by honoring the researchers, developers and engineers who helped make GPU computing a foundation for modern science and AI. CUDA’s 20th anniversary presents an occasion to reflect across computing eras, from the people who wrote the very first CUDA programs to the AI developers…",
+   "summary": null,
+   "category": "RESEARCH"
+  },
+  {
+   "url": "https://blogs.nvidia.com/blog/rubin-hpc/",
+   "title": "NVIDIA Announces Rubin HPC — A New GPU to Accelerate Agents for Science, Engineering and Analytics",
+   "sourceId": "nvidia",
+   "sourceName": "NVIDIA Blog",
+   "publishedAt": 1794844801000,
+   "excerpt": "Announced today at SC26, NVIDIA Rubin HPC is a new GPU in the NVIDIA Vera Rubin platform designed to accelerate simulation and data processing for science, engineering and analytics workflows. As agents help scientists and engineers explore more candidate materials, molecules and designs, they rely on simulations to test those ideas and guide their next…",
+   "summary": null,
+   "category": "RESEARCH"
+  },
+  {
+   "url": "https://the-decoder.com/anthropic-says-the-key-to-agent-memory-is-knowing-what-to-forget-not-how-much-to-store/",
+   "title": "Anthropic says the key to agent memory is knowing what to forget, not how much to store",
+   "sourceId": "decoder",
+   "sourceName": "The Decoder",
+   "publishedAt": 1794842748000,
+   "excerpt": "Anthropic studied how Claude retains knowledge across sessions. Selective notes beat exhaustive archives by a wide margin. In a Pokémon Red test, the newer Claude Fable 5 got four times as far as the older Sonnet 3.7 by keeping just a handful of strategy files instead of more than 400. A \"Dreaming\" process retroactively corrects faulty memories. The article Anthropic says the key to agent memory is knowing what to forget, not how much to store appeared first on The Decoder .",
+   "summary": null,
+   "category": "TOOLS"
+  },
+  {
+   "url": "https://arstechnica.com/ai/2026/11/jensen-huang-allies-build-a-war-room-to-get-him-back-at-nvidia/",
+   "title": "Jensen Huang allies build a \"war room\" to get him back at Nvidia",
+   "sourceId": "ars",
+   "sourceName": "Ars Technica AI",
+   "publishedAt": 1794837976000,
+   "excerpt": "Huang is weighing a return just days after resigning amid a deepening scandal.",
+   "summary": null,
+   "category": "INDUSTRY"
+  },
+  {
+   "url": "https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026/",
+   "title": "New Ask Maps features to help with holiday travel and prep",
+   "sourceId": "googleai",
+   "sourceName": "Google AI",
+   "publishedAt": 1794837600000,
+   "excerpt": "Plan holiday road trips, get route tips, find local appointments, and search your saved lists with new Ask Maps features.",
+   "summary": null,
+   "category": "INDUSTRY"
+  },
+  {
+   "url": "https://www.theverge.com/tech/1034083/audible-audio-discovery-ai-feature-availability",
+   "title": "Audible is trying to make it easier to find audiobooks you’ll actually like",
+   "sourceId": "verge",
+   "sourceName": "The Verge AI",
+   "publishedAt": 1794837600000,
+   "excerpt": "Audible is introducing an AI-assisted synopsis feature that's designed to help users determine whether they'll enjoy an audiobook before they jump in and start listening to it. The new audio discovery feature combines audiobook samples, AI overviews, and author commentary to give users more information before choosing their next story, in addition to recommended audiobook…",
+   "summary": null,
+   "category": "TOOLS"
+  },
+  {
+   "url": "https://www.theverge.com/tech/1034110/google-ask-maps-ai-trip-planning",
+   "title": "Google Maps can now create trip itineraries for you",
+   "sourceId": "verge",
+   "sourceName": "The Verge AI",
+   "publishedAt": 1794837600000,
+   "excerpt": "Google is launching a new AI trip-planning feature for Maps that allows the app to create custom itineraries for you and provide real-time details about each stop. The update, which is rolling out to the Gemini-powered Ask Maps chatbot inside the app, lets you plan a one-day outing or a trip spanning several days. As…",
+   "summary": null,
+   "category": "TOOLS"
+  },
+  {
+   "url": "https://www.technologyreview.com/2026/11/16/1146070/building-ai-that-can-work-across-the-enterprise/",
+   "title": "Building AI that can work across the enterprise",
+   "sourceId": "mittr",
+   "sourceName": "MIT Tech Review",
+   "publishedAt": 1794834000000,
+   "excerpt": "For years, enterprises have approached AI as a series of discrete experiments. Now, as AI agents begin to move into the workflows that run the business, that model is starting to look inadequate. Organizations moving from isolated pilots toward AI agents and autonomous workflows are confronting a deeper challenge: rethinking how data, business processes, governance,…",
+   "summary": null,
+   "category": "TOOLS"
+  },
+  {
+   "url": "https://openai.com/index/science-at-the-frontier",
+   "title": "Science at the Frontier: How scientists use ChatGPT",
+   "sourceId": "openai",
+   "sourceName": "OpenAI",
+   "publishedAt": 1794830400000,
+   "excerpt": "Explore how more than 1,800 scientists use ChatGPT in research. See findings on daily workflows, reported productivity, and expectations for discovery.",
+   "summary": null,
+   "category": "RESEARCH"
   },
   {
    "url": "https://www.wired.com/story/nvidia-was-already-in-trouble-before-the-jensen-huang-mess/",
@@ -119,36 +729,6 @@
    "category": "INDUSTRY"
   },
   {
-   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxmj9o/paper_models_gamer_a_generalist/",
-   "title": "[Paper & Models] Gamer: A Generalist Vision-Language-Action Foundation Model for Long-Horizon Real-Time Game Agent",
-   "sourceId": "localllama",
-   "sourceName": "r/LocalLLaMA",
-   "publishedAt": 1794826730000,
-   "excerpt": "We introduce Gamer, a generalist agent framework built for long-horizon tasks in complex interactive environments. Its end-to-end architecture combines perception, memory management, and multi-step reasoning. A shared training and deployment pipeline supports interaction with both conventional 2D graphical interfaces and complex 3D simulated worlds. We first continue pre-training on a dataset constructed from tens of thousands of hours of device-level keyboard and mouse interaction. These trajectories span simulated games and embodied environments, allowing the model to learn environmental dynamics across both physical and virtual domains. Sparse-thinking instruction tuning then substantiall…",
-   "summary": "Gamer is a new foundation model designed for long-horizon tasks in 2D and 3D interactive environments. It uses a combination of perception, memory management, and multi-step reasoning trained on keyboard and mouse interaction data.",
-   "category": "MODELS"
-  },
-  {
-   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxmd9a/how_do_we_feel_about_bots_posting_commenting/",
-   "title": "How do we feel about bots posting & commenting?",
-   "sourceId": "localllama",
-   "sourceName": "r/LocalLLaMA",
-   "publishedAt": 1794826119000,
-   "excerpt": "Hi all, I noticed the \"bot problem\" got a lot worse the past few months. By which I mean our community seems to be taken over more and more by bots talking to each other. For me, I don't really get the point, and I personally get quite annoyed when I realize \"oh, I just responded to a bot\" and feel like my time was wasted. It also seems like the information density of these AI contributions are very, very low. I'm not some kind of Luddite (why would I be here at all if I was?), but I'm wondering if I'm just missing something and there is a use and a point to all these bots commenting on each others posts and talking to each other. Where does the rest of the community stand on this? I noticed…",
-   "summary": "A discussion regarding the prevalence of low-quality AI-generated bot content on the r/LocalLLaMA subreddit and its impact on community information density.",
-   "category": "LOCAL"
-  },
-  {
-   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxmd3w/paper_models_mmflash_faster_speculative_decoding/",
-   "title": "[Paper & Models] MMFlash: Faster Speculative Decoding for Vision-Language Models",
-   "sourceId": "localllama",
-   "sourceName": "r/LocalLLaMA",
-   "publishedAt": 1794826104000,
-   "excerpt": "Speculative decoding accelerates generation by letting a lightweight drafter propose tokens for parallel verification by a target model. Diffusion drafters such as DFlash propose an entire token block in a single forward pass, but mainly focus on text-only tasks, leaving multimodal drafting underexplored. To study this setting, we first introduce a metric of token-level visual dependence based on the KL divergence between next-token distributions with and without visual input. We find that acceptance rates decrease from 46% in the lowest visual-dependence quartile to 22% in the highest, with this disparity persisting after multimodal training. Motivated by this observation, we propose MMFlas…",
-   "summary": "MMFlash is a new speculative decoding method for vision-language models that addresses the challenge of high visual dependence. It uses a diffusion-based drafter to improve token generation speeds in multimodal tasks.",
-   "category": "RESEARCH"
-  },
-  {
    "url": "https://www.marktechpost.com/2026/11/16/meta-jittests-llm-catching-tests-privacy-bugs/",
    "title": "Meet Meta’s JiTTests: LLM-Generated Tests Designed to Fail Before Risky Code Lands",
    "sourceId": "marktechpost",
@@ -159,16 +739,6 @@
    "category": "TOOLS"
   },
   {
-   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxlgpb/introducing_hy4_flash/",
-   "title": "Introducing Hy4 flash",
-   "sourceId": "localllama",
-   "sourceName": "r/LocalLLaMA",
-   "publishedAt": 1794822764000,
-   "excerpt": "Now this seems to be interesting. From the article: We’re introducing Hy4 flash, our most cost-effective Hy model to date—featuring 224B total parameters (including 64B Engram parameters) with just 12B active parameters per token. Like Hy4, it is natively multimodal with a 1M-token context window, while offering significantly lower API pricing. Seems to be about in the same ballpark of Qwen-Flash-Next, so we could expect to run it on moderably good machines, when it will be released.",
-   "summary": "Hy4 flash is a new multimodal model featuring 224B total parameters, 12B active parameters, and a 1M-token context window. It is designed to be a cost-effective option for API users.",
-   "category": "MODELS"
-  },
-  {
    "url": "https://www.marktechpost.com/2026/11/16/alibaba-qwen4-max-release/",
    "title": "Alibaba Releases Qwen4-Max: 2.4T MoE, 71B Active, 1M Context",
    "sourceId": "marktechpost",
@@ -177,6 +747,16 @@
    "excerpt": "Alibaba released Qwen4-Max, a proprietary 2.4T-parameter MoE model with 71B active parameters, native vision and a 1M-token context. It costs $1.5/M input tokens and cuts Work360 cost per task by 62%.",
    "summary": "Alibaba released Qwen4-Max, a 2.4T-parameter MoE model with 71B active parameters and a 1M-token context window. It is priced at $1.50 per million input tokens.",
    "category": "MODELS"
+  },
+  {
+   "url": "https://openai.com/business/customer-stories/revolut",
+   "title": "How Revolut raises ambition without lowering the bar",
+   "sourceId": "openai",
+   "sourceName": "OpenAI",
+   "publishedAt": 1794821400000,
+   "excerpt": "Discover how Revolut uses OpenAI models and Codex to cut coding time by 30–60%, scale financial crime investigations, and innovate without compromising security.",
+   "summary": null,
+   "category": "INDUSTRY"
   },
   {
    "url": "https://www.marktechpost.com/2026/11/16/hark-handoff-2-computer-use-agent-2x-faster/",
@@ -199,44 +779,34 @@
    "category": "INDUSTRY"
   },
   {
-   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxibeh/new_aa_ranking_qwen38fn_better_than_glm53flash/",
-   "title": "New AA ranking Qwen3.8-FN better than GLM-5.3-Flash?",
-   "sourceId": "localllama",
-   "sourceName": "r/LocalLLaMA",
-   "publishedAt": 1794810728000,
-   "excerpt": "Thoughts on Qwen3.8-Flash-Next scoring better than GLM-5.3-flash? I've always experienced GLM5.3-Flash to give better responses",
-   "summary": "A community comparison between Qwen3.8-Flash-Next and GLM-5.3-Flash regarding model performance and response quality.",
-   "category": "LOCAL"
+   "url": "https://openai.com/index/our-first-phase-of-embedded-assessments",
+   "title": "Our first phase of embedded assessments",
+   "sourceId": "openai",
+   "sourceName": "OpenAI",
+   "publishedAt": 1794816000000,
+   "excerpt": "OpenAI begins embedded assessments with Apollo Research, METR, and Transluce, and Goodfire to independently evaluate model alignment, safeguards, and monitoring systems.",
+   "summary": null,
+   "category": "RESEARCH"
   },
   {
-   "url": "https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health/",
-   "title": "Apple launches new app to study how people use AI for health",
-   "sourceId": "techcrunch",
-   "sourceName": "TechCrunch AI",
-   "publishedAt": 1794792600000,
-   "excerpt": "Apple's new app for a study will answer everyday medical questions",
-   "summary": "Apple has launched a new app to conduct a study on how users interact with and utilize AI for medical questions.",
-   "category": "INDUSTRY"
+   "url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
+   "title": "More ways to move care forward with ChatGPT for Healthcare",
+   "sourceId": "openai",
+   "sourceName": "OpenAI",
+   "publishedAt": 1794808800000,
+   "excerpt": "Introducing computer-use agents, improved clinical answers, and new healthcare plugins that work across healthcare software to get real work done.",
+   "summary": null,
+   "category": "TOOLS"
   },
   {
-   "url": "https://www.theverge.com/tech/1033355/apples-new-study-looks-to-improve-the-effectiveness-of-ai-health-tools",
-   "title": "Apple’s new study looks to improve the effectiveness of AI health tools",
-   "sourceId": "verge",
-   "sourceName": "The Verge AI",
-   "publishedAt": 1794792416000,
-   "excerpt": "Apple announced a new study today with the goal of better understanding how people interact with conversational AI health tools and how useful their responses actually are. The company is conducting the Apple Health AI Usage Study in collaboration with OpenEvidence, a clinical AI platform used by healthcare professionals that generates answers based on medical…",
-   "summary": "Apple is collaborating with OpenEvidence on a study to evaluate the effectiveness and utility of conversational AI health tools.",
-   "category": "INDUSTRY"
-  },
-  {
-   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxawbh/why_download_abliterated_flash_next_models_when/",
-   "title": "Why download abliterated Flash Next models when LoRA exists?",
-   "sourceId": "localllama",
-   "sourceName": "r/LocalLLaMA",
-   "publishedAt": 1794787576000,
-   "excerpt": "TL;DR -- Download LoRA, add --lora HUIHUI-V2-Qwen3.8-Flash-Next-LoRA-F32.gguf to your llama.cpp launch command for ANY FN quant, and boom, you've got an identical huihui v2 abliterated model on demand and you saved 150GB of space. I just wanted to post a kind of PSA for everyone out there downloading hundreds of GB of abliterated models. You don't need to do that -- the vast majority of abliteration techniques are rank-1 ablations, meaning their refusal projection can be encapsulated in a tiny LoRA and applied at runtime to a quant you already have on disk. It can even be applied per-request, so you can run an unmodified model until you hit a refusal, then switch on the LoRA, resend the prom…",
-   "summary": "A guide on using LoRA adapters to apply 'abliteration' techniques to existing quantized models at runtime. This method saves disk space by avoiding the need to download full, pre-abliterated model files.",
-   "category": "LOCAL"
+   "url": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
+   "title": "Advancing computer-use agents for healthcare teams",
+   "sourceId": "openai",
+   "sourceName": "OpenAI",
+   "publishedAt": 1794808800000,
+   "excerpt": "",
+   "summary": null,
+   "category": "TOOLS"
   },
   {
    "url": "https://blogs.nvidia.com/blog/ai-day-seoul-wrapup/",
@@ -249,14 +819,14 @@
    "category": "INDUSTRY"
   },
   {
-   "url": "https://openai.com/index/the-kings-trust-and-openai",
-   "title": "The King’s Trust and OpenAI launch £1m partnership",
-   "sourceId": "openai",
-   "sourceName": "OpenAI",
+   "url": "https://huggingface.co/blog/openrouter",
+   "title": "Hugging Face and OpenRouter join forces to make open-weight models easy to run",
+   "sourceId": "huggingface",
+   "sourceName": "Hugging Face",
    "publishedAt": 1794787200000,
-   "excerpt": "The King’s Trust and OpenAI launch a £1m partnership to help up to 25,000 young people across the UK build practical AI skills for work.",
-   "summary": "OpenAI and The King’s Trust have launched a £1 million partnership to provide AI skills training to 25,000 young people in the UK.",
-   "category": "INDUSTRY"
+   "excerpt": "",
+   "summary": null,
+   "category": "LOCAL"
   },
   {
    "url": "https://simonwillison.net/2026/Nov/15/datasette-maplibre/",
@@ -267,16 +837,6 @@
    "excerpt": "Release: datasette-maplibre 0.1a0 The first new Datasette geospatial plugin in quite a while! This one combines the excellent MapLibre GL library with OpenFreeMap , the free vector map server operated by Zsolt Ero (you should sponsor Zsolt on GitHub .) I built most of this with a single prompt to Claude Fable 5.2: Look at datasette-cluster-map and datasette-leaflet-geojson plugins, then look at ~/dev/tools/openfreemap-demo.html - then build a brand new Datasette plugin that uses maplibreGL and openfreemap and combines the features of those other two plugins - but be creative and think outside the box for other useful features the plugin might have \"Be creative and think outside the box\" resu…",
    "summary": "Datasette-maplibre 0.1a0 is a new geospatial plugin that integrates MapLibre GL and OpenFreeMap. It was developed using Claude Fable 5.2.",
    "category": "TOOLS"
-  },
-  {
-   "url": "https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/",
-   "title": "Indian chip startup Bharat Semi lands $24M seed round as it eyes global AI sensor market",
-   "sourceId": "techcrunch",
-   "sourceName": "TechCrunch AI",
-   "publishedAt": 1794785400000,
-   "excerpt": "Bharat Semi says it has secured design wins for its AI-enabled sensor technology with companies including General Atomics.",
-   "summary": "Indian chip startup Bharat Semi raised $24 million in a seed round to expand its AI-enabled sensor technology. The company has secured design wins with firms including General Atomics.",
-   "category": "INDUSTRY"
   },
   {
    "url": "https://simonwillison.net/2026/Nov/15/datasette/",
@@ -299,86 +859,6 @@
    "category": "TOOLS"
   },
   {
-   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xx85mw/someone_should_do_an_analysis_on_the_rate_of/",
-   "title": "Someone should do an analysis on the rate of Self-promo here.",
-   "sourceId": "localllama",
-   "sourceName": "r/LocalLLaMA",
-   "publishedAt": 1794780321000,
-   "excerpt": "I think the last 3 posts from here that showed up on my feed were barely veiled self-promos. I was here when huggingface first started getting popular, and the level of support for running local models here was incredible. Now I am debating whether or not to leave the sub. Why isn’t there more attention to moderation to this? Take a user’s post, and type their username with quotes into google and then type whatever obscure tool they’re asking a question or talking about and you’ll see the absurd rate or Astro-turfing and shilling. They will post here and 6 other LLM places, but this place used to be awesome, so I only care about this sub.",
-   "summary": "A community discussion regarding the increase in self-promotional content and potential astroturfing on the r/LocalLLaMA subreddit.",
-   "category": "LOCAL"
-  },
-  {
-   "url": "https://openai.com/index/step-toward-defining-the-standard-model",
-   "title": "A step toward defining the Standard Model on a lattice",
-   "sourceId": "openai",
-   "sourceName": "OpenAI",
-   "publishedAt": 1794780001000,
-   "excerpt": "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof.",
-   "summary": "OpenAI researchers used GPT-6 Astra to assist in developing a nonperturbative lattice definition of the Standard Model.",
-   "category": "RESEARCH"
-  },
-  {
-   "url": "https://openai.com/index/our-new-blog-for-science",
-   "title": "Our new blog for science",
-   "sourceId": "openai",
-   "sourceName": "OpenAI",
-   "publishedAt": 1794780000000,
-   "excerpt": "The OpenAI science blog shares new findings, practical methods, and firsthand accounts from researchers using AI to advance scientific discovery.",
-   "summary": "OpenAI has launched a new science blog to share research findings and methods for using AI in scientific discovery.",
-   "category": "RESEARCH"
-  },
-  {
-   "url": "https://techcrunch.com/2026/11/15/is-bad-news-for-jensen-huang-also-bad-news-for-the-ai-industry/",
-   "title": "Is bad news for Jensen Huang also bad news for the AI industry?",
-   "sourceId": "techcrunch",
-   "sourceName": "TechCrunch AI",
-   "publishedAt": 1794779795000,
-   "excerpt": "\"Jensen is Nvidia, right? And so much of this economy is riding on Nvidia.\"",
-   "summary": "An analysis of the potential economic impact on the AI industry resulting from the leadership instability at Nvidia.",
-   "category": "INDUSTRY"
-  },
-  {
-   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xx7qbf/i_have_created_a_tool_to_observe_what_happens/",
-   "title": "I have created a tool to observe what happens inside an LLM. Also allows for the comparison of two quantizations of the same model to see at what point they diverge, token by token",
-   "sourceId": "localllama",
-   "sourceName": "r/LocalLLaMA",
-   "publishedAt": 1794779216000,
-   "excerpt": "What changes between different quantizations of the same model? And what if you could SEE what actually sets them apart? To help answer that question, I’ve created a small project called inside-llm—an open-source tool that loads one or two GGUF models using llama.cpp and displays, right in your browser, what the model is doing as it generates text. What it shows Stream: the text, one column per model, brightness = probability of each token. A magenta mark wherever A and B would pick differently. Two modes: lockstep (both models read the same text, so you get a clean per-position comparison) and free (each follows its own picks until they split). Candidates: the full distribution behind each…",
-   "summary": "Inside-llm is an open-source tool that allows users to visualize and compare the token-by-token generation process of two different GGUF model quantizations in a browser.",
-   "category": "LOCAL"
-  },
-  {
-   "url": "https://www.theverge.com/tech/1033999/jensen-huang-return-nvidia-megaspeed",
-   "title": "Jensen Huang might be plotting a return and more of the latest Nvidia drama",
-   "sourceId": "verge",
-   "sourceName": "The Verge AI",
-   "publishedAt": 1794775429000,
-   "excerpt": "The drama around Nvidia co-founder and former CEO Jensen Huang is evolving quickly. The latest edition of our Stepback newsletter should get you up to speed, but there have already been a number of new developments since this morning. That includes rumors that Jensen Huang might be trying to find a path back to CEO,…",
-   "summary": "Ongoing reports suggest potential leadership changes at Nvidia following the resignation of former CEO Jensen Huang.",
-   "category": "INDUSTRY"
-  },
-  {
-   "url": "https://techcrunch.com/2026/11/15/snl-gathers-all-the-tech-tycoons-for-a-lesson-in-dating-and-spycraft/",
-   "title": "SNL gathers all the tech tycoons for a lesson in dating and spycraft",
-   "sourceId": "techcrunch",
-   "sourceName": "TechCrunch AI",
-   "publishedAt": 1794774057000,
-   "excerpt": "While awkward, creepy tech executives have become a recurring theme on Saturday Night Live, this week’s episode gave the cast a chance to show off all their impressions at once.",
-   "summary": "Saturday Night Live featured a sketch parodying various tech executives.",
-   "category": "INDUSTRY"
-  },
-  {
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china",
-   "title": "Congress wants to tighten export rules on AI chips after Nvidia spy scandal",
-   "sourceId": "verge",
-   "sourceName": "The Verge AI",
-   "publishedAt": 1794770143000,
-   "excerpt": "Unsurprisingly, following the scandal involving now-former Nvidia CEO Jensen Huang and a suspected Chinese spy, Congress is looking to further restrict exports of AI chips. Both Democrats and Republicans have voiced support for various measures and bills that would tighten rules and have demanded that Huang and other Nvidia leaders testify before Congress. Senate Minority…",
-   "summary": "Following a scandal involving former Nvidia CEO Jensen Huang, US Congress is considering stricter export controls on AI chips and has requested testimony from Nvidia leadership.",
-   "category": "INDUSTRY"
-  },
-  {
    "url": "https://the-decoder.com/anthropics-claude-fable-5-2-doesnt-generate-images-it-paints-them/",
    "title": "Anthropic's Claude Fable 5.2 doesn't generate images, it paints them",
    "sourceId": "decoder",
@@ -396,16 +876,6 @@
    "publishedAt": 1794753912000,
    "excerpt": "Megaspeed, the firm owned by ousted Nvidia CEO Jensen Huang's former lover Alice Huang, arranged nearly $12 billion in Nvidia chip orders for Chinese companies between 2024 and 2025, according to the WSJ. Short seller Culper Research estimates Nvidia's actual China revenue share exceeds 20 percent, far above the officially reported 7 percent. The article Firm linked to Jensen Huang's ex-lover reportedly brokered nearly $12 billion in Nvidia chip orders for China appeared first on The Decoder .",
    "summary": "Megaspeed, a firm tied to ousted Nvidia CEO Jensen Huang's ex-lover Alice Huang, brokered nearly $12 billion in Nvidia chip orders for Chinese companies between 2024 and 2025. Short seller Culper Research estimates that Nvidia's actual China revenue share exceeds 20 percent, compared to the officially reported 7 percent.",
-   "category": "INDUSTRY"
-  },
-  {
-   "url": "https://www.theverge.com/column/1033943/jensen-huang-nvidia-china-spying-scandal-resignation",
-   "title": "An overview of Jensen Huang’s messy days",
-   "sourceId": "verge",
-   "sourceName": "The Verge AI",
-   "publishedAt": 1794747600000,
-   "excerpt": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on Jensen Huang's resignation and the fallout from Nvidia's leadership crisis, follow Terrence O'Brien. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started On October…",
-   "summary": "A summary of the leadership crisis at Nvidia following the resignation of Jensen Huang.",
    "category": "INDUSTRY"
   },
   {
@@ -479,16 +949,6 @@
    "category": "TOOLS"
   },
   {
-   "url": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/",
-   "title": "Where was Nvidia’s security team?",
-   "sourceId": "techcrunch",
-   "sourceName": "TechCrunch AI",
-   "publishedAt": 1794701287000,
-   "excerpt": "Nvidia’s security chief quietly left in August, and now that CEO Jensen Huang has stepped down over his relationships, including one with an executive at a company suspected of funneling chips to China, a former intelligence officer says it’s the kind of leak that runs everyday conversations, which most corporate security teams are poorly equipped to catch.",
-   "summary": "Following the departure of Nvidia's security chief and CEO Jensen Huang's exit over relationships tied to chip shipments to China, experts note that corporate security teams are generally unequipped to handle high-level insider information leaks.",
-   "category": "INDUSTRY"
-  },
-  {
    "url": "https://simonwillison.net/2026/Nov/14/datasette-llm/",
    "title": "datasette-llm 0.1a11",
    "sourceId": "simonw",
@@ -497,36 +957,6 @@
    "excerpt": "Release: datasette-llm 0.1a11 datasette-llm is the intermediate plugin for Datasette that supports configuring LLMs for use with other Datasette plugins. This release adds support for OpenAI-compatible endpoints, so you can configure Datasette to use an LLM hosted anywhere that talks the OpenAI pseudo-standard web protocol. This means that if you're running local models with LM Studio or Ollama or llama.cpp (which just hit v1.0.0 ) you can run Datasette via uvx like this: wget https://datasette.io/content.db uvx --with datasette-agent datasette \\ --root --secret 1 \\ -s plugins.datasette-llm.default_model ' { \"model\": \"lmstudio-qwen\", \"model_name\": \"qwen/qwen3.8-27b\", \"api_base\": \"http://loca…",
    "summary": "Datasette-llm version 0.1a11 has been released, adding support for OpenAI-compatible endpoints. This allows users to connect local models running via LM Studio, Ollama, or llama.cpp to Datasette plugins.",
    "category": "TOOLS"
-  },
-  {
-   "url": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
-   "title": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
-   "sourceId": "techcrunch",
-   "sourceName": "TechCrunch AI",
-   "publishedAt": 1794692482000,
-   "excerpt": "The petition had attracted more than 115,000 signatures as of Saturday afternoon.",
-   "summary": "A petition calling on Nvidia to reinstate Jensen Huang surpassed 115,000 signatures.",
-   "category": "INDUSTRY"
-  },
-  {
-   "url": "https://the-decoder.com/anthropic-ceo-amodei-admits-theres-a-huge-uncertainty-in-whats-going-to-happen-next-year-days-before-a-record-ipo/",
-   "title": "Anthropic CEO Amodei admits \"there's a huge uncertainty in what's going to happen next year\" days before a record IPO",
-   "sourceId": "decoder",
-   "sourceName": "The Decoder",
-   "publishedAt": 1794683117000,
-   "excerpt": "Days before what could be the largest IPO in history, Anthropic CEO Dario Amodei called buying compute 'the deepest business dilemma' his company faces. Anthropic's commitments now total nearly $901 billion, and it's still far from clear whether future revenue will justify those costs. The planned IPO is largely meant to serve as a financial buffer against that uncertainty. The article Anthropic CEO Amodei admits \"there's a huge uncertainty in what's going to happen next year\" days before a record IPO appeared first on The Decoder .",
-   "summary": "Ahead of a record IPO intended to serve as a financial buffer, Anthropic CEO Dario Amodei stated that the company's compute commitments total nearly $901 billion, creating deep business uncertainty.",
-   "category": "INDUSTRY"
-  },
-  {
-   "url": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
-   "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
-   "sourceId": "techcrunch",
-   "sourceName": "TechCrunch AI",
-   "publishedAt": 1794677400000,
-   "excerpt": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
-   "summary": "TechCrunch maintains a running chronicle of cancelled AI initiatives and failed startups, ranging from Apple's delayed Siri AI features to OpenAI projects.",
-   "category": "INDUSTRY"
   },
   {
    "url": "https://simonwillison.net/2026/Nov/14/datasette-vega/",
@@ -539,16 +969,6 @@
    "category": "TOOLS"
   },
   {
-   "url": "https://the-decoder.com/gemini-4-carbon-takes-the-matharena-crown-but-costs-15-times-more-than-gpt-6-1-sol/",
-   "title": "Gemini 4 Carbon takes the MathArena crown but costs 15 times more than GPT-6.1 Sol",
-   "sourceId": "decoder",
-   "sourceName": "The Decoder",
-   "publishedAt": 1794674881000,
-   "excerpt": "For the first time in a while, no OpenAI model leads the MathArena AI math benchmark. Google's Gemini 4 Carbon and Anthropic's Fable 5.2 have knocked GPT-6.1 Sol from the top, though both cost significantly more. Gemini ignored the time limit in testing and almost never gave up on a task. The article Gemini 4 Carbon takes the MathArena crown but costs 15 times more than GPT-6.1 Sol appeared first on The Decoder .",
-   "summary": "Google's Gemini 4 Carbon and Anthropic's Fable 5.2 surpassed GPT-6.1 Sol on the MathArena benchmark, though both models cost significantly more to run, with Gemini 4 Carbon priced at roughly 15 times the cost of GPT-6.1 Sol.",
-   "category": "MODELS"
-  },
-  {
    "url": "https://www.marktechpost.com/2026/11/14/cmpnd-dspy-wsp-weight-space-programming/",
    "title": "Cmpnd Releases dspy-wsp: Weight-Space Programming Comes to DSPy",
    "sourceId": "marktechpost",
@@ -559,36 +979,6 @@
    "category": "TOOLS"
   },
   {
-   "url": "https://the-decoder.com/anthropic-says-outdated-prompting-habits-are-slowing-down-claude-opus-5-5/",
-   "title": "Anthropic says outdated prompting habits are slowing down Claude Opus 5.5",
-   "sourceId": "decoder",
-   "sourceName": "The Decoder",
-   "publishedAt": 1794674576000,
-   "excerpt": "Anthropic has made Claude Opus 5.5 the default model on all paid plans and published a guide that does away with old prompting habits. The main takeaway is to drop \"think hard\" and start at Medium effort. The article Anthropic says outdated prompting habits are slowing down Claude Opus 5.5 appeared first on The Decoder .",
-   "summary": "Anthropic made Claude Opus 5.5 the default model across all paid plans and published a guide advising users to drop outdated prompting habits like specifying \"think hard\" in favor of starting at Medium effort.",
-   "category": "MODELS"
-  },
-  {
-   "url": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/",
-   "title": "Asian governments react to Nvidia CEO Jensen Huang’s exit",
-   "sourceId": "techcrunch",
-   "sourceName": "TechCrunch AI",
-   "publishedAt": 1794674055000,
-   "excerpt": "Some governments moved to confirm chip supply commitments, while others are monitoring the impact on local projects or addressing ongoing investigations.",
-   "summary": "Asian governments are responding to Nvidia CEO Jensen Huang's departure by reviewing local chip supply commitments, assessing regional projects, and monitoring ongoing investigations.",
-   "category": "INDUSTRY"
-  },
-  {
-   "url": "https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview",
-   "title": "The OpenAI board member who fired Sam Altman says we still can’t trust AI CEOs",
-   "sourceId": "verge",
-   "sourceName": "The Verge AI",
-   "publishedAt": 1794668400000,
-   "excerpt": "Today, I’m talking with Helen Toner, the executive director of the Center for Security and Emerging Technology at Georgetown University. This episode is part two of our series on AI in real life. Helen is a well-known figure in the AI safety and policy community, though she is perhaps best known for having served on…",
-   "summary": "Georgetown Center for Security and Emerging Technology executive director Helen Toner discussed corporate governance and trust issues surrounding AI leadership in an interview.",
-   "category": "INDUSTRY"
-  },
-  {
    "url": "https://www.wired.com/story/beware-the-new-ai-fueled-ransomware-boom/",
    "title": "Beware the New AI-Fueled Ransomware Boom",
    "sourceId": "wired",
@@ -596,36 +986,6 @@
    "publishedAt": 1794661200000,
    "excerpt": "Fully automated ransomware hasn’t arrived—yet. But seemingly unsophisticated attackers are using AI tools to wreak havoc.",
    "summary": "Security reports highlight an emerging trend where less sophisticated attackers leverage readily available AI tools to execute ransomware attacks.",
-   "category": "INDUSTRY"
-  },
-  {
-   "url": "https://www.theverge.com/tech/1033781/nvidia-jensen-huang-last-visionary-showman-founder-ceo",
-   "title": "Jensen Huang and the decline of the visionary showman founder CEO",
-   "sourceId": "verge",
-   "sourceName": "The Verge AI",
-   "publishedAt": 1794657600000,
-   "excerpt": "On January 6th, 2025, Nvidia CEO Jensen Huang got his rockstar moment at last. He strode triumphantly onstage, hand raised in the air, to the claps and cheers of a 14,000-person arena absolutely packed with influencers and fans, their faces awash in blue glow, as he made his entrance in a black leather jacket that…",
-   "summary": "An editorial reflects on Nvidia CEO Jensen Huang's public prominence and the shifting dynamics of visionary founder-led tech companies following his departure.",
-   "category": "INDUSTRY"
-  },
-  {
-   "url": "https://the-decoder.com/openai-reassigns-robotics-researchers-to-other-teams-as-general-purpose-models-might-make-specialized-robotics-ai-unnecessary/",
-   "title": "OpenAI reassigns robotics researchers to other teams as general-purpose models might make specialized robotics AI unnecessary",
-   "sourceId": "decoder",
-   "sourceName": "The Decoder",
-   "publishedAt": 1794656451000,
-   "excerpt": "OpenAI is dissolving its standalone robotics team for the second time, but not because it lacks data. General-purpose models like GPT-6 Astra can apparently control robots directly, making a dedicated unit unnecessary. The researchers are being redistributed across other teams in what the company frames as a way to accelerate its robotics efforts. The article OpenAI reassigns robotics researchers to other teams as general-purpose models might make specialized robotics AI unnecessary appeared first on The Decoder .",
-   "summary": "OpenAI is dissolving its standalone robotics team as general-purpose models like GPT-6 Astra can now directly control robots. Researchers are being redistributed across other teams to accelerate robotics efforts.",
-   "category": "INDUSTRY"
-  },
-  {
-   "url": "https://the-decoder.com/anthropic-can-already-retrain-mythos-with-a-fraction-of-the-compute-originally-needed-says-former-researcher-coxon/",
-   "title": "Anthropic can already retrain Mythos with \"a fraction of the compute originally needed,\" says former researcher Coxon",
-   "sourceId": "decoder",
-   "sourceName": "The Decoder",
-   "publishedAt": 1794655301000,
-   "excerpt": "Former OpenAI and Anthropic researcher Jacob Coxon points to a slide from Anthropic's IPO roadshow as a reason he left, saying it shows the company's algorithms are improving not just quickly but at an accelerating rate. Coxon continues to call for a pause on frontier model development so competitors can catch up and human-level AI can become a commodity. The article Anthropic can already retrain Mythos with \"a fraction of the compute originally needed,\" says former researcher Coxon appeared first on The Decoder .",
-   "summary": "Former researcher Jacob Coxon claims Anthropic can retrain its Mythos model using a fraction of the original compute. He points to an IPO roadshow slide as evidence that the company's algorithms are improving at an accelerating rate.",
    "category": "INDUSTRY"
   },
   {
@@ -649,16 +1009,6 @@
    "category": "RESEARCH"
   },
   {
-   "url": "https://the-decoder.com/runways-open-source-praxis-1-turns-video-ai-into-a-robot-controller/",
-   "title": "Runway's open-source Praxis-1 turns video AI into a robot controller",
-   "sourceId": "decoder",
-   "sourceName": "The Decoder",
-   "publishedAt": 1794649545000,
-   "excerpt": "Runway releases its robotics model Praxis-1 with open weights and source code under the Apache 2.0 license. The model uses knowledge from video training for robot control and leads the World Action Model category on Nvidia's RoboLab-120 benchmark. It can't yet plan complex action sequences on its own, though. The article Runway's open-source Praxis-1 turns video AI into a robot controller appeared first on The Decoder .",
-   "summary": "Runway released Praxis-1, an open-source robotics model under the Apache 2.0 license that uses video training data for robot control. It leads the World Action Model category on Nvidia's RoboLab-120 benchmark.",
-   "category": "MODELS"
-  },
-  {
    "url": "https://www.marktechpost.com/2026/11/13/vercel-ui-sdk-agent-ui-behaviors/",
    "title": "Vercel Releases UI SDK: 50+ UI Behaviors for AI Coding Agents",
    "sourceId": "marktechpost",
@@ -667,16 +1017,6 @@
    "excerpt": "Vercel Labs released Vercel UI SDK, an Apache-2.0 beta library of 50+ UI behaviors. Coding agents compose them into accessible components for React, Vue, Svelte, Solid and Web Components, with a bridge for direct UI control.",
    "summary": "Vercel released the Vercel UI SDK, an Apache-2.0 beta library containing over 50 UI behaviors. It allows coding agents to compose accessible components for React, Vue, Svelte, Solid, and Web Components.",
    "category": "TOOLS"
-  },
-  {
-   "url": "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search",
-   "title": "Amazon has a plan to index the world’s online shopping data",
-   "sourceId": "verge",
-   "sourceName": "The Verge AI",
-   "publishedAt": 1794613751000,
-   "excerpt": "Amazon has plans to build a vault of data on every product sold anywhere on the internet, even products Amazon doesn't sell, and make the information available through its own site, according to Reuters. The project, called the \"World Product Graph,\" is meant to make it less likely that shoppers leave Amazon to do their…",
-   "summary": "Amazon is reportedly planning to build the 'World Product Graph,' a comprehensive database of online shopping data for products across the internet.",
-   "category": "INDUSTRY"
   },
   {
    "url": "https://simonwillison.net/2026/Nov/13/datasette-cluster-map/",
@@ -689,26 +1029,6 @@
    "category": "TOOLS"
   },
   {
-   "url": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
-   "title": "Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say",
-   "sourceId": "techcrunch",
-   "sourceName": "TechCrunch AI",
-   "publishedAt": 1794609780000,
-   "excerpt": "Nvidia poured tens of billions into AI startups under Huang. Without him at the helm, founders and VCs are bracing for smaller checks and lower valuations.",
-   "summary": "Following Jensen Huang's departure from Nvidia, venture capitalists and founders expect smaller funding checks and lower valuations for AI startups.",
-   "category": "INDUSTRY"
-  },
-  {
-   "url": "https://simonwillison.net/2026/Nov/13/datasette-leaflet/",
-   "title": "datasette-leaflet 0.3",
-   "sourceId": "simonw",
-   "sourceName": "Simon Willison",
-   "publishedAt": 1794609054000,
-   "excerpt": "Release: datasette-leaflet 0.3 OpenStreetMap have a very reasonable policy that hits to their hosted tile server should send a referrer header . Datasette table pages used the Referrer-Policy: no-referrer HTTP header, causing plugins that loaded tiles from OpenStreetMap to violate that policy. datasette-leaflet is the plugin that loads a bundled Leaflet so other Datasette plugins can depend on it. It now sets the referrer policy on the tile requests themselves to strict-origin-when-cross-origin , passing the host but not the full path to the page. Tags: leaflet , datasette , openstreetmap",
-   "summary": "Datasette released version 0.3 of its leaflet plugin, which bundles Leaflet and updates HTTP referrer policies for OpenStreetMap tile requests.",
-   "category": "TOOLS"
-  },
-  {
    "url": "https://arstechnica.com/features/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/",
    "title": "FAA expands AI advice to manage air traffic congestion across entire US airspace",
    "sourceId": "ars",
@@ -717,16 +1037,6 @@
    "excerpt": "Airlines praised the AI tool, but the air traffic controllers’ union wasn’t involved.",
    "summary": "The FAA is expanding the use of AI tools to manage air traffic congestion across U.S. airspace, drawing mixed reactions from unions.",
    "category": "INDUSTRY"
-  },
-  {
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
-   "title": "ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you",
-   "sourceId": "verge",
-   "sourceName": "The Verge AI",
-   "publishedAt": 1794602710000,
-   "excerpt": "After launching its Dots AI agents platform earlier this year, OpenAI is launching a wallet for the agents. ChatGPT Wallet is rolling out starting today for ChatGPT Pro subscribers in the US aged 18 and older using a US billing address and \"eligible US-issued American Express, Chase, Mastercard and Visa cards.\" After adding a card…",
-   "summary": "OpenAI introduced ChatGPT Wallet, allowing U.S. Pro subscribers to let AI agents make online purchases using supported credit cards.",
-   "category": "TOOLS"
   },
   {
    "url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
@@ -749,16 +1059,6 @@
    "category": "RESEARCH"
   },
   {
-   "url": "https://www.marktechpost.com/2026/11/13/best-ai-video-generation-models-2026/",
-   "title": "Best AI Video Generation Models in 2026: Elo, Price per Second, Open Weights",
-   "sourceId": "marktechpost",
-   "sourceName": "MarkTechPost",
-   "publishedAt": 1794590631000,
-   "excerpt": "The AI video leaderboard looks very different from 12 months ago. Native audio is now table stakes. Clips run 15–30 seconds. And an open-weights model sits in the top 3. This ranking (as of Nov 13, 2026) uses one quality signal: blind human-preference Elo from the Artificial Analysis Video Arena. We pair it with API…",
-   "summary": "An evaluation of AI video generation models highlights shifts in blind human-preference Elo rankings, clip lengths of 15-30 seconds, and open-weights representation.",
-   "category": "RESEARCH"
-  },
-  {
    "url": "https://huggingface.co/blog/allenai/xybench",
    "title": "XYBench: Helping with the problem behind the question",
    "sourceId": "huggingface",
@@ -767,46 +1067,6 @@
    "excerpt": "",
    "summary": "XYBench was released to address underlying problem-solving challenges in AI evaluations.",
    "category": "RESEARCH"
-  },
-  {
-   "url": "https://www.marktechpost.com/2026/11/13/perplexity-decider-v1-3-open-weight-decision-models-locate/",
-   "title": "Perplexity Releases Decider v1.3: Open-Weight Decision Models Add Locate",
-   "sourceId": "marktechpost",
-   "sourceName": "MarkTechPost",
-   "publishedAt": 1794586202000,
-   "excerpt": "Perplexity Decider v1.3 and Flash v1.3 are open-weight decision models that return probabilities, not text. Version 1.3 adds Locate for span extraction and reports 91.6% mean accuracy on 63 query-classification tasks.",
-   "summary": "Perplexity released open-weight decision models Decider v1.3 and Flash v1.3, which output probabilities instead of text and achieve 91.6% mean accuracy on 63 classification tasks.",
-   "category": "MODELS"
-  },
-  {
-   "url": "https://www.wired.com/story/jensen-huang-and-the-end-of-the-founder-fairy-tale/",
-   "title": "Jensen Huang and the End of the Founder Fairy Tale",
-   "sourceId": "wired",
-   "sourceName": "WIRED AI",
-   "publishedAt": 1794585600000,
-   "excerpt": "The former tech CEO is obsessed with the power of storytelling. But he hasn't spun his way out of his sex scandals.",
-   "summary": "An opinion piece analyzes the resignation and personal scandals surrounding former Nvidia CEO Jensen Huang.",
-   "category": "INDUSTRY"
-  },
-  {
-   "url": "https://openai.com/index/introducing-chatgpt-wallet",
-   "title": "Introducing ChatGPT Wallet",
-   "sourceId": "openai",
-   "sourceName": "OpenAI",
-   "publishedAt": 1794582000000,
-   "excerpt": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
-   "summary": "OpenAI officially introduced ChatGPT Wallet to facilitate secure agent purchases across ChatGPT Work, Codex, and dots platforms.",
-   "category": "TOOLS"
-  },
-  {
-   "url": "https://www.theverge.com/podcast/1032866/jensen-huang-nvidia-china-trump-vergecast",
-   "title": "What’s really at stake in the Jensen Huang saga",
-   "sourceId": "verge",
-   "sourceName": "The Verge AI",
-   "publishedAt": 1794581236000,
-   "excerpt": "One part of the saga surrounding Nvidia CEO Jensen Huang ended on Thursday, when Huang resigned from his position at the top of AI's most important company. But in the coming weeks and months, a much bigger story may be about to unfold. A story about Nvidia's dealings in China, about the US government's willingness…",
-   "summary": "An analysis explores the broader implications of Jensen Huang's resignation from Nvidia regarding U.S. export controls and China dealings.",
-   "category": "INDUSTRY"
   },
   {
    "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
@@ -820,53 +1080,13 @@
   },
   {
    "url": "https://blogs.nvidia.com/blog/how-ai-is-helping-care-teams/",
-   "title": "How AI Is Helping Care Teams Get Patients the Right Care, Sooner",
+   "title": "AI Is Helping Care Teams Get Patients the Right Care, Sooner",
    "sourceId": "nvidia",
    "sourceName": "NVIDIA Blog",
    "publishedAt": 1794574842000,
    "excerpt": "From pediatric research to smart hospitals, AI is helping care teams spend less time on routine tasks and more time with patients. Health systems and startups are putting it to work across healthcare, from matching patients to clinical trials to supporting radiologists, hospital teams and patients at home. Clinicians stay at the center, reviewing AI…",
    "summary": "NVIDIA highlighted various healthcare applications where AI assists clinical care teams with tasks like clinical trial matching and radiology support.",
    "category": "INDUSTRY"
-  },
-  {
-   "url": "https://www.wired.com/story/black-roles-are-disappearing-in-hollywood-this-startup-is-using-ai-microdramas-to-fight-back/",
-   "title": "This Startup Is Betting on AI Microdramas to Get More Black Stories in Hollywood",
-   "sourceId": "wired",
-   "sourceName": "WIRED AI",
-   "publishedAt": 1794570300000,
-   "excerpt": "Mansa says its AI microdramas can serve as proofs of concept for what Black audiences want. Critics say the studio is selling out.",
-   "summary": "Startup Mansa is using AI to produce microdramas as proofs of concept for Black-focused storytelling in Hollywood.",
-   "category": "INDUSTRY"
-  },
-  {
-   "url": "https://www.marktechpost.com/2026/11/13/google-tpu-sync-kv-cache-transfer-library/",
-   "title": "Google Releases TPU Sync: Open-Source KV Cache Transfer for TPUs",
-   "sourceId": "marktechpost",
-   "sourceName": "MarkTechPost",
-   "publishedAt": 1794565946000,
-   "excerpt": "Google released TPU Sync, an open-source C++ library that moves KV caches and weights across TPU HBM, host DRAM, storage and network. Google reports over 90% lower KV transfer latency on 235B to 480B MoE models.",
-   "summary": "Google released TPU Sync, an open-source C++ library for transferring KV caches and weights across TPU infrastructure, reducing transfer latency by over 90% for large MoE models.",
-   "category": "TOOLS"
-  },
-  {
-   "url": "https://openai.com/business/customer-stories/shield",
-   "title": "Shield helps technicians hand off legacy portal work with OpenAI",
-   "sourceId": "openai",
-   "sourceName": "OpenAI",
-   "publishedAt": 1794556800000,
-   "excerpt": "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.",
-   "summary": "OpenAI integrated Shield with its models to help IT technicians navigate and automate legacy portal workflows.",
-   "category": "TOOLS"
-  },
-  {
-   "url": "https://simonwillison.net/2026/Nov/12/llm-gemini/",
-   "title": "llm-gemini 0.37",
-   "sourceId": "simonw",
-   "sourceName": "Simon Willison",
-   "publishedAt": 1794524119000,
-   "excerpt": "Release: llm-gemini 0.37 Google launched Gemini 4 Hydrogen today - the lowest cost member of the Gemini 4 family. It's actually not too far off the price of its much bigger siblings, Carbon and Argon. I'm finding Gemini 4's pricing really confusing. Here's the pricing scheme: Model Dates Input ($/M) Cached input Output Gemini 4 Carbon Through Nov 30, 2026 $2.00 $0.10 $10.00 From Dec 1, 2026 $4.00 $0.20 $20.00 Gemini 4 Argon Through Nov 30, 2026 $2.00 $0.10 $10.00 From Dec 1, 2026 $4.00 $0.20 $20.00 Gemini 4 Hydrogen $1.50 $0.075 $7.50 Carbon and Argon are the same price , and both are scheduled to double in price on December 1st. If they're the same price, why have two different models? Goog…",
-   "summary": "Google's Gemini 4 Hydrogen model is priced at $1.50/$7.50, slightly cheaper than the Carbon and Argon models, which are scheduled for a price increase in December.",
-   "category": "MODELS"
   },
   {
    "url": "https://github.blog/ai-and-ml/github-copilot/build-once-run-on-any-agent-a-practical-guide-to-agent-skills/",
@@ -879,26 +1099,6 @@
    "category": "TOOLS"
   },
   {
-   "url": "https://www.wired.com/story/silicon-valley-is-still-defending-jensen-huang/",
-   "title": "Silicon Valley Is Still Defending Jensen Huang",
-   "sourceId": "wired",
-   "sourceName": "WIRED AI",
-   "publishedAt": 1794522583000,
-   "excerpt": "Nvidia employees and tech insiders never thought the chip king would lose his job. Despite his sudden resignation, many of them are still in denial.",
-   "summary": "Tech industry insiders and Nvidia employees are reacting to the sudden resignation of Jensen Huang.",
-   "category": "INDUSTRY"
-  },
-  {
-   "url": "https://www.wired.com/story/uncanny-valley-podcast-jensen-huang-is-out-will-nvidias-rivals-cash-in/",
-   "title": "Jensen Huang Is Out. Will Nvidia’s Rivals Cash In?",
-   "sourceId": "wired",
-   "sourceName": "WIRED AI",
-   "publishedAt": 1794521681000,
-   "excerpt": "In a special episode of “Uncanny Valley,” we break down Jensen Huang’s resignation from Nvidia, what comes next for the company, and where the AI industry goes from here.",
-   "summary": "A podcast episode analyzing the resignation of Jensen Huang and the future outlook for Nvidia and the AI industry.",
-   "category": "INDUSTRY"
-  },
-  {
    "url": "https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/",
    "title": "Nvidia privately confirmed it could track chips to fight smuggling, even as industry publicly questioned feasibility",
    "sourceId": "mittr",
@@ -907,16 +1107,6 @@
    "excerpt": "Representatives from Nvidia told Illinois representative Bill Foster that it would be technically possible to implement the anti-smuggling measures called for in the Chip Security Act, Foster told MIT Technology Review in an interview on Thursday, even while an industry group claimed they were “potentially infeasible.” Foster, a Democrat who serves on the Committee on…",
    "summary": "Nvidia privately informed lawmakers that implementing anti-smuggling chip tracking is technically feasible, contradicting previous industry claims.",
    "category": "INDUSTRY"
-  },
-  {
-   "url": "https://openai.com/business/customer-stories/amplitude",
-   "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
-   "sourceId": "openai",
-   "sourceName": "OpenAI",
-   "publishedAt": 1794513600000,
-   "excerpt": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
-   "summary": "Amplitude is using OpenAI models to power 'Wave,' an agent that identifies product improvements and assists in coding and deployment.",
-   "category": "TOOLS"
   },
   {
    "url": "https://arstechnica.com/gadgets/2026/11/ars-live-can-the-cloud-survive-drone-strikes-on-data-centers/",
@@ -987,110 +1177,9 @@
    "excerpt": "The first Gemini smartglasses are a collab between Google, Samsung, Gentle Monster, and Warby Parker.",
    "summary": "Google has launched Gemini-powered smartglasses in collaboration with Samsung and other partners, starting at $395.",
    "category": "TOOLS"
-  },
-  {
-   "url": "https://openai.com/business/customer-stories/gondola",
-   "title": "Gondola doubles revenue as its team builds more with Codex",
-   "sourceId": "openai",
-   "sourceName": "OpenAI",
-   "publishedAt": 1794484800000,
-   "excerpt": "Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work.",
-   "summary": "Gondola reports a 50% increase in engineer output by utilizing OpenAI's Codex and ChatGPT for product development.",
-   "category": "TOOLS"
-  },
-  {
-   "url": "https://openai.com/business/customer-stories/holidays-extras-codex",
-   "title": "Holiday Extras is rethinking what it can build with Codex",
-   "sourceId": "openai",
-   "sourceName": "OpenAI",
-   "publishedAt": 1794475800000,
-   "excerpt": "With Codex, Holiday Extras is turning customer expertise into better apps, higher booking conversion and new possibilities for growth.",
-   "summary": "Holiday Extras is utilizing OpenAI's Codex to improve its application development and booking conversion rates.",
-   "category": "TOOLS"
-  },
-  {
-   "url": "https://huggingface.co/blog/3d-lora-finetuning",
-   "title": "The Definitive Fine-Tuning Guide for 3D Generation Models",
-   "sourceId": "huggingface",
-   "sourceName": "Hugging Face",
-   "publishedAt": 1794441600000,
-   "excerpt": "",
-   "summary": "A guide on fine-tuning 3D generation models has been published on Hugging Face.",
-   "category": "RESEARCH"
-  },
-  {
-   "url": "https://openai.com/index/children-first-declaration",
-   "title": "Supporting research on AI and children’s safety",
-   "sourceId": "openai",
-   "sourceName": "OpenAI",
-   "publishedAt": 1794441600000,
-   "excerpt": "OpenAI commits $2 million to research on AI and children’s safety. The work supports shared tools to measure risks and opportunities for young people.",
-   "summary": "OpenAI has committed $2 million to fund research focused on AI safety for children.",
-   "category": "INDUSTRY"
-  },
-  {
-   "url": "https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/",
-   "title": "Taiwan’s chipmaking giant TSMC to invest $1B in Anthropic, OpenAI",
-   "sourceId": "ars",
-   "sourceName": "Ars Technica AI",
-   "publishedAt": 1794421000000,
-   "excerpt": "Latest example of the AI boom’s circular financing comes as AI trade wobbles.",
-   "summary": "TSMC is investing $1 billion into Anthropic and OpenAI as part of a broader trend of circular financing in the AI industry.",
-   "category": "INDUSTRY"
-  },
-  {
-   "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
-   "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
-   "sourceId": "googleai",
-   "sourceName": "Google AI",
-   "publishedAt": 1794420000000,
-   "excerpt": "Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calibrated multimodal decisions.",
-   "summary": "Google introduced the Gemini Decisions API, designed for fast, calibrated multimodal decision-making.",
-   "category": "MODELS"
-  },
-  {
-   "url": "https://arstechnica.com/gaming/2026/11/big-walk-used-ai-to-fix-a-bug-now-the-indie-gaming-world-is-having-a-reckoning/",
-   "title": "Big Walk used AI to fix a bug. Now the indie gaming world is having a reckoning.",
-   "sourceId": "ars",
-   "sourceName": "Ars Technica AI",
-   "publishedAt": 1794418652000,
-   "excerpt": "Any amount of AI coding is too much for many Independent Games Festival judges.",
-   "summary": "The use of AI to fix bugs in the game 'Big Walk' has sparked a debate among Independent Games Festival judges regarding the role of AI in game development.",
-   "category": "INDUSTRY"
-  },
-  {
-   "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/",
-   "title": "Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.",
-   "sourceId": "googleai",
-   "sourceName": "Google AI",
-   "publishedAt": 1794412800000,
-   "excerpt": "Tabletop is a new Google Labs experiment for group collaboration. Build interactive itineraries, polls, and brackets with your team. Join the waitlist.",
-   "summary": "Google Labs launched Tabletop, an experimental platform for group collaboration that allows teams to build interactive itineraries, polls, and brackets.",
-   "category": "TOOLS"
-  },
-  {
-   "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
-   "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
-   "sourceId": "deepmind",
-   "sourceName": "Google DeepMind",
-   "publishedAt": 1794409215000,
-   "excerpt": "Predicting how DNA sequences and their variations impact specific human cell types and disease.",
-   "summary": "Google DeepMind's AlphaGenome 2 is a model focused on predicting how DNA sequences and variations impact specific human cell types and disease.",
-   "category": "MODELS"
-  },
-  {
-   "url": "https://arstechnica.com/ai/2026/11/signals-encryption-just-passed-an-ai-powered-mathematical-checkup/",
-   "title": "Google DeepMind just mathematically verified key parts of Signal",
-   "sourceId": "ars",
-   "sourceName": "Ars Technica AI",
-   "publishedAt": 1794406137000,
-   "excerpt": "The four-week project hints that AI could make formal verification far more practical.",
-   "summary": "Google DeepMind used AI to formally verify key components of the Signal encryption protocol. The project demonstrates that AI can make formal verification of complex software more practical.",
-   "category": "RESEARCH"
   }
  ],
  "hidden": [
-  "https://www.reddit.com/r/LocalLLaMA/comments/1xxlich/the_beginning_of_the_becoming_of_the_beginning/",
   "https://www.wired.com/story/microsoft-365-crawls-back-to-life-after-a-24-hour-outage/"
  ]
 }
