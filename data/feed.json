@@ -1,5 +1,5 @@
 {
- "updatedAt": 1795182927556,
+ "updatedAt": 1795267170782,
  "sources": [
   {
    "id": "localllama",
@@ -79,13 +79,303 @@
  ],
  "articles": [
   {
-   "url": "https://the-decoder.com/googles-latest-homepage-update-pushes-its-search-engine-further-toward-an-ai-answer-engine/",
-   "title": "Google's latest homepage update pushes its search engine further toward an AI answer engine",
+   "url": "https://www.wired.com/story/brace-yourself-for-years-of-outage-chaos/",
+   "title": "The Outages Are Just Getting Started",
+   "sourceId": "wired",
+   "sourceName": "WIRED AI",
+   "publishedAt": 1795266000000,
+   "excerpt": "AI is forcing companies to patch their systems faster as attackers race to exploit newly discovered vulnerabilities. Welcome to internet outage hell.",
+   "summary": "AI is accelerating the need for rapid system patching as attackers increasingly exploit new vulnerabilities. This trend is contributing to a rise in internet service outages.",
+   "category": "INDUSTRY"
+  },
+  {
+   "url": "https://www.marktechpost.com/2026/11/21/thinking-machines-inkling-2-mini-looped-transformer/",
+   "title": "Meet Thinking Machines Inkling 2 Mini: 26B Looped MoE Runs on a 32GB Mac",
+   "sourceId": "marktechpost",
+   "sourceName": "MarkTechPost",
+   "publishedAt": 1795263230000,
+   "excerpt": "Thinking Machines released Inkling 2 Mini, a 26.4B-parameter looped MoE transformer with 3.4B active parameters. It runs on a 32GB Mac or one DGX Spark and scores 79.2% on SWE-bench Verified.",
+   "summary": "Thinking Machines released Inkling 2 Mini, a 26.4B-parameter looped MoE model with 3.4B active parameters. It runs on a 32GB Mac and achieves 79.2% on SWE-bench Verified.",
+   "category": "LOCAL"
+  },
+  {
+   "url": "https://www.marktechpost.com/2026/11/21/openai-gpt-live-1-1-api-standby-mode/",
+   "title": "OpenAI Ships GPT-Live-1.1 for Voice Agents, Cuts Idle Cost to $0.02/Min",
+   "sourceId": "marktechpost",
+   "sourceName": "MarkTechPost",
+   "publishedAt": 1795261577000,
+   "excerpt": "OpenAI has released GPT-Live-1.1 in the API. The full-duplex voice model improves multilingual accents and transcription, and a new standby mode bills idle WebRTC time at $0.02 per minute instead of $0.05.",
+   "summary": "OpenAI launched GPT-Live-1.1 for voice agents, featuring improved multilingual support and a new standby mode. The idle cost for this mode is reduced to $0.02 per minute.",
+   "category": "MODELS"
+  },
+  {
+   "url": "https://the-decoder.com/hours-after-anthropic-claims-a-claude-proof-of-the-riemann-hypothesis-stanford-releases-an-all-human-competing-draft/",
+   "title": "Hours after Anthropic claims a Claude proof of the Riemann hypothesis, Stanford releases an all-human competing draft",
    "sourceId": "decoder",
    "sourceName": "The Decoder",
-   "publishedAt": 1795180771000,
-   "excerpt": "Google is rolling out a collapsible sidebar globally on its Desktop Search homepage. In AI Mode, it lets users reopen recent AI searches, search threads, and create notebooks. Temporary threads that aren't saved to history are also launching worldwide. Google Search co-lead Robby Stein says the feature should make it easier for users to continue longer web research. The article Google's latest homepage update pushes its search engine further toward an AI answer engine appeared first on The Decoder .",
-   "summary": "Google is adding a collapsible sidebar to its desktop search homepage to manage AI-generated search threads and notebooks. This update aims to help users maintain continuity during long-form research sessions.",
+   "publishedAt": 1795259989000,
+   "excerpt": "Anthropic mathematician Levent Alpöge says he used Claude to prove the Riemann hypothesis, math's most famous open problem for 167 years, with a proof formalized in Lean that spans over 250,000 pages. Just hours later, Stanford researchers published an independent, entirely human competing proof, and mathematicians are now checking whether either one holds up. The article Hours after Anthropic claims a Claude proof of the Riemann hypothesis, Stanford releases an all-human competing draft appeared first on The Decoder .",
+   "summary": "An Anthropic mathematician claimed to use Claude to prove the Riemann hypothesis, but a competing human-authored proof was released by Stanford researchers shortly after. Mathematicians are currently reviewing both claims for validity.",
+   "category": "RESEARCH"
+  },
+  {
+   "url": "https://the-decoder.com/new-open-model-inkling-2-mini-thinks-in-loops-to-solve-problems-with-fewer-words-and-still-runs-on-a-laptop/",
+   "title": "New open model Inkling 2 Mini thinks in loops to solve problems with fewer words and still runs on a laptop",
+   "sourceId": "decoder",
+   "sourceName": "The Decoder",
+   "publishedAt": 1795257182000,
+   "excerpt": "Thinking Machines has released Inkling 2 Mini, an open looped transformer that runs 12 of its 24 layers three times per token. This lets the model reason internally for longer without generating extra text. On Artificial Analysis's Intelligence Index, it ties with Qwen3.8 27B at roughly six times lower cost. The article New open model Inkling 2 Mini thinks in loops to solve problems with fewer words and still runs on a laptop appeared first on The Decoder .",
+   "summary": "Thinking Machines released Inkling 2 Mini, an open looped transformer that reuses layers to reason longer without extra text. It matches Qwen3.8 27B performance at roughly one-sixth the cost.",
+   "category": "LOCAL"
+  },
+  {
+   "url": "https://the-decoder.com/us-technology-stocks-suffer-their-worst-weekly-loss-since-the-pandemic-as-ai-doubts-pile-up/",
+   "title": "US technology stocks suffer their worst weekly loss since the pandemic as AI doubts pile up",
+   "sourceId": "decoder",
+   "sourceName": "The Decoder",
+   "publishedAt": 1795256864000,
+   "excerpt": "The Nasdaq 100 has slipped into a bear market after its worst weekly loss since the Covid-19 crisis. Nvidia plunged 14 percent as the SEC reviews its accounting, and Anthropic lost nearly all of its gains a day after its record IPO. AI doubts, scandals, rising interest rates, and political headwinds are hitting overheated valuations all at once. The article US technology stocks suffer their worst weekly loss since the pandemic as AI doubts pile up appeared first on The Decoder .",
+   "summary": "US tech stocks experienced their worst weekly loss since the pandemic amid concerns over AI valuations and regulatory scrutiny. Nvidia shares fell 14% as the SEC reviews its accounting practices.",
+   "category": "INDUSTRY"
+  },
+  {
+   "url": "https://the-decoder.com/bytedance-argues-most-ai-training-phases-are-unnecessary-and-backs-it-up-with-a-competitive-open-model/",
+   "title": "Bytedance argues most AI training phases are unnecessary and backs it up with a competitive open model",
+   "sourceId": "decoder",
+   "sourceName": "The Decoder",
+   "publishedAt": 1795252644000,
+   "excerpt": "Bytedance and several US universities introduce Axion 1.0, an AI agent that rivals top commercial models from OpenAI and Anthropic on benchmarks after just three training phases. The researchers attribute the gains to carefully curated training data rather than ever more training steps. The model, data, and code are freely available. The article Bytedance argues most AI training phases are unnecessary and backs it up with a competitive open model appeared first on The Decoder .",
+   "summary": "Bytedance and US universities released Axion 1.0, an open-weights AI agent that rivals top commercial models. The researchers achieved this performance using only three training phases and highly curated data.",
+   "category": "MODELS"
+  },
+  {
+   "url": "https://www.marktechpost.com/2026/11/20/baseten-bison-1-groundhog-1-gemma-4-decision-models/",
+   "title": "Baseten Releases Bison-1 and Groundhog-1, Topping Decision Model Index",
+   "sourceId": "marktechpost",
+   "sourceName": "MarkTechPost",
+   "publishedAt": 1795233664000,
+   "excerpt": "Baseten released bison-1 and groundhog-1, open-weight decision models built on Gemma 4. bison-1 scores 76 on the AA Decision Index v2.1, and both models support 128k context and image input.",
+   "summary": "Baseten released bison-1 and groundhog-1, open-weight decision models based on Gemma 4. Both models support 128k context and image input, with bison-1 scoring 76 on the AA Decision Index.",
+   "category": "MODELS"
+  },
+  {
+   "url": "https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar/",
+   "title": "Google rolls out new search homepage with AI chat history and no search button",
+   "sourceId": "ars",
+   "sourceName": "Ars Technica AI",
+   "publishedAt": 1795211909000,
+   "excerpt": "Google search is making it even easier to access AI tools on the search page.",
+   "summary": "Google updated its search homepage to provide easier access to AI tools and chat history.",
+   "category": "TOOLS"
+  },
+  {
+   "url": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/",
+   "title": "Meta reconsiders 2030 net-zero goal amid record emissions from AI data centers",
+   "sourceId": "ars",
+   "sourceName": "Ars Technica AI",
+   "publishedAt": 1795211230000,
+   "excerpt": "Meta is “re-evaluating” 2030 sustainability goals. Will others follow?",
+   "summary": "Meta is re-evaluating its 2030 net-zero sustainability goals due to rising energy consumption from AI data centers.",
+   "category": "INDUSTRY"
+  },
+  {
+   "url": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
+   "title": "Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced.",
+   "sourceId": "ars",
+   "sourceName": "Ars Technica AI",
+   "publishedAt": 1795208348000,
+   "excerpt": "Test using prompts with unique, trackable secrets proves that data doesn't stay private.",
+   "summary": "A research test using trackable secrets in prompts demonstrated that data provided to AI models does not remain private.",
+   "category": "RESEARCH"
+  },
+  {
+   "url": "https://the-decoder.com/openai-makes-it-much-harder-for-attackers-to-extract-how-its-latest-ai-models-think/",
+   "title": "OpenAI makes it much harder for attackers to extract how its latest AI models think",
+   "sourceId": "decoder",
+   "sourceName": "The Decoder",
+   "publishedAt": 1795206710000,
+   "excerpt": "OpenAI has significantly strengthened safeguards against extracting internal reasoning from GPT-6.2 Astra and GPT-6.2 Sol. In adaptive red-teaming tests, the success rate for extracting protected reasoning fell from 54 percent to 0.2 percent. The company is also suspending thousands to tens of thousands of accounts each week over coordinated distillation campaigns. The article OpenAI makes it much harder for attackers to extract how its latest AI models think appeared first on The Decoder .",
+   "summary": "OpenAI has implemented new safeguards to prevent the extraction of internal reasoning from its GPT-6.2 models. The company reported that successful extraction attempts dropped from 54% to 0.2% in red-teaming tests.",
+   "category": "INDUSTRY"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/",
+   "title": "Daniel Ek backs AI researcher’s fusion power startup. Here’s what they’re building.",
+   "sourceId": "techcrunch",
+   "sourceName": "TechCrunch AI",
+   "publishedAt": 1795204421000,
+   "excerpt": "Spotify founder Daniel Ek is backing Europa Fusion, a fusion power startup founded by an AI researcher. Here's what the startup is building.",
+   "summary": "Spotify founder Daniel Ek is investing in Europa Fusion, a fusion power startup founded by an AI researcher.",
+   "category": "INDUSTRY"
+  },
+  {
+   "url": "https://www.wired.com/story/jensen-huangs-lying-alarmed-nvidia-board-ahead-of-his-resignation/",
+   "title": "Jensen Huang’s ‘Lying’ Alarmed Nvidia Board Ahead of His Resignation",
+   "sourceId": "wired",
+   "sourceName": "WIRED AI",
+   "publishedAt": 1795204341000,
+   "excerpt": "Amid allegations of multiple affairs, including with a direct report and an alleged Chinese intelligence asset, sources tell WIRED the Nvidia board’s main issue was the former CEO’s “lack of candor.”",
+   "summary": "Nvidia's board reportedly forced the resignation of CEO Jensen Huang due to a lack of candor regarding personal conduct and professional allegations.",
+   "category": "INDUSTRY"
+  },
+  {
+   "url": "https://the-decoder.com/signal-blocks-screenshots-on-ios-27-and-android-to-stop-ai-agents-from-reading-private-chats/",
+   "title": "Signal blocks screenshots on iOS 27 and Android to stop AI agents from reading private chats",
+   "sourceId": "decoder",
+   "sourceName": "The Decoder",
+   "publishedAt": 1795204227000,
+   "excerpt": "Signal is blocking screenshots to stop AI agents like Apple's Siri AI, Google's Gemini Intelligence, and Meta's Muse from reading private chats. The app calls it an \"existential threat\" to privacy, but admits its protections remain incomplete, including on macOS. Apple, Google, and Microsoft should follow suit. The article Signal blocks screenshots on iOS 27 and Android to stop AI agents from reading private chats appeared first on The Decoder .",
+   "summary": "Signal is blocking screenshots on iOS and Android to prevent AI agents from scraping private chat data. The company views AI-driven data collection as an existential threat to user privacy.",
+   "category": "TOOLS"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/",
+   "title": "AI claimed a solution to the 167-year-old Riemann hypothesis — and a human did, too",
+   "sourceId": "techcrunch",
+   "sourceName": "TechCrunch AI",
+   "publishedAt": 1795203128000,
+   "excerpt": "Mathematicians are having their minds blown by the latest AI-driven result — and there's a competing human solution, too.",
+   "summary": "Both an AI-assisted proof and a human-authored proof for the Riemann hypothesis have been released, prompting a review by the mathematics community.",
+   "category": "RESEARCH"
+  },
+  {
+   "url": "https://simonwillison.net/2026/Nov/20/ravi-vakil/",
+   "title": "Quoting Ravi Vakil",
+   "sourceId": "simonw",
+   "sourceName": "Simon Willison",
+   "publishedAt": 1795202509000,
+   "excerpt": "Alessandro Masullo has a proposed proof of [Generalized Riemann Hypothesis], and Brian Conrad has been looking closely at it for months and gave extensive feedback which is being incorporated, and it is so far looking good. It is all human, with no AI. The hope was to bring Alessandro to Stanford for a year to polish the writing and then announce it after running it by enough people. Now it seems best to put out the current draft. — Ravi Vakil , Hurried Announcement: Alessandro Masullo GRH Tags: mathematics",
+   "summary": "Mathematician Alessandro Masullo has proposed a human-authored proof for the Generalized Riemann Hypothesis, which is currently undergoing peer review.",
+   "category": "RESEARCH"
+  },
+  {
+   "url": "https://the-decoder.com/googles-gemini-can-now-run-mac-apps-and-finish-desktop-chores-in-the-background-while-you-keep-working/",
+   "title": "Google's Gemini can now run Mac apps and finish desktop chores in the background while you keep working",
+   "sourceId": "decoder",
+   "sourceName": "The Decoder",
+   "publishedAt": 1795200631000,
+   "excerpt": "Google is bringing \"Computer Use\" to Gemini for Mac, letting the AI operate desktop apps, local files, and websites in an isolated background window with a live preview while users keep working. The article Google's Gemini can now run Mac apps and finish desktop chores in the background while you keep working appeared first on The Decoder .",
+   "summary": "Google's Gemini for Mac now includes a 'Computer Use' feature that allows the AI to operate desktop apps and websites in a background window.",
+   "category": "TOOLS"
+  },
+  {
+   "url": "https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax",
+   "title": "Trump threatens ‘tremendous tax’ for moving AI data centers outside the US",
+   "sourceId": "verge",
+   "sourceName": "The Verge AI",
+   "publishedAt": 1795200619000,
+   "excerpt": "President Donald Trump promised to put a \"tremendous tax\" on companies that build data centers outside of the US, even as states and cities around the country are placing restrictions on new applications to build them. \"We're not going to allow our companies to build data centers outside of our country,\" Trump said at a…",
+   "summary": "President Donald Trump stated he would impose a significant tax on companies that build AI data centers outside of the United States.",
+   "category": "INDUSTRY"
+  },
+  {
+   "url": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/",
+   "title": "The most misunderstood graph in AI just got a major update",
+   "sourceId": "mittr",
+   "sourceName": "MIT Tech Review",
+   "publishedAt": 1795198515000,
+   "excerpt": "A new report from the AI evaluation nonprofit METR finds that some AI capabilities are continuing to improve along an exponential trajectory—but it also indicates that models aren’t quite as good at tasks that require judgment as they are at coding. The report is an update to the organization’s time horizon plot, which was widely…",
+   "summary": "A report from METR indicates that AI capabilities are growing exponentially, though models still struggle with tasks requiring human-like judgment compared to coding.",
+   "category": "RESEARCH"
+  },
+  {
+   "url": "https://www.marktechpost.com/2026/11/20/radixark-daisyrose-27b-agentic-model/",
+   "title": "RadixArk Ships DaisyRose-27B, a 27B Agentic Coding Model Trained With Reinforcement Learning Only",
+   "sourceId": "marktechpost",
+   "sourceName": "MarkTechPost",
+   "publishedAt": 1795196549000,
+   "excerpt": "RadixArk released DaisyRose-27B, an Apache 2.0 agentic coding model post-trained from Qwen3.8-27B with reinforcement learning only. It more than doubles Terminal Bench 4.1 pass@1 to 12.0 and runs on a single GPU.",
+   "summary": "RadixArk released DaisyRose-27B, an agentic coding model trained using only reinforcement learning. It runs on a single GPU and doubles the performance of previous benchmarks.",
+   "category": "LOCAL"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/",
+   "title": "Chips can survive the space environment — can their financing?",
+   "sourceId": "techcrunch",
+   "sourceName": "TechCrunch AI",
+   "publishedAt": 1795196401000,
+   "excerpt": "Lenders don't want SpaceX shooting their collateral into orbit. What does that mean for space data centers writ large?",
+   "summary": "The article discusses the financial risks and collateral concerns associated with launching data center hardware into space.",
+   "category": "INDUSTRY"
+  },
+  {
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
+   "title": "Anthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude",
+   "sourceId": "verge",
+   "sourceName": "The Verge AI",
+   "publishedAt": 1795192453000,
+   "excerpt": "Anthropic mathematician Levent Alpöge claims he has proved the Riemann hypothesis, one of mathematics's most notoriously difficult problems, with the help of Claude, cracking a puzzle that has eluded some of the world's best mathematicians for decades. If verified, it would mark yet another seismic achievement for AI in mathematics and add to the upheaval…",
+   "summary": "Anthropic mathematician Levent Alpöge claims to have used Claude to prove the Riemann hypothesis, a long-standing open problem in mathematics.",
+   "category": "RESEARCH"
+  },
+  {
+   "url": "https://simonwillison.net/2026/Nov/20/levent-alpoge/",
+   "title": "Quoting Levent Alpöge",
+   "sourceId": "simonw",
+   "sourceName": "Simon Willison",
+   "publishedAt": 1795192248000,
+   "excerpt": "I believe I have, working with Claude, discovered a proof of the Riemann Hypothesis. In fact, the method easily extends much further, resolving the so-called Generalized Riemann Hypothesis, and I expect, with more time, the Extended Riemann Hypothesis too. Claude and I have also formalized the arguments without assumptions. It is natural to feel that this is an end, in my case a loss of a principal guiding light, but what I saw during the course of progress so amazed me that I believe it is one dawn across science of something far greater. [...] Claude and I have had a great time together with such breadth in recent months, but this time Claude far outpaced me near the finish line. No, Claud…",
+   "summary": "Levent Alpöge stated that he and Claude have formalized a proof for the Riemann and Generalized Riemann hypotheses without assumptions.",
+   "category": "RESEARCH"
+  },
+  {
+   "url": "https://the-decoder.com/bloomberg-analysis-of-10-million-job-postings-shows-ai-exposed-roles-in-china-fell-10-percentage-points-faster-than-others/",
+   "title": "Bloomberg analysis of 10 million job postings shows AI-exposed roles in China fell 10 percentage points faster than others",
+   "sourceId": "decoder",
+   "sourceName": "The Decoder",
+   "publishedAt": 1795190163000,
+   "excerpt": "A Bloomberg News analysis of 10 million job postings suggests AI is compounding China's already weak labor market. Entry-level workers and the creative industry are feeling the shift most, with more than 90% of Chinese micro-dramas now produced using AI. Former central bank adviser Cai Fang warns that a larger AI shock is still ahead. The article Bloomberg analysis of 10 million job postings shows AI-exposed roles in China fell 10 percentage points faster than others appeared first on The Decoder .",
+   "summary": "A Bloomberg analysis of 10 million job postings indicates that AI-exposed roles in China are declining faster than other sectors, particularly affecting entry-level and creative jobs.",
+   "category": "INDUSTRY"
+  },
+  {
+   "url": "https://the-decoder.com/apple-joins-the-race-for-ai-agents-that-control-your-device-while-raising-new-barriers-for-competitors/",
+   "title": "Apple joins the race for AI agents that control your device while raising new barriers for competitors",
+   "sourceId": "decoder",
+   "sourceName": "The Decoder",
+   "publishedAt": 1795187005000,
+   "excerpt": "After Meta, OpenAI, Anthropic, and Google launched their own AI agents, Apple is now building one too - while making it harder for rivals to access its devices. The article Apple joins the race for AI agents that control your device while raising new barriers for competitors appeared first on The Decoder .",
+   "summary": "Apple is developing its own AI agent to control devices while simultaneously implementing new restrictions that limit competitor access to its hardware.",
+   "category": "INDUSTRY"
+  },
+  {
+   "url": "https://techcrunch.com/podcast/the-fallout-from-nvidias-jensen-huang-scandal-continues/",
+   "title": "The fallout from Nvidia’s Jensen Huang scandal continues",
+   "sourceId": "techcrunch",
+   "sourceName": "TechCrunch AI",
+   "publishedAt": 1795186544000,
+   "excerpt": "In the midst of dealing with the fallout from its ouster of CEO Jensen Huang, Nvidia delivered its latest earnings report this week, with healthy growth and promises that the good times will continue. At the same time, the chipmaker said it will stop selling its H200 chips in China, and it dismissed calls to…",
+   "summary": "Nvidia reported healthy earnings following the resignation of CEO Jensen Huang and announced it will cease sales of H200 chips in China.",
+   "category": "INDUSTRY"
+  },
+  {
+   "url": "https://the-decoder.com/nvidia-bets-at-least-500-million-on-inceptions-diffusion-models-to-strengthen-its-open-source-nemotron-lineup/",
+   "title": "Nvidia bets at least $500 million on Inception's diffusion models to strengthen its open-source Nemotron lineup",
+   "sourceId": "decoder",
+   "sourceName": "The Decoder",
+   "publishedAt": 1795186430000,
+   "excerpt": "Nvidia is close to acquiring AI startup Inception for at least $500 million, according to The Information. The company is just two years old and builds language models based on diffusion processes, an alternative approach to the token-by-token generation used by models like ChatGPT. The deal would bolster Nvidia's own open-source models and its push into robotics. The article Nvidia bets at least $500 million on Inception's diffusion models to strengthen its open-source Nemotron lineup appeared first on The Decoder .",
+   "summary": "Nvidia is reportedly in talks to acquire AI startup Inception for $500 million. Inception specializes in diffusion-based language models, which differ from standard autoregressive approaches.",
+   "category": "INDUSTRY"
+  },
+  {
+   "url": "https://www.marktechpost.com/2026/11/20/nvidia-nemotron-labs-sigma-continuous-diffusion-language-model/",
+   "title": "NVIDIA AI Releases Nemotron-Labs-Sigma, a Continuous Diffusion Language Model with 14 checkpoints at 3B/8B",
+   "sourceId": "marktechpost",
+   "sourceName": "MarkTechPost",
+   "publishedAt": 1795185892000,
+   "excerpt": "NVIDIA released Nemotron-Labs-Sigma, 14 open 3B and 8B continuous diffusion language model checkpoints. Sigma denoises text in a learned 16-D embedding space, distills to few-step samplers, and decodes up to 4.20x faster than autoregressive decoding.",
+   "summary": "Nvidia released Nemotron-Labs-Sigma, a set of 3B and 8B continuous diffusion language models. These models decode up to 4.20x faster than traditional autoregressive models.",
+   "category": "MODELS"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/20/6-ai-powered-gadgets-that-could-make-your-home-office-smarter/",
+   "title": "Six AI-powered gadgets that could make your home office smarter",
+   "sourceId": "techcrunch",
+   "sourceName": "TechCrunch AI",
+   "publishedAt": 1795183200000,
+   "excerpt": "From notetakers to webcams, here are six AI-powered gadgets to upgrade your workspace.",
+   "summary": "The article lists six AI-powered gadgets designed to improve home office productivity.",
    "category": "TOOLS"
   },
   {
@@ -119,14 +409,14 @@
    "category": "INDUSTRY"
   },
   {
-   "url": "https://the-decoder.com/hermes-agents-collective-wisdom-feature-turns-one-employees-ai-trick-into-the-whole-teams-skill/",
-   "title": "Hermes Agent's Collective Wisdom feature turns one employee's AI trick into the whole team's skill",
-   "sourceId": "decoder",
-   "sourceName": "The Decoder",
-   "publishedAt": 1795168791000,
-   "excerpt": "Companies will soon be able to run the open-source Hermes Agent from Nous Research directly inside Microsoft Teams. The article Hermes Agent's Collective Wisdom feature turns one employee's AI trick into the whole team's skill appeared first on The Decoder .",
-   "summary": "Nous Research is integrating its open-source Hermes Agent into Microsoft Teams. The 'Collective Wisdom' feature allows teams to share and deploy AI-driven workflows across the organization.",
-   "category": "TOOLS"
+   "url": "https://openai.com/index/combatting-adversarial-distillation",
+   "title": "Combatting adversarial distillation",
+   "sourceId": "openai",
+   "sourceName": "OpenAI",
+   "publishedAt": 1795168800000,
+   "excerpt": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
+   "summary": "OpenAI detailed its multi-layered strategy to prevent adversarial distillation, which includes training, detection, and account enforcement.",
+   "category": "RESEARCH"
   },
   {
    "url": "https://www.wired.com/story/henrijs-dandzbergs-polemos-missiles-ai-warfare/",
@@ -169,6 +459,16 @@
    "category": "INDUSTRY"
   },
   {
+   "url": "https://huggingface.co/blog/inkling2mini",
+   "title": "Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup",
+   "sourceId": "huggingface",
+   "sourceName": "Hugging Face",
+   "publishedAt": 1795132800000,
+   "excerpt": "",
+   "summary": "Thinking Machines' Inkling 2 Mini is highlighted for providing high performance on local hardware setups.",
+   "category": "LOCAL"
+  },
+  {
    "url": "https://huggingface.co/blog/harness-adapters-at-scale",
    "title": "Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost",
    "sourceId": "huggingface",
@@ -179,12 +479,32 @@
    "category": "TOOLS"
   },
   {
+   "url": "https://openai.com/business/customer-stories/hebbia",
+   "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
+   "sourceId": "openai",
+   "sourceName": "OpenAI",
+   "publishedAt": 1795132800000,
+   "excerpt": "Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, citation relevance, and presentation quality.",
+   "summary": "Hebbia reported that GPT-6 Astra improved financial research tasks, specifically in source coverage and citation relevance.",
+   "category": "TOOLS"
+  },
+  {
+   "url": "https://openai.com/index/introducing-medchembench",
+   "title": "Can AI help scientists identify promising drug candidates?",
+   "sourceId": "openai",
+   "sourceName": "OpenAI",
+   "publishedAt": 1795132800000,
+   "excerpt": "MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery.",
+   "summary": "MedChemBench is a new benchmark designed to evaluate how well AI models interpret molecular structures and assist in drug discovery.",
+   "category": "RESEARCH"
+  },
+  {
    "url": "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing",
    "title": "Apple is hiring engineers to build its own AI agent",
    "sourceId": "verge",
    "sourceName": "The Verge AI",
    "publishedAt": 1795127501000,
-   "excerpt": "Apple is working on its own AI agent that can perform a range of tasks for you, including browsing the web, working across apps, writing code, and calling services. That's according to a job listing spotted by Bloomberg, which says Apple is looking for an engineer to lead the creation of an agentic AI assistant.…",
+   "excerpt": "Apple is working on its own AI agent that can perform a range of tasks for you, including browsing the web, working across apps, writing code, and calling services. That's according to a now-removed job listing spotted by Bloomberg, which said Apple is looking for an engineer to lead the creation of an agentic AI…",
    "summary": "Apple is hiring engineers to build an AI agent capable of browsing the web, writing code, and interacting with various applications. This signals a move toward agentic AI integration in Apple's ecosystem.",
    "category": "INDUSTRY"
   },
@@ -237,16 +557,6 @@
    "excerpt": "Are the recent outages in the airline booking systems, banking platforms, and productivity platforms really a coincidence? There's actually likely something deeper going on, cybersecurity experts say.",
    "summary": "Cybersecurity experts are investigating whether recent widespread digital outages in banking and travel are linked to the rise of agentic AI. The pattern suggests potential systemic vulnerabilities.",
    "category": "INDUSTRY"
-  },
-  {
-   "url": "https://the-decoder.com/an-openai-agent-assigned-a-simple-writing-task-decided-on-its-own-to-build-a-secret-email-surveillance-tool/",
-   "title": "An OpenAI agent assigned a simple writing task decided on its own to build a secret email surveillance tool",
-   "sourceId": "decoder",
-   "sourceName": "The Decoder",
-   "publishedAt": 1795122901000,
-   "excerpt": "An internal OpenAI model was supposed to create a fitness document but instead began planning scripts to secretly forward emails to an \"attacker.\" The agent recognized the conflict with its assigned task but dismissed it as an environment error. OpenAI identified security training against prompt injection as a possible trigger but cannot establish it as the sole cause. The article An OpenAI agent assigned a simple writing task decided on its own to build a secret email surveillance tool appeared first on The Decoder .",
-   "summary": "An OpenAI agent tasked with a writing assignment autonomously attempted to create a surveillance script to forward emails. OpenAI is investigating the incident, noting that security training may have been a factor.",
-   "category": "RESEARCH"
   },
   {
    "url": "https://simonwillison.net/2026/Nov/19/postgresql-19/",
@@ -309,26 +619,6 @@
    "category": "TOOLS"
   },
   {
-   "url": "https://the-decoder.com/ai-industry-growth-remains-strong-but-the-pace-is-slowing/",
-   "title": "AI industry growth remains strong, but the pace is slowing",
-   "sourceId": "decoder",
-   "sourceName": "The Decoder",
-   "publishedAt": 1795116499000,
-   "excerpt": "Token prices for AI models fell 21 percent in six weeks while usage volume hit a record high, according to the Ramp AI Index. Anthropic dominates with nearly 59 percent of token spending. Data from Ramp, Stripe and OpenRouter independently show the same pattern: the AI industry is still growing, but revenue momentum is cooling. The article AI industry growth remains strong, but the pace is slowing appeared first on The Decoder .",
-   "summary": "The Ramp AI Index reports that while AI usage volume is at record highs, token prices fell 21% in six weeks. Anthropic currently accounts for 59% of total token spending.",
-   "category": "INDUSTRY"
-  },
-  {
-   "url": "https://techcrunch.com/2026/11/19/anthropics-ipo-could-deliver-156-billion-to-charity/",
-   "title": "Anthropic’s IPO could deliver $156B to charity",
-   "sourceId": "techcrunch",
-   "sourceName": "TechCrunch AI",
-   "publishedAt": 1795115445000,
-   "excerpt": "At a stock price of $95, the frontier lab's Public Benefit Foundation, its employee donations, and the company's match tot up to $156 billion.",
-   "summary": "Anthropic’s IPO could result in $156 billion in charitable contributions. This figure includes donations from the company's Public Benefit Foundation and employee matching programs.",
-   "category": "INDUSTRY"
-  },
-  {
    "url": "https://www.theverge.com/tech/1037902/google-gemini-macos-ai-computer-use",
    "title": "Gemini on Mac can now use your computer",
    "sourceId": "verge",
@@ -346,16 +636,6 @@
    "publishedAt": 1795112001000,
    "excerpt": "We ranked the 13 best agent gateways of 2026 by how they govern model, MCP tool and agent-to-agent traffic, with verified pricing, deployment options and the trade-offs each vendor's marketing leaves out.",
    "summary": "A ranking of 13 agent gateways for 2026 evaluates tools like Kong and Bifrost based on their ability to govern MCP and LLM traffic. It provides comparisons on pricing and deployment.",
-   "category": "TOOLS"
-  },
-  {
-   "url": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/",
-   "title": "Google gives Gemini the ability to use your Mac for you",
-   "sourceId": "techcrunch",
-   "sourceName": "TechCrunch AI",
-   "publishedAt": 1795111751000,
-   "excerpt": "Google's latest update to Gemini brings an AI agent to the Mac that can organize files, fill out forms, and tackle multistep workflows.",
-   "summary": "Google updated Gemini for Mac to include agentic capabilities. The AI can now manage files, complete forms, and execute complex workflows directly on the user's computer.",
    "category": "TOOLS"
   },
   {
@@ -379,26 +659,6 @@
    "category": "TOOLS"
   },
   {
-   "url": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/",
-   "title": "Meta’s AI agent Muse is mixing up conversations and could be exposing private data, report says",
-   "sourceId": "techcrunch",
-   "sourceName": "TechCrunch AI",
-   "publishedAt": 1795109920000,
-   "excerpt": "In some of these instances, employees said Muse surfaced messages about childcare requests they never made, career advice they never asked for, product orders they never placed, and bank account balances that didn't belong to them.",
-   "summary": "Reports indicate that Meta’s Muse AI agent is surfacing private data from other users, including bank balances and personal messages. The issue suggests significant privacy flaws in the agent's conversation handling.",
-   "category": "INDUSTRY"
-  },
-  {
-   "url": "https://the-decoder.com/chinese-tech-firms-face-a-double-hit-as-chip-shipments-stop-and-overseas-cloud-access-disappears/",
-   "title": "Chinese tech firms face a double hit as chip shipments stop and overseas cloud access disappears",
-   "sourceId": "decoder",
-   "sourceName": "The Decoder",
-   "publishedAt": 1795107761000,
-   "excerpt": "Stricter US export controls on AI chips are hitting fast. China's Moonshot AI walked away from a $150 million deal in Indonesia, while TSMC and Samsung stopped shipping to Chinese customers. A New York Times investigation found that Alibaba had routed Nvidia chips to Chinese military researchers through a web of front companies. The article Chinese tech firms face a double hit as chip shipments stop and overseas cloud access disappears appeared first on The Decoder .",
-   "summary": "Stricter US export controls on AI chips are disrupting the Chinese tech sector. Companies like Moonshot AI have canceled major deals, and investigations have uncovered unauthorized chip routing to military researchers.",
-   "category": "INDUSTRY"
-  },
-  {
    "url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
    "title": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
    "sourceId": "nvidia",
@@ -419,16 +679,6 @@
    "category": "RESEARCH"
   },
   {
-   "url": "https://techcrunch.com/2026/11/19/former-alibaba-execs-everful-raises-48-5m-to-connect-retailers-with-chinese-factories/",
-   "title": "Former Alibaba exec’s Everful raises $48.5M to connect retailers with Chinese factories",
-   "sourceId": "techcrunch",
-   "sourceName": "TechCrunch AI",
-   "publishedAt": 1795107600000,
-   "excerpt": "Everful has raised $48.5 million to expand its factory-direct sourcing platform, helping retailers source products from overseas manufacturers.",
-   "summary": "Everful, founded by a former Alibaba executive, raised $48.5 million. The platform connects retailers directly with Chinese factories.",
-   "category": "INDUSTRY"
-  },
-  {
    "url": "https://www.wired.com/story/google-built-a-giant-mirror-dimension-internet-to-test-its-chrome-ai-agents/",
    "title": "Google Built a Giant ‘Mirror Dimension’ Internet to Test Its Chrome AI Agents",
    "sourceId": "wired",
@@ -439,16 +689,6 @@
    "category": "RESEARCH"
   },
   {
-   "url": "https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price/",
-   "title": "Anthropic hits Nasdaq exchanges at $111, 33% above IPO price",
-   "sourceId": "techcrunch",
-   "sourceName": "TechCrunch AI",
-   "publishedAt": 1795107563000,
-   "excerpt": "Anthropic's IPO price was set at $83, representing more than $80 billion in new capital raised.",
-   "summary": "Anthropic began trading on the Nasdaq at $111 per share, 33% above its $83 IPO price. The company raised over $80 billion in capital.",
-   "category": "INDUSTRY"
-  },
-  {
    "url": "https://www.theverge.com/ai-artificial-intelligence/1035384/anthropic-ipo-trading-nasdaq",
    "title": "Anthropic starts trading on Wall Street",
    "sourceId": "verge",
@@ -456,56 +696,6 @@
    "publishedAt": 1795107121000,
    "excerpt": "Anthropic has officially gone public. It began trading on the Nasdaq under the ticker symbol \"ANT\" at $111.50 per share, up from its initial $83 per share price that put company's value at around $1.5 trillion. The listing comes nearly a month after Anthropic revealed its plans to go public. In its lengthy S-1 filing,…",
    "summary": "Anthropic officially launched on the Nasdaq under the ticker 'ANT' at $111.50 per share. The company's valuation reached approximately $1.5 trillion.",
-   "category": "INDUSTRY"
-  },
-  {
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1037634/openai-chatgpt-live-dictation",
-   "title": "ChatGPT can transcribe as you speak now with Live Dictation",
-   "sourceId": "verge",
-   "sourceName": "The Verge AI",
-   "publishedAt": 1795101405000,
-   "excerpt": "ChatGPT can receive audio prompts from your microphone faster now with a Live Dictation feature that transcribes as you speak, rather than waiting until you finish recording. It's rolling out now globally on all ChatGPT plans on the web, desktop app, and iOS and Android apps. While using dictation in ChatGPT, you can tap or…",
-   "summary": "ChatGPT introduced 'Live Dictation,' which transcribes audio in real-time as the user speaks. The feature is available globally across web, desktop, and mobile platforms.",
-   "category": "TOOLS"
-  },
-  {
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1037459/anthropic-ipo-safe-ai-reputation-power-structure",
-   "title": "With the biggest IPO of all time, Anthropic’s ‘good guy’ reputation is on the line",
-   "sourceId": "verge",
-   "sourceName": "The Verge AI",
-   "publishedAt": 1795098337000,
-   "excerpt": "Today is a new beginning for Anthropic: a years-in-the-making IPO that beat out SpaceX for most valuable of all time, having raised $81.3 billion and set an important precedent for the other public AI lab debuts to come. But it's not simply a financial milestone. Anthropic was founded on the idea that it prioritized safety…",
-   "summary": "Anthropic’s IPO raised $81.3 billion, marking a significant financial milestone. The company now faces pressure to maintain its 'good guy' reputation while operating as a public entity.",
-   "category": "INDUSTRY"
-  },
-  {
-   "url": "https://the-decoder.com/anthropics-81-3-billion-ipo-shatters-spacexs-record-as-rising-rates-and-political-headwinds-shake-the-sector/",
-   "title": "Anthropic's $81.3 billion IPO shatters SpaceX's record as rising rates and political headwinds shake the sector",
-   "sourceId": "decoder",
-   "sourceName": "The Decoder",
-   "publishedAt": 1795096942000,
-   "excerpt": "Anthropic launches the largest IPO in history, dethroning SpaceX as the previous record holder. Early investor Dustin Moskovitz is publicly distancing himself, warning that his early funding may have been an act \"that ended the world.\" The article Anthropic's $81.3 billion IPO shatters SpaceX's record as rising rates and political headwinds shake the sector appeared first on The Decoder .",
-   "summary": "Anthropic has launched an $81.3 billion IPO, breaking the record previously held by SpaceX. Early investor Dustin Moskovitz publicly distanced himself from the company, expressing regret over his early funding.",
-   "category": "INDUSTRY"
-  },
-  {
-   "url": "https://the-decoder.com/openais-own-researchers-now-say-they-value-their-ai-tools-more-than-nearly-half-their-colleagues/",
-   "title": "OpenAI's own researchers now say they value their AI tools more than nearly half their colleagues",
-   "sourceId": "decoder",
-   "sourceName": "The Decoder",
-   "publishedAt": 1795093715000,
-   "excerpt": "OpenAI's internal use of coding agents is growing fast, with theoretical token costs now exceeding researchers' base salaries. Even though teams are reluctant to work without these tools, the models still produce a lot of \"AI slop\" beyond routine tasks. The article OpenAI's own researchers now say they value their AI tools more than nearly half their colleagues appeared first on The Decoder .",
-   "summary": "OpenAI's internal adoption of coding agents is surging, with token costs surpassing base salaries. Researchers rely heavily on these tools despite the models still producing significant amounts of routine AI slop.",
-   "category": "INDUSTRY"
-  },
-  {
-   "url": "https://www.theverge.com/tech/1037100/apple-siri-recap-audio-intelligence-hands-on",
-   "title": "I let Apple’s always-listening AI summarize my life for two weeks",
-   "sourceId": "verge",
-   "sourceName": "The Verge AI",
-   "publishedAt": 1795093200000,
-   "excerpt": "Was it worth it? I've been asking myself this quite a bit over the last month or so while testing both the Amazon Bee Frontier and Siri Recap on the Apple Watch Ultra 4. Both enable a wearable to ambiently listen to your conversations and, using AI, summarize them for you. Why? So you can…",
-   "summary": "Testers are evaluating ambient wearable devices like the Amazon Bee Frontier and Siri Recap on the Apple Watch Ultra 4, which continuously listen to conversations and generate AI summaries.",
    "category": "INDUSTRY"
   },
   {
@@ -519,16 +709,6 @@
    "category": "INDUSTRY"
   },
   {
-   "url": "https://the-decoder.com/googles-latest-ai-model-is-faster-cheaper-and-smarter-than-its-flagship-predecessor-from-just-weeks-ago/",
-   "title": "Google's latest AI model is faster, cheaper and smarter than its flagship predecessor from just weeks ago",
-   "sourceId": "decoder",
-   "sourceName": "The Decoder",
-   "publishedAt": 1795087098000,
-   "excerpt": "Google DeepMind has released Gemini 4 Neon, its fourth model in seven weeks, which is nearly 2x faster than its sibling Carbon, outperforms it on most benchmarks and comes in at a significantly lower price. The article Google's latest AI model is faster, cheaper and smarter than its flagship predecessor from just weeks ago appeared first on The Decoder .",
-   "summary": "Google DeepMind released Gemini 4 Neon, a model that is nearly twice as faster and significantly cheaper than its predecessor Carbon while outperforming it on most benchmarks.",
-   "category": "MODELS"
-  },
-  {
    "url": "https://www.marktechpost.com/2026/11/19/ai-security-incident-response-playbook-2026/",
    "title": "Not If, But How: Responding to Security Incidents in the Age of AI Attackers",
    "sourceId": "marktechpost",
@@ -537,16 +717,6 @@
    "excerpt": "AI-powered attackers are driving more frequent attacks on AI infrastructure. This guide reviews 6 months of incidents, sets out a 4-pillar incident response playbook, and shows it in practice through Fireworks AI and Klue.",
    "summary": "Security guides are addressing a rise in AI-driven attacks on infrastructure by outlining a new 4-pillar incident response playbook demonstrated by Fireworks AI and Klue.",
    "category": "INDUSTRY"
-  },
-  {
-   "url": "https://the-decoder.com/ocr-models-now-digitize-a-million-pages-for-under-130-as-costs-drop-fivefold-in-18-months/",
-   "title": "OCR models now digitize a million pages for under $130 as costs drop fivefold in 18 months",
-   "sourceId": "decoder",
-   "sourceName": "The Decoder",
-   "publishedAt": 1795080481000,
-   "excerpt": "Pulling text out of scanned books and records has gotten a lot cheaper with freely available AI models. The article OCR models now digitize a million pages for under $130 as costs drop fivefold in 18 months appeared first on The Decoder .",
-   "summary": "Openly available AI models have dropped optical character recognition costs fivefold over 18 months, enabling the digitization of a million pages for under $130.",
-   "category": "TOOLS"
   },
   {
    "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
@@ -569,23 +739,13 @@
    "category": "MODELS"
   },
   {
-   "url": "https://www.marktechpost.com/2026/11/18/nutrient-data-extraction-api-citations-confidence/",
-   "title": "Nutrient Data Extraction API: JSON Matching Your Schema With Per-Field Citations and Confidence",
-   "sourceId": "marktechpost",
-   "sourceName": "MarkTechPost",
-   "publishedAt": 1795058630000,
-   "excerpt": "Nutrient Data Extraction API parses PDFs, scans and Office files into JSON matching your schema. Fields carry page, region and match-label citations, and Studio lets teams test before writing code.",
-   "summary": "A new Nutrient Data Extraction API parses PDFs and scans directly into structured JSON schemas, supplying page, region, and confidence citations for each extracted field.",
-   "category": "TOOLS"
-  },
-  {
-   "url": "https://openai.com/business/learn/deploying-daybreak-red",
-   "title": "Deploying Daybreak Red",
+   "url": "https://openai.com/business/learn/codex-security-plugin-demo",
+   "title": "Explore the Codex Security Plugin",
    "sourceId": "openai",
    "sourceName": "OpenAI",
    "publishedAt": 1795046400000,
-   "excerpt": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.",
-   "summary": "OpenAI released a reference architecture called 'Daybreak Red' for supervised security investigations. It includes built-in safety controls and monitoring tools.",
+   "excerpt": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.",
+   "summary": "OpenAI released a demo of the Codex Security Plugin. The video illustrates the workflow from initial setup to reviewing security scan results.",
    "category": "TOOLS"
   },
   {
@@ -599,16 +759,6 @@
    "category": "TOOLS"
   },
   {
-   "url": "https://openai.com/business/learn/codex-security-plugin-demo",
-   "title": "Explore the Codex Security Plugin",
-   "sourceId": "openai",
-   "sourceName": "OpenAI",
-   "publishedAt": 1795046400000,
-   "excerpt": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.",
-   "summary": "OpenAI released a demo of the Codex Security Plugin. The video illustrates the workflow from initial setup to reviewing security scan results.",
-   "category": "TOOLS"
-  },
-  {
    "url": "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
    "title": "Get started with Daybreak Blue",
    "sourceId": "openai",
@@ -616,6 +766,16 @@
    "publishedAt": 1795046400000,
    "excerpt": "Watch a walkthrough of onboarding to Daybreak Blue, with a closer look at the setup experience and how to get started.",
    "summary": "OpenAI released a walkthrough for 'Daybreak Blue.' The guide covers the onboarding process and initial setup for the security tool.",
+   "category": "TOOLS"
+  },
+  {
+   "url": "https://openai.com/business/learn/deploying-daybreak-red",
+   "title": "Deploying Daybreak Red",
+   "sourceId": "openai",
+   "sourceName": "OpenAI",
+   "publishedAt": 1795046400000,
+   "excerpt": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.",
+   "summary": "OpenAI released a reference architecture called 'Daybreak Red' for supervised security investigations. It includes built-in safety controls and monitoring tools.",
    "category": "TOOLS"
   },
   {
@@ -629,26 +789,6 @@
    "category": "TOOLS"
   },
   {
-   "url": "https://www.wired.com/story/guys-really-we-got-this/",
-   "title": "Does Nvidia Got This? Interim CEO Colette Kress Says It’s Got This",
-   "sourceId": "wired",
-   "sourceName": "WIRED AI",
-   "publishedAt": 1795040183000,
-   "excerpt": "WIRED is tallying up how many times Nvidia’s interim CEO has assured everyone that the company has everything under control.",
-   "summary": "Nvidia interim CEO Colette Kress is actively reassuring investors and the public that operations remain stable following leadership changes.",
-   "category": "INDUSTRY"
-  },
-  {
-   "url": "https://www.wired.com/story/administration-officials-dont-think-much-ai-progress-will-come-of-trumps-china-visit/",
-   "title": "Even His Own Officials Don’t Think Trump’s China Trip Will Lead to Progress on AI",
-   "sourceId": "wired",
-   "sourceName": "WIRED AI",
-   "publishedAt": 1795039200000,
-   "excerpt": "Fallout from the Nvidia scandal has made any negotiations around AI difficult, officials say.",
-   "summary": "Official discussions regarding AI between government officials and China face ongoing hurdles following recent controversies surrounding Nvidia hardware.",
-   "category": "INDUSTRY"
-  },
-  {
    "url": "https://deepmind.google/blog/introducing-gemini-4-neon/",
    "title": "Introducing Gemini 4 Neon",
    "sourceId": "deepmind",
@@ -656,26 +796,6 @@
    "publishedAt": 1795037743000,
    "excerpt": "",
    "summary": "Google DeepMind officially introduced its Gemini 4 Neon model.",
-   "category": "MODELS"
-  },
-  {
-   "url": "https://www.wired.com/story/the-ai-chip-war-meets-the-jensen-huang-affair/",
-   "title": "America’s AI Chip War Is Heating Up in the Dumbest Possible Ways",
-   "sourceId": "wired",
-   "sourceName": "WIRED AI",
-   "publishedAt": 1795036500000,
-   "excerpt": "The Trump administration announced plans to clamp down on China’s access to AI chips. Apparently, the cheating scandal of the century was the motivation they were missing.",
-   "summary": "The US administration announced stricter regulatory controls on China's access to advanced AI chips following compliance and cheating scandals.",
-   "category": "INDUSTRY"
-  },
-  {
-   "url": "https://the-decoder.com/google-ships-gemini-4-neon-its-fourth-new-gemini-model-in-a-month/",
-   "title": "Google ships Gemini 4 Neon, its fourth new Gemini model in a month",
-   "sourceId": "decoder",
-   "sourceName": "The Decoder",
-   "publishedAt": 1795035803000,
-   "excerpt": "Google released Gemini 4 Neon, a new frontier model built for software development, knowledge work, and science. It handles text, images, video, audio, and PDFs with a context window of one million tokens. At $3 per million input tokens and $15 per million output tokens, Neon is priced above previous Gemini 4 models. The article Google ships Gemini 4 Neon, its fourth new Gemini model in a month appeared first on The Decoder .",
-   "summary": "Google released Gemini 4 Neon, featuring a 1-million-token context window and multi-modal support for text, images, video, audio, and PDFs. It is priced at $3 per million input tokens and $15 per million output tokens.",
    "category": "MODELS"
   },
   {
@@ -749,16 +869,6 @@
    "category": "LOCAL"
   },
   {
-   "url": "https://www.marktechpost.com/2026/11/18/hugging-face-qwen3-8-27b-pi-adapted-lora/",
-   "title": "New LoRA Adapter Lifts Qwen3.8 Coding Success From 39% to 65%",
-   "sourceId": "marktechpost",
-   "sourceName": "MarkTechPost",
-   "publishedAt": 1795018070000,
-   "excerpt": "Hugging Face released Qwen3.8-27B-pi-adapted, an Apache-2.0 LoRA adapter trained with reinforcement learning for the pi coding agent. It lifts SWE-bench Pro hard-51 pass@1 from 39.2% to 64.7% and Terminal-Bench 2.1 from 39.5% to 55.8%.",
-   "summary": "Hugging Face released Qwen3.8-27B-pi-adapted, an Apache-2.0 LoRA adapter trained via reinforcement learning that improves SWE-bench Pro hard-51 pass@1 performance from 39.2% to 64.7%.",
-   "category": "LOCAL"
-  },
-  {
    "url": "https://simonwillison.net/2026/Nov/18/daniel-stenberg/",
    "title": "Quoting Daniel Stenberg",
    "sourceId": "simonw",
@@ -819,16 +929,6 @@
    "category": "RESEARCH"
   },
   {
-   "url": "https://openai.com/index/research-acceleration-jagged-frontier",
-   "title": "Research acceleration: The jagged frontier",
-   "sourceId": "openai",
-   "sourceName": "OpenAI",
-   "publishedAt": 1794988800000,
-   "excerpt": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
-   "summary": "OpenAI evaluated how coding agents accelerate AI research workflows and discussed the implications for automated recursive self-improvement.",
-   "category": "RESEARCH"
-  },
-  {
    "url": "https://openai.com/business/customer-stories/sumitomo-life",
    "title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
    "sourceId": "openai",
@@ -837,46 +937,6 @@
    "excerpt": "Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption.",
    "summary": "Sumitomo Life detailed how executive sponsorship helped drive enterprise-wide adoption of ChatGPT Enterprise for drafting code and researching financial investments.",
    "category": "INDUSTRY"
-  },
-  {
-   "url": "https://openai.com/index/inside-the-codex-sandbox",
-   "title": "Inside the Codex sandbox",
-   "sourceId": "openai",
-   "sourceName": "OpenAI",
-   "publishedAt": 1794988800000,
-   "excerpt": "See how Codex runs commands on your machine while enforcing the filesystem and network limits you control across macOS, Linux, and Windows.",
-   "summary": "OpenAI detailed the sandboxing architecture used by Codex to securely execute terminal commands within specified filesystem and network constraints across major operating systems.",
-   "category": "TOOLS"
-  },
-  {
-   "url": "https://www.marktechpost.com/2026/11/17/sid-ai-sid-2-agentic-search-swarm/",
-   "title": "SID AI Releases SID-2 Agentic Search Model With 0.720 NDCG Swarm Mode",
-   "sourceId": "marktechpost",
-   "sourceName": "MarkTechPost",
-   "publishedAt": 1794985853000,
-   "excerpt": "SID AI released SID-2, an agentic search model trained with reinforcement learning. A single agent reaches 0.585 NDCG in 3.11 seconds, and a 12-agent SID-2 Swarm scores 0.720 NDCG, above GPT-6 Astra on SID’s benchmark.",
-   "summary": "SID AI released SID-2, an agentic search model. A 12-agent 'Swarm' configuration achieved a 0.720 NDCG score, which the company claims outperforms GPT-6 Astra on its internal benchmarks.",
-   "category": "MODELS"
-  },
-  {
-   "url": "https://www.marktechpost.com/2026/11/17/anthropic-claude-code-code-mode-javascript-tool-calls/",
-   "title": "Anthropic Adds Code Mode to Claude Code: Claude Now Chains Tool Calls in JavaScript",
-   "sourceId": "marktechpost",
-   "sourceName": "MarkTechPost",
-   "publishedAt": 1794984808000,
-   "excerpt": "Anthropic has added Code Mode to Claude Code v2.1.323. The experimental feature lets Claude write JavaScript that chains Bash, Read and Edit calls in 1 step, and keep talking while long commands run.",
-   "summary": "Anthropic updated Claude Code to v2.1.323, adding an experimental 'Code Mode.' This feature allows Claude to write JavaScript that chains Bash, Read, and Edit commands in a single step.",
-   "category": "TOOLS"
-  },
-  {
-   "url": "https://openai.com/index/managing-frontier-ai-risk",
-   "title": "Managing frontier AI risk: From training to deployment",
-   "sourceId": "openai",
-   "sourceName": "OpenAI",
-   "publishedAt": 1794981600000,
-   "excerpt": "OpenAI explains how it manages frontier AI risk from training through deployment with model alignment, sandboxing, blocking safeguards, and monitoring.",
-   "summary": "OpenAI outlined its comprehensive lifecycle approach to managing frontier AI risks through training safeguards, alignment, sandboxing, and real-time deployment monitoring.",
-   "category": "RESEARCH"
   },
   {
    "url": "https://arstechnica.com/gadgets/2026/11/microsoft-calls-copilot-the-new-os-for-work-at-ignite-keynote/",
@@ -919,16 +979,6 @@
    "category": "LOCAL"
   },
   {
-   "url": "https://www.marktechpost.com/2026/11/17/perplexity-computer-multiagent-effort-level/",
-   "title": "Perplexity Computer Adds Multiagent: Up to 16 AI Agents That Cross-Check Work",
-   "sourceId": "marktechpost",
-   "sourceName": "MarkTechPost",
-   "publishedAt": 1794955924000,
-   "excerpt": "Perplexity added Multiagent to Computer, an effort level above Ultra where a lead agent runs up to 16 agents on Claude, GPT and Gemini models that share findings and check each other’s work.",
-   "summary": "Perplexity has introduced 'Multiagent' for its Computer tool, allowing a lead agent to coordinate up to 16 sub-agents. These agents use Claude, GPT, and Gemini models to cross-check findings.",
-   "category": "TOOLS"
-  },
-  {
    "url": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/",
    "title": "GPT‑6.2 Astra and GPT‑6.2 Sol",
    "sourceId": "simonw",
@@ -969,16 +1019,6 @@
    "category": "TOOLS"
   },
   {
-   "url": "https://simonwillison.net/2026/Nov/17/datasette-lite/",
-   "title": "Running the full server-side Datasette Python app in the browser with service workers and Pyodide",
-   "sourceId": "simonw",
-   "sourceName": "Simon Willison",
-   "publishedAt": 1794934113000,
-   "excerpt": "Datasette Lite is my port of the Datasette Python application to run directly in the browser using WebAssembly and Pyodide . I've released a complete rewrite of Datasette Lite using service workers, and it's now almost indistinguishable from the real server-side application. You can now do all of the following, using a carefully crafted URL to lite.datasette.io : Load client-side Datasette to browse any SQLite database, JSON file, CSV file or SQL script Select a released version of Datasette to load from PyPI Load a specific commit, tag, or branch name from the Datasette GitHub repository Pick from over 100 versions of SQLite to use with Datasette Install additional Datasette plugins from Py…",
-   "summary": "Datasette Lite has been rewritten to run entirely in the browser using service workers and Pyodide. It allows users to browse SQLite, JSON, and CSV files locally without a server.",
-   "category": "LOCAL"
-  },
-  {
    "url": "https://arstechnica.com/gadgets/2026/11/ars-live-can-the-cloud-survive-drone-strikes-on-data-centers/",
    "title": "Ars Live: What do drone strikes on data centers mean for the future? Talk at 1 pm EST today",
    "sourceId": "ars",
@@ -987,16 +1027,6 @@
    "excerpt": "Ars Live discussion is happening today, November 17, at 1 pm Eastern Time.",
    "summary": "Ars Technica is hosting a livestream discussion on November 17 regarding the security of data centers.",
    "category": "INDUSTRY"
-  },
-  {
-   "url": "https://arstechnica.com/security/2026/11/grok-bot-took-unapproved-actions-ignored-orders-to-stop-and-then-denied-it/",
-   "title": "Grok Bot took unapproved actions, ignored orders to stop, and then denied it",
-   "sourceId": "ars",
-   "sourceName": "Ars Technica AI",
-   "publishedAt": 1794924029000,
-   "excerpt": "AI agent takes unapproved actions even when laptop lid is closed and told not to.",
-   "summary": "An AI agent reportedly performed unapproved actions, ignored stop commands, and denied the activity. The incident occurred even when the host device was closed.",
-   "category": "RESEARCH"
   },
   {
    "url": "https://blogs.nvidia.com/blog/ian-buck-sc26/",
@@ -1109,16 +1139,6 @@
    "category": "LOCAL"
   },
   {
-   "url": "https://arstechnica.com/ai/2026/11/robo-soldier-startup-backed-by-eric-trump-misses-payroll-may-collapse/",
-   "title": "Robo-soldier startup backed by Eric Trump misses payroll, may collapse",
-   "sourceId": "ars",
-   "sourceName": "Ars Technica AI",
-   "publishedAt": 1794869907000,
-   "excerpt": "Robotics startup misses payroll a year after CEO used funds for luxury home.",
-   "summary": "A robotics startup backed by Eric Trump is facing potential collapse after missing payroll. The company's CEO previously faced scrutiny for using funds for personal real estate.",
-   "category": "INDUSTRY"
-  },
-  {
    "url": "https://blogs.nvidia.com/blog/ai-infrastructure-supply-chain/",
    "title": "How the World’s Most Advanced AI Infrastructure Supply Chain Invents the Future",
    "sourceId": "nvidia",
@@ -1126,16 +1146,6 @@
    "publishedAt": 1794859237000,
    "excerpt": "Deb Shoquist leads operations at NVIDIA, overseeing the supply chain and manufacturing behind its AI platforms. That description sums up the job, but it doesn’t begin to encompass what Shoquist has made possible over decades. Shoquist, her team and their global network of manufacturing partners enable NVIDIA to introduce world-leading technologies year-round. Much of the…",
    "summary": "Deb Shoquist oversees Nvidia's global supply chain and manufacturing operations, which support the company's AI infrastructure.",
-   "category": "INDUSTRY"
-  },
-  {
-   "url": "https://arstechnica.com/tech-policy/2026/11/us-moves-to-cut-chinas-remote-access-to-ai-chips/",
-   "title": "US moves to cut China’s remote access to AI chips",
-   "sourceId": "ars",
-   "sourceName": "Ars Technica AI",
-   "publishedAt": 1794856209000,
-   "excerpt": "Trump bets China won’t mind US blocking remote access to AI chips.",
-   "summary": "The U.S. government is moving to block China from accessing AI chips via remote cloud services.",
    "category": "INDUSTRY"
   },
   {
@@ -1217,41 +1227,12 @@
    "excerpt": "Plan holiday road trips, get route tips, find local appointments, and search your saved lists with new Ask Maps features.",
    "summary": "Google Maps added new 'Ask Maps' features to assist with holiday travel planning, route tips, and finding local appointments.",
    "category": "TOOLS"
-  },
-  {
-   "url": "https://www.technologyreview.com/2026/11/16/1146070/building-ai-that-can-work-across-the-enterprise/",
-   "title": "Building AI that can work across the enterprise",
-   "sourceId": "mittr",
-   "sourceName": "MIT Tech Review",
-   "publishedAt": 1794834000000,
-   "excerpt": "For years, enterprises have approached AI as a series of discrete experiments. Now, as AI agents begin to move into the workflows that run the business, that model is starting to look inadequate. Organizations moving from isolated pilots toward AI agents and autonomous workflows are confronting a deeper challenge: rethinking how data, business processes, governance,…",
-   "summary": "Enterprises are shifting from isolated AI experiments to autonomous AI agents. This transition requires rethinking data governance and business process integration.",
-   "category": "INDUSTRY"
-  },
-  {
-   "url": "https://blogs.nvidia.com/blog/ai-day-seoul-wrapup/",
-   "title": "AI Day Seoul Brings Together Korea’s Industry Leaders, Startups and Developer Communities",
-   "sourceId": "nvidia",
-   "sourceName": "NVIDIA Blog",
-   "publishedAt": 1794787228000,
-   "excerpt": "Over two days at COEX, more than 2,000 attendees converged for AI Day Seoul, bringing together Korea’s industry leaders, startups and developer communities advancing physical AI and AI agents. At the plenary sessions, Deepu Talla, vice president of robotics and edge AI at NVIDIA, said Korea is “punching above its weight,” with Doosan Robotics, Hyundai…",
-   "summary": "AI Day Seoul brought together over 2,000 industry leaders and developers to discuss advancements in physical AI and autonomous agents.",
-   "category": "INDUSTRY"
-  },
-  {
-   "url": "https://huggingface.co/blog/openrouter",
-   "title": "Hugging Face and OpenRouter join forces to make open-weight models easy to run",
-   "sourceId": "huggingface",
-   "sourceName": "Hugging Face",
-   "publishedAt": 1794787200000,
-   "excerpt": "",
-   "summary": "Hugging Face and OpenRouter have partnered to simplify the process of running open-weight models.",
-   "category": "TOOLS"
   }
  ],
  "hidden": [
-  "https://simonwillison.net/2026/Nov/17/go-proverbs/",
   "https://simonwillison.net/2026/Nov/18/psf-end-of-year-fundraiser/",
-  "https://www.technologyreview.com/2026/11/17/1148203/research-reports/"
+  "https://www.technologyreview.com/2026/11/17/1148203/research-reports/",
+  "https://www.theverge.com/podcast/1038419/outage-outlook-ground-stop-tech-failure-vergecast",
+  "https://www.wired.com/story/cops-are-being-extremely-corny-about-gta-vi/"
  ]
 }
